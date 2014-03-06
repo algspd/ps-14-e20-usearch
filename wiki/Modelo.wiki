@@ -5,15 +5,15 @@
 == Insertar ==
  {{{insertar(ref, arch, freq, flash, ram)}}}
 Crea una nueva entrada en la base de datos. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función.
-En caso de intentar insertar dos elementos con la misma referencia, codeigniter manejará el error y notificará al usuario.
+En caso de intentar insertar dos elementos con la misma referencia, devolverá FALSE. En caso de éxito, devolverá TRUE.
 
 == Modificar ==
  {{{modificar(ref, arch, freq, flash, ram)}}}
-Modificar una entrada existente. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función. En caso de tratar de modificar un elemento con referencia inexistente, la llamada es ignorada por codeigniter.
+Modificar una entrada existente. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función. En caso de tratar de modificar un elemento con referencia inexistente, no se modifica ningún elemento.
 
 == Eliminar ==
  {{{eliminar(ref)}}}
-Elimina una entrada de la tabla micros. La referencia debe existir. Si la referencia no existe la llamada es ignorada por codeigniter.
+Elimina una entrada de la tabla micros. La referencia debe existir. Si la referencia no existe no se borra ningún elemento.
 
 == Listar todo ==
  {{{listar_todo()}}}
@@ -31,6 +31,7 @@ $resultado=$this->microsmodel->listar_todo();
  {{{listar_uno(ref)}}}
 
 Devuelve un objeto de la clase Microsmodel conteniendo la información correspondiente a la referencia pasada como argumento.
+Si la referencia no existe, devuelve un objeto de la clase Microsmodel con los campos vacíos.
 
 == Buscar ==
 
