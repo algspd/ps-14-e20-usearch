@@ -1,0 +1,45 @@
+NOTAS DE LA REUNIÓN 26/02/14 @ 20:00
+================================================================
++ Roles de las reuniuones: secretario, director y planficador: fijos.
++ Nombre del proyecto: Se realizará una encuesta online.
++ Logotipo: Se realizará una encuesta con los logotipos.
++ Anvance individual
+     ---> Javier y Daniel: Prototipo realizado durante la reunión en papel
+          y Axure. La implementación en HTML y CSS se realizará más adelante
+          a partir del prototipo. Poco a poco, según se vea que partes de la 
+          página sean dinámicas y que partes estáticas (p.e.: búsqueda).
+     ---> Alberto: Realizados los diagramas de arquitectura.
+     ---> Héctor: Logotipos realizados, pero por modificar y realizar la
+          encuesta.
+     ---> Alejandro: Realizados.
+     
++ R1: Faltan de añadir algunas cosas realizadas (antes y después).
++ R2: En principio bien.
++ Requisitos: 
+	--> Insertar/Eliminar/Modificar: Una autentificación de administración 
+        que permita editar elementos.
+   ---> Carro de comprar: añadir, eliminar y modificar.
+   ---> Actualizar varios elementos del carro de manera simultánea.
+   ---> Buscar: Se permitirá realizar la búsqueda de productos
+	    en cada caso en función de un único campo de búsqueda.
+	    
++ Restricción:
+   ---> Se permitirá realizar pedidos que incluirán los datos
+	    del cliente cada vez. Es decir, no existirá persistencia
+		de los datos del cliente tras realizar pedidos.
+		Los pedidos contendrán la suficiente información para
+		identificar a los clientes. Además, no permitirán la reserva
+		de los productos solicitados, únicamente generarán un 
+		presupuesto del coste de los productos elegidos.
+
+TIEMPOS REUNIÓN
+	Revisar agenda de la reunión --> 2min
+	Elección del nombre del proyecto --> 2min
+	Elección del logo del proyecto --> 2min
+	Establecer definitivamente los roles de la reunión --> 2min
+	Avance individual de cada miembro --> 2min
+	Ajustar la agenda semanal --> 2min
+	Revisar documentos a entregar de la R1 --> 4min
+	Revisar documentos a entregar d ela R2 --> 4min
+	Revisión y establecimiento de los requisitos --> 10min
+	Organización del trabajo para la propuesta del proyecto --> 6min
