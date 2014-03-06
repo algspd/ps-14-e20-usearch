@@ -2,13 +2,38 @@
 
 = Funciones disponibles =
 
- * insertar(ref, arch, freq, flash, ram)
+== Insertar ==
+ {{{insertar(ref, arch, freq, flash, ram)}}}
 Crea una nueva entrada en la base de datos. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función.
+En caso de intentar insertar dos elementos con la misma referencia, codeigniter manejará el error y notificará al usuario.
 
- * modificar(ref, arch, freq, flash, ram)
- * eliminar(ref)
+== Modificar ==
+ {{{modificar(ref, arch, freq, flash, ram)}}}
+Modificar una entrada existente. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función. En caso de tratar de modificar un elemento con referencia inexistente, la llamada es ignorada por codeigniter.
 
- * listar_todo()
- * listar_uno(ref)
+== Eliminar ==
+ {{{eliminar(ref)}}}
+Elimina una entrada de la tabla micros. La referencia debe existir. Si la referencia no existe la llamada es ignorada por codeigniter.
 
- * busqueda(...) `[iteracion 2]`
+== Listar todo ==
+ {{{listar_todo()}}}
+
+Devuelve un listado completo de los microcontroladores de la base de datos. Lo devuelve en un vector de objetos de la clase Microsmodel.
+Se puede leer dicho vector de forma sencilla de la siguiente manera:
+
+{{{
+$resultado=$this->microsmodel->listar_todo();
+  foreach($resultado as $fila){
+    echo ($fila->ref . "," . $fila->arch . "," . $fila->freq . "," . $fila->flash . "," . $fila->ram);
+}
+}}}  
+== Listar uno ==
+ {{{listar_uno(ref)}}}
+
+Devuelve un objeto de la clase Microsmodel conteniendo la información correspondiente a la referencia pasada como argumento.
+
+== Buscar ==
+
+ {{{busqueda(...) `[iteracion 2]`}}}
+
+Sin implementar.
