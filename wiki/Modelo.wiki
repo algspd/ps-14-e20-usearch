@@ -3,10 +3,12 @@
 = Funciones disponibles =
 
  * insertar(ref, arch, freq, flash, ram)
+Crea una nueva entrada en la base de datos. Todos los campos son obligatorios y deben ser proporcionados al llamar a la función.
+
  * modificar(ref, arch, freq, flash, ram)
  * eliminar(ref)
 
  * listar_todo()
  * listar_uno(ref)
 
- * busqueda `[iteracion 2]`
+ * busqueda(...) `[iteracion 2]`
