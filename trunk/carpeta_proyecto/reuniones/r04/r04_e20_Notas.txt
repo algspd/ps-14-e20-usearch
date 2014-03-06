@@ -1,0 +1,80 @@
+NOTAS DE LA REUNIÓN 06/03/14 @ 10:00
+================================================================
++ Detallar mejor los requisitos
+    --> Insertar un elemento en el catálogo.
+	--> Eliminar un elemento del catálogo.
+	--> Modificar un elemento del catálogo.
+	--> Buscar: Se permitirá realizar la búsqueda de productos
+	    en cada caso en función de un único campo de búsqueda.
+	--> Se permitirá realizar pedidos que incluirán los datos
+	    del cliente cada vez. Es decir, no existirá persistencia
+		de los datos del cliente tras realizar pedidos.
+		Los pedidos contendrán la suficien	te información para
+		identificar a los clientes. Además, no permitirán la reserva
+		de los productos solicitados, únicamente generarán un 
+		presupuesto del coste de los productos elegidos.
+	--> Presentación de los resultados de la búsqueda: los resultados
+       se presentarán en una lista (ordenada por...).
+   --> Detallar bien que es un elemento (los campos que tiene)
+   --> Detallar los campos de los datos del cliente
+   --> Detallar la plataforma final (o bien en los requisitos
+       o bien en una seccion de la propuesta: "limitaciones",
+       "plataforma" y en caso de que se suministre un alojamiento,
+       especificarlo bien. --> RNF
+ 
+	   
++ Presupuesto:
+   --> A parte de las horas estimadas (que se hizó en clase..)
+       CÁLCULO DE HORAS:
+       Hacer un cálculo simplificado de las horas totales (una estimación)
+	   y dividir esas horas en las diferentes tareas (incluyendo las prácticas)
+	   Multiplicando el número de horas individual por el número de miembros.
+	   Una idea inicial para realizar el cálculo es utilizar los requisitos.
+	   Es complicado realizar la división de horas por etapas de diseño.
+	   Calcular cuanto va a costar realizar cada uno de los requisitos, teniendo
+	   en cuenta que el primer requisito es el más costoso ya que hay que lanzar
+	   el proyecto (estructura inicial: zona de arranque, instalación del SGBD,
+	   creación de la BD; estas tareas pueden o no incluirse dentro del primer
+	   requisito, también se pueden separar: mejor "creación de infraestructura/instalación/arranque".
+	   No crear demasiadas tareas: problema de la microgestión). También tener en cuenta
+	   la dificultad de cada uno de los requisitos individualmente. Priorizar.
+	   La tormenta de ideas o el método Delphi es una buena opción para realizar la
+	   estimación. 
+	   COSTES: 
+	   Diferenciar el coste de lo que "quieres ganar".
+	   Utilizar ideas para simplificar la instalación: máquinas virtuales,etc.
+	   Pej. buscar vms en internet de software libre o realizar la instalación
+	   propia.
+	   La formación también puede añadirse en la hoja de esfuerzos con un nuevo 
+	   código.
+	   Tras realizar la instalación, comenzar con la implementación de los 
+	   requisitos. Idealmente, cuando acabe la primera iteración que se pueda
+	   contabilizar todo (facturación). Plazos parciales para los requisitos.
+	   Tener en cuenta que del presupuesto que se realice (una parte extra
+	   del cálculo irá directamente a la entidad financiera: coste de 
+	   oportunidad). La hoja de esfuerzos se puede utilizar para la gestión
+	   de las tareas o bien realizarlo a parte o bien modificar la hoja 
+	   de esfuerzos. 
+	   Población de la BD: del órden de decenas de resultados.
+	   Dividir el porcentaje entre las dos iteraciones y asociarlo a las
+	   tareas. Tener en cuenta que hay que dividir los costes entre las
+	   dos iteraciones. Tener en cuenta los costes financieros. Seguimiento
+	   del proyecto: para no pasarse.
+	   
+	   Sig. reunión semana 8 (31/03/14 - 06/04/14) cuando debería estar acabada la primera
+	   iteración. 03 de Abril referencia (aunque no se puede ese día). Iniciar 
+	   segunda iteración después de Semana Santa. Fijación de objetivos para llegar
+	   o establecer los plazos.
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	  
