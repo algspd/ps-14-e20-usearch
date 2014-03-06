@@ -9,4 +9,4 @@
  * listar_todo()
  * listar_uno(ref)
 
- * busqueda *[iteracion 2*]
+ * busqueda `[iteracion 2]`
