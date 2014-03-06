@@ -1,0 +1,121 @@
+NOTAS DE LA REUNIÓN 06/03/14 @ 12:00
+================================================================   
++ [8 min] Se ha decidido unificar las reuniones de planificación, gestión, etc. en reuniones
+  no técnicas vs reuniones técnicas, de tal forma que solamente habrá esta división.
++ [1 min] Cada uno de los miembros del equipo, se ha planteado el número de horas de cada uno de 
+  los miembros del equipo.
++ [ min] Cada uno de los miembros del equipo tendrá relativa libertad para elegir el entorno
+  de desarrollo siempre y cuando lo codificado sea un fichero de texto (UTF-8) y funcione
+  en la máquina destinada a pruebas: 
+   ---> MySQL (mysql  Ver 14.14 Distrib 5.5.35, for debian-linux-gnu) 
+   ---> Apache (Apache/2.2.22 (Debian)) 
+   ---> PHP (PHP 5.4.4-14+deb7u7)
+   
++ [12 min] Gestión de configuraciones:
+  Revisión de la zona de trabajo compartido establecida en la práctica: 
+  Sobretodo realizar commits muy frecuentemente.
+  Codificación de todos los ficheros: todos en minúsculas y sin espacios (underscores en vez).
+  Se utilizará la Wiki para todo tipo de documentación.
+  
+  [66 min]
++ Requisitos:
+    --> Un microcontrolador (elemento) estará compuesto de los siguientes
+        campos: 
+             - Referencia (será única para cada elemento)
+             - Arquitectura
+             - Frecuencia
+             - Flash
+             - RAM
+    --> Insertar un elemento en el carro de compra.
+    
+	--> Eliminar un elemento del carro de compra.
+	
+	--> Modificar un elemento del carro de compra.
+	
+	--> *NEW: Se podrá acceder a los elementos del catálogo mediante un listado
+	    en el que aparezcan todos los elementos que se encuentren en el catálogo.
+	
+	--> Búsqueda: Se permitirá realizar la búsqueda de productos
+	    en cada caso en función de un único campo de búsqueda. (para la 2ª 
+	
+	-> Los resultados de la búsqueda se presentarán de la siguiente forma:
+	   Un listado (sin paginación) que muestre de cada elemento todos
+	   sus campos en columnas.
+
+	   
+	--> Se permitirá realizar pedidos que incluirán los datos
+	    del cliente cada vez. Es decir, no existirá persistencia
+		de los datos del cliente tras realizar pedidos.
+		Los pedidos contendrán la suficiente información para
+		identificar a los clientes. Además, no permitirán la reserva
+		de los productos solicitados, únicamente generarán un 
+		presupuesto del coste de los productos elegidos.
+		
+	--> Los datos solicitados del cliente para los pedidos son los siguientes:
+	         - Nombre 
+	         - Apellidos
+	         - Dirección
+	         - Ciudad
+	         - Provincia
+	         - País
+	         - Código postal
+	         - Teléfono
+	         - Mail
+	         - CIF y Empresa aparecerán como
+	          campos opcionales que servirán de distinción entre
+	          particulares y entidades.
+	          
+    --> Se añadirá una vista diferente para la administración
+    del catálogo a la que no podrán acceder los clientes (se ejecuta 
+    solamente en local). Aquí se podrán realizar las acciones de:
+           - Insertar un elemento en el catálogo (a partir de las
+           arquitecturas disponibles, no se permitirá añadir nuevas
+           arquitecturas al catálogo).
+           - Eliminar un elemento del catálogo.
+           - Modificar un elemento del catálogo.         
+
++ ÓRDEN EN EL QUE SE ABORARÁN LOS REQUISITOS y 1ª ITER.:
++ Tarea 0:
+ 	--> Instalación (relativamente irrelevante)
+   	--> Desarrollo de la aplicación base (diseño de MVC, objetos, plataforma),
+   	sin interfaz Web (Vista). "Se trabajará con comandos que se invocarán
+   	desde PHP a la terminal".
+   	
++ Tarea 1:
+   --> Marco común de las Web
+
++ Tarea 2:
+    --> Insertar + Modificar + Eliminar (máx 2 persona).
+    
++ Tarea 3:
+
+    --> Mostrar el listado completo.
++ Tarea 4:
+
+    --> Gestión de pedidos
+
+(La vista: pág. Web se desarrollará en el momento según se necesite y quien lo
+necesite).
+
++ ESTIMACIÓN CONJUNTA DE ESFUERZOS
++ Tarea 0: 2h
++ Tarea 1: 1-2h
++ Tarea 2: 4h
++ Tarea 3: 2h 
++ Tarea 4: 5h (resultado del pedido en pág. web sin Latex).
+
+Población de la BD: En la primera iteración en un documento de texto,
+se deja para la segunda la sección de administración.
+
+
+--> Modelo: Javier y Simón
+--> Vista: Daniel, Alejandro, Héctor, Alberto.
+
+
+
+
++ Tecnologías:
+
+   --> El producto final será un servicio que incluirá: la página web,
+   el servidor Web (Apache), la base de datos, el SGBD,etc.
+   
