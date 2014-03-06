@@ -1,0 +1,12 @@
+#summary One-sentence summary of this page.
+
+= Funciones disponibles =
+
+ * insertar(ref, arch, freq, flash, ram)
+ * modificar(ref, arch, freq, flash, ram)
+ * eliminar(ref)
+
+ * listar_todo()
+ * listar_uno(ref)
+
+ * busqueda [iteracion 2]
