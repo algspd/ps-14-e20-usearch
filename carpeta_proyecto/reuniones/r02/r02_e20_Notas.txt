@@ -1,0 +1,57 @@
+NOTAS DE LA REUNIÓN 20/02/14 @ 12:00
+================================================================
+
++ Roles de reuniones: Chair y Preparador asignados según el tema
+  a tratar. El resto de roles se rotan.
+  
++ Requisitos
+    --> Insertar un elemento en el catálogo.
+	--> Eliminar un elemento del catálogo.
+	--> Modificar un elemento del catálogo.
+	--> Buscar: Se permitirá realizar la búsqueda de productos
+	    en cada caso en función de un único campo de búsqueda.
+	--> Se permitirá realizar pedidos que incluirán los datos
+	    del cliente cada vez. Es decir, no existirá persistencia
+		de los datos del cliente tras realizar pedidos.
+		Los pedidos contendrán la suficiente información para
+		identificar a los clientes. Además, no permitirán la reserva
+		de los productos solicitados, únicamente generarán un 
+		presupuesto del coste de los productos elegidos.
+
++ Estrategia de diseño:
+	--> Diagrama de componentes/despliegue
+	--> Patrón de diseño MVC
+	
++ Tecnologías y estándares: 
+	--> HTML 5
+	--> CSS 3
+	--> PHP 5 + CodeIgniter
+	--> MySQL
+	--> La codificación que se utilizará será la estándar de
+        las tecnologías utilizadas (la especificada por los 
+		desarrolladores de éstas mismas).
+	--> LaTeX: para generar la órden de pedido (automática).
+		
++ Documentación: 
+	--> LaTeX: para todo tipo de documentación (Actas, etc.)
+	--> Excel (.xls): para la hoja de esfuerzos
+	--> La documentación del código será realizada a mano
+	--> Modelio: para realizar diferentes diagramas (despliegue,...) 
+	--> Subversion: para el almacenamiento de todos los documentos.
+
++ Comunicación: 
+	--> Google Groups: comunicación entre componentes.
+	--> Whatsapp: Para comunicación instantánea informal (problemas, retrasos,...)
+	
++ Planificación: 
+	--> [2 h.] - Diagrama E/R + prototipo inicial de la Web en papel: Javier + Daniel.
+	--> [1 h.] - Diseño arquitectural del sistema (componentes y despliegue): Alberto.
+	--> [1 h.] - Plantillas documentación de Actas, propuesta del proyecto y agenda
+	             de las reuniones: Simón.
+	--> [1 h.] - Hojas de esfuerzos: Códigos de categorías (incluyendo un documento de
+	             de texto explicativo con código + nombre + descr.): Alejandro
+	--> Wiki + Subversion: Pendiente.
+	--> Google Groups.
+	--> [2 h.] - Logotipo + Nombre de la empresa: Héctor.
+	--> Más adelante: poblar la BD: Pendiente.
+	
