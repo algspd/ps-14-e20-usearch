@@ -1,0 +1,47 @@
+AGENDA DE LA REUNIÓN 20/02/14 @ 12:00
+================================================================
++ [2 min.] - Revisión de la agenda.
+
++ [10 min.] - Asignación de roles de proyecto (en caso de que no
+  estén ya asignados).
+	--> Revisión de la documentación de los roles.
+	--> Discusión y asignación de roles en base a capacidades de
+	    los miembros (tener en cuenta las fichas de información personal
+	    de los miembros del equipo).
+	--> Rol de gestor de planificación.
+	--> Rol de gestor de configuraciones.
+	--> Rol de gestor de calidad.
+	--> Rol de verificación y validación.
+	
++ [25 min.] - Discusión y acuerdo general sobre los requisitos a 
+  cumplir para el proyecto (que posteriormente se detallarán
+  en la propuesta del proyecto).
+	--> Plantear la lista de requisitos.
+	--> Revisar someramente funcionales especiales.
+	
++ [30 min.] - Planteamiento de la estrategia de diseño.
+	--> Proposición y evaluación de estrategias técnicas alternativas.
+	--> Planteamiento del diseño arquitectural del sistema.
+	--> Diseño conceptual de componentes, establecer como subdividir
+	    y posteriormente integrar el producto.
+		
++ [5 min.] - Planteamiento/elección de tecnologías y estándar/es.
+	--> Codificación.
+	--> ...
+	
++ [30 min.] - Propuesta tentativa de la planificación de alto nivel.
+	--> Plantear potenciales riesgos importantes.
+	--> Realizar estimaciones preliminares de esfuerzos.
+	--> Repartir tentativamente la lista de requisitos en los 
+	    distintos ciclos.
+	--> Proponer las pautas del presupuesto.
+	
++ [15 min.] - Organización del trabajo para crear el documento de 
+  propuesta de proyecto.
+	--> Elección del responsable de la propuesta de proyecto.
+	--> Desglose de tareas a realizar.
+	--> Estimación del esfuerzo.
+	--> Reparto de tareas entre el equipo.
+	--> Calendario de trabajo.
+	
++ [3 min.] - Debrieffing.
