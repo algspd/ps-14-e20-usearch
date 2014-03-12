@@ -14,7 +14,7 @@ ASIGNACIÓN DE TAREAS PROPUESTA DE PROYECTO
 	
 	5. Descripción técnica de la solución
 		5.1 Esquema de la arquitectura --> ALBERTO
-		5.2 Tecnologías --> JAVIER
+		5.2 Tecnologías --> JAVIER  --> DONE
 		
 	6. Metodología de gestión y planificación del proyecto
 		6.1 Fases y actividades del proyecto  --> DANIEL
