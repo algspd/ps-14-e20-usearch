@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>MicroSearch</title>
-
-	<style type="text/css">
-
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
-	</style>
-</head>
+  <?php
+    echo link_tag(base_url() . $this->config->item('css'));
+    echo "\n";
+  ?>
+  <meta charset="utf-8">
+  <title>MicroSearch</title>
 <body>
   <div id="container">
     <h1>Página inicial de MicroSearch</h1>
-    <div id="body">
-      <p>Esta es la página inicial.</p>
-    </div>
+    <p>Esta es la página inicial.</p>
   </div>
 </body>
 </html>
