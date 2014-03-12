@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Métodos disponibles para acceso a la base de datos
 
 = Funciones disponibles =
 
