@@ -12,7 +12,7 @@ Controlador disponible para pruebas, tipo sandbox. Cuenta con que puede ser edit
 
 = Vistas =
 
-Contenidos en /application/views/
+Contenidas en /application/views/
 
 == Main_view ==
 Contiene la vista principal. Es la que se cargará al acceder a la web por primera vez.
@@ -22,7 +22,7 @@ Vista disponible para pruebas, tipo sandbox. Cuenta con que puede ser editada po
 
 = Hojas de estilo =
 
-/
+Contenidas en /
 
 == Style ==
 Contiene los estilos por defecto de la web.
