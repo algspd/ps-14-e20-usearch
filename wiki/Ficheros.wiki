@@ -1,0 +1,14 @@
+= Controladores =
+
+Contenidos en /application/controllers/
+
+== Main.php ==
+Contiene el controlador principal, el que un usuario cargará al acceder a la web por primera vez y a partir del cual viajará a otras secciones.
+
+
+= Vistas =
+
+Contenidos en /application/views/
+
+== Main_view ==
+Contiene la vista principal. Es la que se cargará al acceder a la web por primera vez.
