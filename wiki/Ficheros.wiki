@@ -19,3 +19,10 @@ Contiene la vista principal. Es la que se cargará al acceder a la web por prime
 
 == Test ==
 Vista disponible para pruebas, tipo sandbox. Cuenta con que puede ser editada por cualquiera en cualquier momento al hacer un update. Deberá ser borrada antes de la entrega.
+
+= Hojas de estilo =
+
+/
+
+== Style ==
+Contiene los estilos por defecto de la web.
