@@ -17,5 +17,6 @@ CREATE TABLE IF NOT EXISTS `micros` (
   `freq` varchar(100) NOT NULL,
   `flash` varchar(100) NOT NULL,
   `ram` varchar(100) NOT NULL,
+  `precio` varchar(100) NOT NULL,
   PRIMARY KEY (`ref`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
