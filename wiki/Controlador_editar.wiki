@@ -1,0 +1,5 @@
+#summary Descripción tecnica del controlador para editar un micro
+
+= Utilización =
+
+Se debe llamar a /ps-14-e20-usearch/src/index.php/editar con un POST que contenga un campo ref, con una referencia valida de un micro.
