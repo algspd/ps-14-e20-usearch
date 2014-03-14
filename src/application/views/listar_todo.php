@@ -16,6 +16,7 @@
     <th>Frecuencia (MHz)</th>
     <th>Flash (kb)</th>
     <th>Ram (kb)</th>
+    <th>Precio (€)</th>
     <th></th>
 
 </tr>
@@ -36,6 +37,9 @@
         echo "</td>";
         echo "<td>";
         echo $fila->ram;
+        echo "</td>";
+        echo "<td>";
+        echo $fila->precio;
         echo "</td>";
         echo "<td>";
         echo "<button type='button'>Añadir</button>";

@@ -7,34 +7,37 @@ class Microsmodel extends CI_Model {
   var $freq   = '';
   var $flash  = '';
   var $ram    = '';
+  var $precio = '';
 
   public function __construct() {
       parent::__construct();
   }
 
-  function insertar ($ref,$arch,$freq,$flash,$ram) {
+  function insertar ($ref,$arch,$freq,$flash,$ram,$precio) {
     $this->db->where('ref', $ref);
     $query=$this->db->get('micros');
     // Comprobamos si la fila existe
     if ($query->num_rows() == 0){
-      $this->ref   = $ref;
-      $this->arch  = $arch;
-      $this->freq  = $freq;
-      $this->flash = $flash;
-      $this->ram   = $ram;
+      $this->ref    = $ref;
+      $this->arch   = $arch;
+      $this->freq   = $freq;
+      $this->flash  = $flash;
+      $this->ram    = $ram;
+      $this->precio = $precio;
       $this->db->insert('micros', $this);
       return TRUE;
     }
     return FALSE;
   }
 
-  function modificar ($ref,$arch,$freq,$flash,$ram) {
+  function modificar ($ref,$arch,$freq,$flash,$ram,$precio) {
     $this->db->where('ref', $ref);
     $this->ref   = $ref;
     $this->arch  = $arch;
     $this->freq  = $freq;
     $this->flash = $flash;
     $this->ram   = $ram;
+    $this->precio = $precio;
     $this->db->update('micros', $this);
   }
 
@@ -52,6 +55,7 @@ class Microsmodel extends CI_Model {
       $lista[$i]->freq=$row->freq;
       $lista[$i]->flash=$row->flash;
       $lista[$i]->ram=$row->ram;
+      $lista[$i]->precio=$row->precio;
       $i++;
     }
     return $lista;
@@ -68,6 +72,7 @@ class Microsmodel extends CI_Model {
       $resultado->freq=$row->freq;
       $resultado->flash=$row->flash;
       $resultado->ram=$row->ram;
+      $lista[$i]->precio=$row->precio;
     }
     return $resultado;
   }
