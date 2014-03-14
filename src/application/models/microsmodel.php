@@ -72,7 +72,7 @@ class Microsmodel extends CI_Model {
       $resultado->freq=$row->freq;
       $resultado->flash=$row->flash;
       $resultado->ram=$row->ram;
-      $lista[$i]->precio=$row->precio;
+      $resultado->precio=$row->precio;
     }
     return $resultado;
   }
