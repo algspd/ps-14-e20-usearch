@@ -10,50 +10,54 @@
 </head>
 <body>
 <form>
+ <table>
+ <tr>
+ <td>
  <label for="ref">Referencia</label>
- <input id="ref" name="ref" type="text" placeholder=" <?php echo $default->ref; ?> " required autofocus>
-
+ </td><td>
+ <input id="ref" name="ref"   type="text" value=" <?php echo $def->ref; ?> " required autofocus>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="arch">Arquitectura</label>
+ </td><td>
+ <input id="arch" name="arch" type="text" value=" <?php echo $def->arch; ?> " >
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="freq">Frecuencia (MHz)</label>
+ </td><td>
+ <input id="freq" name="freq" type="text" value=" <?php echo $def->freq; ?> " >
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="flash">Flash (kb)</label>
+ </td><td>
+ <input id="flash" name="flash" type="text" value=" <?php echo $def->flash; ?> " >
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="ram">Ram (kb)</label>
+ </td><td>
+ <input id="ram" name="ram" type="text" value=" <?php echo $def->ram; ?> " >
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="precio">Precio (€)</label>
+ </td><td>
+ <input id="precio" name="precio" type="text" value=" <?php echo $def->precio; ?> " >
+ </td>
+ </tr>
+ </table>
+ <br>
+ <button type='button'>Modificar</button>
 </form>
 
-<table>
-  <tr>
-    <th>Referencia</th>
-    <th>Arquitectura</th>
-    <th>Frecuencia (MHz)</th>
-    <th>Flash (kb)</th>
-    <th>Ram (kb)</th>
-    <th>Precio (€)</th>
-    <th></th>
-
-</tr>
-<?php
-      foreach($resultado as $fila){
-        echo "<tr>";
-        echo "<td>";
-        echo $fila->ref;
-        echo "</td>";
-        echo "<td>";
-        echo $fila->arch;
-        echo "</td>";
-        echo "<td>"  ;   
-        echo $fila->freq;
-        echo "</td>";
-        echo "<td>";
-        echo $fila->flash;
-        echo "</td>";
-        echo "<td>";
-        echo $fila->ram;
-        echo "</td>";
-        echo "<td>";
-        echo $fila->precio;
-        echo "</td>";
-        echo "<td>";
-        echo "<button type='button'>Añadir</button>";
-        echo "</td>";
-        echo "</tr>";
-    }
-?>
-</table>
 
 </body>
 </html>
