@@ -4,10 +4,10 @@
 	\begin{enumerate}
 		\item Referencia (será única para cada elemento).
         \item Arquitectura
-        \item Frecuencia
-        \item Flash
-        \item RAM
-        \item Precio
+        \item Frecuencia (MHz)
+        \item Flash (KB)
+        \item RAM (KB)
+        \item Precio (Euros)
 	\end{enumerate}
 	
 \item Insertar un elemento en el carro de compra.
@@ -16,20 +16,21 @@
 	
 \item Modificar un elemento del carro de compra. Por modificar se entiende alterar el número de unidades de los elementos.
 
-\item Se podrá acceder a los elementos del catálogo mediante un listado en el que aparezcan todos sus elementos.
+\item Se podrá generar en cualquier momento un listado de todos los elementos del catálogo.
 
 \item Se podrá actualizar varios elementos del carro de manera simultánea. Por actualizar se entiende a recalcular los precios de cada artículo en el caso de que éstos hayan sido modificados.
 
-\item Se permitirá realizar búsquedas de productos en función de un único campo de búsqueda y en base a una de las características de los elementos. 
+\item Se permitirá realizar búsquedas de productos en base a un único campo de búsqueda (una y solo una de las caracterísitcas de los elementos).
 	
 \item Los resultados de la búsqueda se presentarán como un listado (sin paginación) que mostrará, de cada elemento, todos sus campos en columnas.
 
-\item Se permitirá realizar pedidos en los que se incluirán los datos del cliente cada vez. Es decir, no existirá persistencia de los datos del cliente tras realizar pedidos.
+\item Los listados de elementos del catálogo estarán ordenados en baso al campo arquitectura del elemento.
+
+\item Se permitirá realizar pedidos. Cada vez que se realice un pedido se le pedirá al cliente la introducción de sus datos personales. Es decir, no existirá persistencia de los datos del cliente tras realizar pedidos.
 
 \item Los pedidos contendrán la suficiente información para identificar a los clientes. Además, no permitirán la reserva de los productos solicitados, únicamente generarán un presupuesto con el coste de los productos elegidos.
 
 \item Los datos solicitados del cliente para los pedidos serán los siguientes:
-
 	\begin{enumerate}
 		\item Nombre 
 		\item Apellidos
@@ -42,16 +43,12 @@
 	    \item Correo electrónico
 	    \item CIF y Empresa aparecerán como campos opcionales que servirán de distinción entre particulares y entidades.
 	\end{enumerate}
-	
 
-\item Se contará con una vista diferente para la administración del catálogo a la que no podrán acceder los clientes (se ejecutará solamente en local). 
+\item Se contará con una vista diferente para la administración del catálogo a la que no podrán acceder los clientes (se ejecutará solamente en local), sólo los administradores.
 En ésta vista se podrán realizar las acciones de:
-	
 	\begin{enumerate}
-    	\item Insertar un elemento en el catálogo (a partir de las
-           arquitecturas disponibles, no se permitirá añadir nuevas
-           arquitecturas al catálogo).  
+    	\item Insertar un elemento en el catálogo.
 		\item Eliminar un elemento del catálogo.
-        \item Modificar un elemento del catálogo. En éste caso, modificar un elemento del catálogo sería cambiar cualquiera de sus características.
+        \item Modificar un elemento del catálogo (cambiar cualquiera de sus características).
     \end{enumerate}   
 \end{enumerate}
