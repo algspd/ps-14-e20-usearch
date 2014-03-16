@@ -32,9 +32,6 @@
 \titleformat{\subsubsection}{\bfseries\large}{\thesubsubsection}{0.8em}{}
 %\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
 
-%----------------------------------------------------------------------------------------
-% Write keywords with line breaks
-\newcommand{\code}[1]{\texttt{\justify #1}}
 
 %----------------------------------------------------------------------------------------
 % Footnotes without line
@@ -57,7 +54,7 @@
 \usepackage{pgfgantt}
 
 %----------------------------------------------------------------------------------------
-% Continuar con numeracion arabiga 
+% Comenzar con numeracion romana (I,II,III,IV,...)
 \renewcommand{\thepage}{\roman{page}}
 
 %----------------------------------------------------------------------------------------
@@ -190,10 +187,11 @@
 \clearpage
 
 
+% Continuar con numeracion romana (1,2,3...) 
+\renewcommand{\thepage}{\arabic{page}}
 %----------------------------------------------------------------------------------------
 % 1. IDENTIFICACIÓN DEL PROYECTO
 %----------------------------------------------------------------------------------------
-\renewcommand{\thepage}{\arabic{page}}
 \section{Identificación del proyecto}
 \input{tex/01_identificacion_del_proyecto}
 
