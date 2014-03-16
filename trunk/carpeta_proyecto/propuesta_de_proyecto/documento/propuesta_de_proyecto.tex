@@ -12,6 +12,17 @@
 \usepackage{color}
 \newcommand{\TODO}[1]{\textcolor{red}{\textbf{\MakeUppercase{#1}}}}
 
+%----------------------------------------------------------------------------------------
+% Enumerate with dash instead of period
+\usepackage{enumitem}
+
+\makeatletter
+\def\twodigits#1{\expandafter\@twodigits\csname c@#1\endcsname}
+\def\@twodigits#1{%
+  \ifnum#1<10 0\fi
+  \number#1}
+\makeatother
+\AddEnumerateCounter{\twodigits}{\@twodigits}{100}
 
 %----------------------------------------------------------------------------------------
 % MODIFICAR EL ESTILO DE LAS SECCIONES 
@@ -40,12 +51,19 @@
 \DeclareGraphicsExtensions{.svg,.eps,.ps,.pdf,.png,.jpg,.jpeg}
 \addto{\captionsspanish}{\renewcommand{\listfigurename}{\bfseries\Large Figuras}}
 
+
+%----------------------------------------------------------------------------------------
+% Cronograma: Diagrama de Gantt
+\usepackage{pgfgantt}
+
 %----------------------------------------------------------------------------------------
 % Continuar con numeracion arabiga 
 \renewcommand{\thepage}{\roman{page}}
 
 %----------------------------------------------------------------------------------------
 % Definir el titulo
+
+\newcommand{\nombreDelProyecto}{$\mu Search$}
 
 % Comando para multiples saltos de linea
 \newcommand{\singlelinebreak}{\\[\baselineskip]}
@@ -58,9 +76,11 @@
 \centering
 \vfill
 \vspace*{\drop}
-\includegraphics[scale=0.4]{img/bitparty_small}\singlelinebreak
+\includegraphics[scale=0.25]{img/bitparty_big}\singlelinebreak
 {\Huge\bf BITPARTY}\multiplelinebreak{2}
-{\huge Proyecto $\mu Search$}
+{\huge Proyecto \nombreDelProyecto}\multiplelinebreak{2}
+{\Large Versión  1.0}\multiplelinebreak{1}
+{\Large 03/2014}
 \vfill
 \vspace*{\drop}
 \endgroup}
@@ -110,26 +130,30 @@
 %----------------------------------------------------------------------------------------
 %% FANCY HEADER
 %
+\usepackage[head=32pt]{geometry}
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % borrar todos los ajustes
-\setlength{\headheight}{15pt}
 
 % En lo siguiente, fancyhead sirve para configurar la cabecera, fancyfoot para el pie.
 % Justificación: C=centered, R=right, L=left, (nada)=LRC
 % Página: O=odd, E=even, (nada)=OE
-\fancyhead[L]{\leftmark}
-\fancyhead[R]{\rightmark}
-\fancyfoot[C]{\thepage}
+\fancyhead[L]{\nouppercase\leftmark}
+\fancyhead[R]{\nouppercase\rightmark\hspace{0.5em}}
+\fancyfoot[C]{-- \thepage\ --}
 
-\renewcommand{\leftmark}{\markleft{{{{\bf BITPARTY} - \nombreDelProyecto}}}}
-\renewcommand{\sectionmark}[1]{\markright{\small{{\bf \thesection} #1}}}
+\renewcommand{\sectionmark}[1]{\markright{\small{{\bf \thesection} - #1}}}
+\renewcommand{\subsectionmark}[1]{\markright{\small{{\bf \thesubsection} - #1}}}
+\renewcommand{\subsubsectionmark}[1]{\markright{\small{{\bf \thesubsubsection} - #1}}}
 
-% Modifica el ancho de las líneas de cabecera y pie
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0pt}
-\renewcommand{\headwidth}{6in}
 
+\lhead{\raisebox{-0.5\height}{\rule[-.5ex]{0pt}{2ex}\includegraphics[scale=0.125]{img/bitparty_small}}\hspace{1em}{\large\nombreDelProyecto}}
+
+\renewcommand{\headrulewidth}{0.6pt} % Tam. separador cabecera
+\renewcommand{\footrulewidth}{0pt}   % Tam. separador pie
+\renewcommand{\headwidth}{6in}       % Anchura cabecera (incluido separador)
+\renewcommand{\topmargin}{10pt}
 
 %----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
@@ -172,7 +196,6 @@
 \renewcommand{\thepage}{\arabic{page}}
 \section{Identificación del proyecto}
 \input{tex/01_identificacion_del_proyecto}
-
 
 %----------------------------------------------------------------------------------------
 % 2. DATOS DEL LICITADOR
