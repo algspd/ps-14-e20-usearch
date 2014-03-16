@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  16 MAR 2014 13:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  16 MAR 2014 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1749,97 +1749,29 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
  [9]
+<cv_pdf/alberto_cv.pdf, id=181, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<cv_pdf/alberto_berbel_curriculum_vitae.pdf, id=181, page=1, 597.50829pt x 845.
-0471pt>
-File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
- <use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
- on input line 1.
+<use cv_pdf/alberto_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
- on input line 1.
+File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/alberto_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
- on input line 1.
+<use cv_pdf/alberto_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-
-./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
- on input line 1.
+File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/alberto_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
- on input line 1.
+<use cv_pdf/alberto_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1865,104 +1797,30 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
- [10 <./cv_pdf/alberto_berbel_curriculum_vitae.pdf>]
+ [10 <./cv_pdf/alberto_cv.pdf>]
+<cv_pdf/alejandro_cv.pdf, id=199, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, id=199, page=1, 597.50829p
-t x 845.0471pt>
-File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
-)
-
-<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
-ge1 used on input line 2.
+<use cv_pdf/alejandro_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
-)
-<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
-ge1 used on input line 2.
+File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/alejandro_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
-)
-<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
-ge1 used on input line 2.
+<use cv_pdf/alejandro_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-
-./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
-)
-<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
-ge1 used on input line 2.
+File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/alejandro_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
-)
-<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
-ge1 used on input line 2.
+<use cv_pdf/alejandro_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2.
@@ -1988,98 +1846,30 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
- [11 <./cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf>]
+ [11 <./cv_pdf/alejandro_cv.pdf>]
+<cv_pdf/javier_cv.pdf, id=213, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<cv_pdf/javier_curriculum_vitae.pdf, id=213, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
-
-<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
-t line 3.
+<use cv_pdf/javier_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
-t line 3.
+File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/javier_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
-t line 3.
+<use cv_pdf/javier_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-
-./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
-t line 3.
+File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/javier_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
-t line 3.
+<use cv_pdf/javier_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
@@ -2105,98 +1895,30 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
- [12 <./cv_pdf/javier_curriculum_vitae.pdf>]
+ [12 <./cv_pdf/javier_cv.pdf>]
+<cv_pdf/daniel_cv.pdf, id=232, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<cv_pdf/daniel_curriculum_vitae.pdf, id=232, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
-
-<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
-t line 4.
+<use cv_pdf/daniel_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
-t line 4.
+File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/daniel_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
-t line 4.
+<use cv_pdf/daniel_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-
-./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
-t line 4.
+File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/daniel_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
 
-
-./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
-<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
-t line 4.
+<use cv_pdf/daniel_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 4.
@@ -2222,413 +1944,143 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
- [13 <./cv_pdf/daniel_curriculum_vitae.pdf>]
+ [13 <./cv_pdf/daniel_cv.pdf>]
+<cv_pdf/hector_cv.pdf, id=247, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:5: Package pdfpages Error: Cannot find file `cv
-_pdf/hector_curriculum_vitae.pdf'.
+<use cv_pdf/hector_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/hector_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
 
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+<use cv_pdf/hector_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/hector_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
 
-./tex/06_2_recursos_humanos.tex:5: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
+<use cv_pdf/hector_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+ [14 <./cv_pdf/hector_cv.pdf>]
+<cv_pdf/simon_cv.pdf, id=261, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
+
+<use cv_pdf/simon_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/simon_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
+
+<use cv_pdf/simon_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
+ <use cv_pdf/simon_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
+
+<use cv_pdf/simon_cv.pdf, page 1>
+Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+ [15 <./cv_pdf/simon_cv.pdf>])
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 260.
+
+(./tex/06_3_cronograma.tex
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+
+./tex/06_3_cronograma.tex:2: Undefined control sequence.
+l.2   \gantttitlecalendar
+                         {year, month} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./tex/06_2_recursos_humanos.tex:5: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./tex/06_2_recursos_humanos.tex:5: Package pdfpages Error: page 1 of `\AM@curre
-ntdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-
-./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
-[14]
-
-./tex/06_2_recursos_humanos.tex:6: Package pdfpages Error: Cannot find file `cv
-_pdf/simon_curriculum_vitae.pdf'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-(That was another \errmessage.)
-
-./tex/06_2_recursos_humanos.tex:6: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./tex/06_2_recursos_humanos.tex:6: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./tex/06_2_recursos_humanos.tex:6: Package pdfpages Error: page 1 of `\AM@curre
-ntdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-
-./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
-g.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 6.
-[15])
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 260.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 260.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 260.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 260.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 260.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 260.
- (./tex/06_3_cronograma.tex)
+Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no , in font nullfont!
+)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 263.
 Package babel Info: Redefining spanish shorthand >>
@@ -2652,7 +2104,10 @@ Type  H <return>  for immediate help.
                                                   
 l.2 \includepdf[pages=-]{oferta_economica.pdf}
                                               
-(That was another \errmessage.)
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
 ./tex/06_4_presupuesto.tex:2: Undefined control sequence.
 \AM@checklast ...pii \\ \@tempcntb =\AM@pagecount 
@@ -2738,10 +2193,10 @@ Package rerunfilecheck Info: File `propuesta_de_proyecto.out' has not changed.
 ### bottom level
 (\end occurred when \iftrue on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 25205 strings out of 493315
- 463559 string characters out of 6137904
+ 25390 strings out of 493315
+ 467230 string characters out of 6137904
  588367 words of memory out of 5000000
- 28054 multiletter control sequences out of 15000+600000
+ 28239 multiletter control sequences out of 15000+600000
  51649 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,18n,59p,824b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2758,10 +2213,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/../texmf-local/fonts/type
 type1/local/public/tex-gyre/qplbi.pfb></usr/local/texlive/2013/../texmf-local/f
 onts/type1/local/public/tex-gyre/qplr.pfb></usr/local/texlive/2013/../texmf-loc
 al/fonts/type1/local/public/tex-gyre/qplri.pfb>
-Output written on propuesta_de_proyecto.pdf (16 pages, 562625 bytes).
+Output written on propuesta_de_proyecto.pdf (16 pages, 571368 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 330 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
  80 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
