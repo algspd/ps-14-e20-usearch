@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  16 MAR 2014 12:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  16 MAR 2014 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,6 +322,9 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks18
 \enit@inbox=\box26
 \enitdp@description=\count91
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
@@ -653,6 +656,36 @@ File: md-frame-0.mdf 2013/03/09\ 1.8: md-frame-0
 Package zref Info: New property: mdf@pagevalue on input line 840.
 \mdf@horizontalspaceofbox=\skip115
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count129
+\calc@Bcount=\count130
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip116
+\calc@Bskip=\skip117
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count131
+\calc@Cskip=\skip118
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box48
+\AM@toc@title=\toks20
+\c@AM@survey=\count132
+\AM@templatesizebox=\box49
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2012/01/25 v3.0 Draw Gantt diagrams with TikZ
 
@@ -661,10 +694,10 @@ Package: pgfgantt 2012/01/25 v3.0 Draw Gantt diagrams with TikZ
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks20
+\pgfutil@everybye=\toks21
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box48
+\pgfutil@abb=\box50
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -677,27 +710,27 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks21
-\pgfkeys@temptoks=\toks22
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks23
+\pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen143
-\pgf@y=\dimen144
-\pgf@xa=\dimen145
-\pgf@ya=\dimen146
-\pgf@xb=\dimen147
-\pgf@yb=\dimen148
-\pgf@xc=\dimen149
-\pgf@yc=\dimen150
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count129
-\c@pgf@countb=\count130
-\c@pgf@countc=\count131
-\c@pgf@countd=\count132
+\c@pgf@counta=\count133
+\c@pgf@countb=\count134
+\c@pgf@countc=\count135
+\c@pgf@countd=\count136
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -715,8 +748,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count133
-\pgfsyssoftpath@bigbuffer@items=\count134
+\pgfsyssoftpath@smallbuffer@items=\count137
+\pgfsyssoftpath@bigbuffer@items=\count138
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -745,12 +778,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen151
-\pgfmath@count=\count135
-\pgfmath@box=\box49
-\pgfmath@toks=\toks24
-\pgfmath@stack@operand=\toks25
-\pgfmath@stack@operation=\toks26
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count139
+\pgfmath@box=\box51
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -769,57 +802,57 @@ code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count136
+\c@pgfmathroundto@lastzeros=\count140
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen152
-\pgf@picmaxx=\dimen153
-\pgf@picminy=\dimen154
-\pgf@picmaxy=\dimen155
-\pgf@pathminx=\dimen156
-\pgf@pathmaxx=\dimen157
-\pgf@pathminy=\dimen158
-\pgf@pathmaxy=\dimen159
-\pgf@xx=\dimen160
-\pgf@xy=\dimen161
-\pgf@yx=\dimen162
-\pgf@yy=\dimen163
-\pgf@zx=\dimen164
-\pgf@zy=\dimen165
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen166
-\pgf@path@lasty=\dimen167
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen168
-\pgf@shorten@start@additional=\dimen169
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box50
-\pgf@hbox=\box51
-\pgf@layerbox@main=\box52
-\pgf@picture@serial@count=\count137
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count141
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen170
+\pgflinewidth=\dimen172
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen171
-\pgf@pt@y=\dimen172
-\pgf@pt@temp=\dimen173
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -840,8 +873,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen174
-\pgf@sys@shading@range@num=\count138
+\pgf@max=\dimen176
+\pgf@sys@shading@range@num=\count142
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -850,7 +883,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box53
+\pgfexternal@startupbox=\box55
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -867,7 +900,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box54
+\pgfnodeparttextbox=\box56
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -876,8 +909,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen175
-\pgf@nodesepend=\dimen176
+\pgf@nodesepstart=\dimen177
+\pgf@nodesepend=\dimen178
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -888,10 +921,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen177
-\pgffor@skip=\dimen178
-\pgffor@stack=\toks27
-\pgffor@toks=\toks28
+\pgffor@iter=\dimen179
+\pgffor@skip=\dimen180
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -900,30 +933,30 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count139
-\pgfplotmarksize=\dimen179
+\pgf@plot@mark@count=\count143
+\pgfplotmarksize=\dimen181
 )
-\tikz@lastx=\dimen180
-\tikz@lasty=\dimen181
-\tikz@lastxsaved=\dimen182
-\tikz@lastysaved=\dimen183
-\tikzleveldistance=\dimen184
-\tikzsiblingdistance=\dimen185
-\tikz@figbox=\box55
-\tikz@tempbox=\box56
-\tikztreelevel=\count140
-\tikznumberofchildren=\count141
-\tikznumberofcurrentchild=\count142
-\tikz@fig@count=\count143
+\tikz@lastx=\dimen182
+\tikz@lasty=\dimen183
+\tikz@lastxsaved=\dimen184
+\tikz@lastysaved=\dimen185
+\tikzleveldistance=\dimen186
+\tikzsiblingdistance=\dimen187
+\tikz@figbox=\box57
+\tikz@tempbox=\box58
+\tikztreelevel=\count144
+\tikznumberofchildren=\count145
+\tikznumberofcurrentchild=\count146
+\tikz@fig@count=\count147
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count144
-\pgfmatrixcurrentcolumn=\count145
-\pgf@matrix@numberofcolumns=\count146
+\pgfmatrixcurrentrow=\count148
+\pgfmatrixcurrentcolumn=\count149
+\pgf@matrix@numberofcolumns=\count150
 )
-\tikz@expandcount=\count147
+\tikz@expandcount=\count151
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -936,13 +969,13 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen186
+\arrowsize=\dimen188
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
-\pgf@layerbox@background=\box57
-\pgf@layerboxsaved@background=\box58
+\pgf@layerbox@background=\box59
+\pgf@layerboxsaved@background=\box60
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -960,14 +993,14 @@ File: pgflibrarypatterns.code.tex 2008/03/03 v2.10 (rcs-revision 1.13)
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
-\c@gtt@width=\count148
-\c@gtt@currentline=\count149
-\c@gtt@lasttitleline=\count150
-\c@gtt@lasttitleslot=\count151
-\c@gtt@elementid=\count152
-\c@gtt@currgrid=\count153
+\c@gtt@width=\count152
+\c@gtt@currentline=\count153
+\c@gtt@lasttitleline=\count154
+\c@gtt@lasttitleslot=\count155
+\c@gtt@elementid=\count156
+\c@gtt@currgrid=\count157
 )
-\drop=\skip116
+\drop=\skip119
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1008,16 +1041,16 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\@linkdim=\dimen187
-\Hy@linkcounter=\count154
-\Hy@pagecounter=\count155
+\@linkdim=\dimen189
+\Hy@linkcounter=\count158
+\Hy@pagecounter=\count159
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count156
+\Hy@SavedSpaceFactor=\count160
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1029,17 +1062,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count157
+\c@Hy@tempcnt=\count161
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen188
-\Fld@menulength=\count158
-\Field@Width=\dimen189
-\Fld@charsize=\dimen190
+\XeTeXLinkMargin=\dimen190
+\Fld@menulength=\count162
+\Field@Width=\dimen191
+\Fld@charsize=\dimen192
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1049,25 +1082,25 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count159
-\c@Item=\count160
-\c@Hfootnote=\count161
+\Hy@abspage=\count163
+\c@Item=\count164
+\c@Hfootnote=\count165
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\HyAnn@Count=\count162
-\Fld@listcount=\count163
-\c@bookmark@seq@number=\count164
+\HyAnn@Count=\count166
+\Fld@listcount=\count167
+\c@bookmark@seq@number=\count168
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip117
+\Hy@SectionHShift=\skip120
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2013/04/16 v2.3a Store hyperref metadata in XMP format
@@ -1076,22 +1109,8 @@ Package: hyperxmp 2013/04/16 v2.3a Store hyperref metadata in XMP format
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 ))
+Package hyperref Info: Option `colorlinks' set `false' on input line 118.
 
-./propuesta_de_proyecto.tex:92: LaTeX Error: Command \nombreDelProyecto already
- defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 \newcommand{\nombreDelProyecto}{$\mu$Search}
-                                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package hyperref Info: Option `colorlinks' set `false' on input line 113.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2163.
@@ -1112,29 +1131,29 @@ Package cleveref Info: always capitalise cross-reference names on input line 73
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count165
-\Gm@cntv=\count166
-\c@Gm@tempcnt=\count167
-\Gm@bindingoffset=\dimen191
-\Gm@wd@mp=\dimen192
-\Gm@odd@mp=\dimen193
-\Gm@even@mp=\dimen194
-\Gm@layoutwidth=\dimen195
-\Gm@layoutheight=\dimen196
-\Gm@layouthoffset=\dimen197
-\Gm@layoutvoffset=\dimen198
-\Gm@dimlist=\toks29
+\Gm@cnth=\count169
+\Gm@cntv=\count170
+\c@Gm@tempcnt=\count171
+\Gm@bindingoffset=\dimen193
+\Gm@wd@mp=\dimen194
+\Gm@odd@mp=\dimen195
+\Gm@even@mp=\dimen196
+\Gm@layoutwidth=\dimen197
+\Gm@layoutheight=\dimen198
+\Gm@layouthoffset=\dimen199
+\Gm@layoutvoffset=\dimen200
+\Gm@dimlist=\toks30
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip118
-\f@ncyO@elh=\skip119
-\f@ncyO@erh=\skip120
-\f@ncyO@olh=\skip121
-\f@ncyO@orh=\skip122
-\f@ncyO@elf=\skip123
-\f@ncyO@erf=\skip124
-\f@ncyO@olf=\skip125
-\f@ncyO@orf=\skip126
+\fancy@headwidth=\skip121
+\f@ncyO@elh=\skip122
+\f@ncyO@erh=\skip123
+\f@ncyO@olh=\skip124
+\f@ncyO@orh=\skip125
+\f@ncyO@elf=\skip126
+\f@ncyO@erf=\skip127
+\f@ncyO@olf=\skip128
+\f@ncyO@orf=\skip129
 )
 (./propuesta_de_proyecto.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -1142,36 +1161,37 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `propuesta_de_proyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Info: Redefining \. on input line 164.
-LaTeX Info: Redefining \% on input line 164.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count168
-\scratchdimen=\dimen199
-\scratchbox=\box59
-\nofMPsegments=\count169
-\nofMParguments=\count170
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count171
-\MPscratchDim=\dimen200
-\MPnumerator=\count172
-\makeMPintoPDFobject=\count173
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count172
+\scratchdimen=\dimen201
+\scratchbox=\box61
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count175
+Normal \dimen register pool exhausted, switching to extended pool.
+\MPscratchDim=\dimen256
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1186,10 +1206,10 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box60
+\AtBeginShipoutBox=\box62
 
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 164.
+Package hyperref Info: Link coloring OFF on input line 166.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1197,11 +1217,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count174
+\c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 164.
-LaTeX Info: Redefining \pageref on input line 164.
-LaTeX Info: Redefining \nameref on input line 164.
+LaTeX Info: Redefining \ref on input line 166.
+LaTeX Info: Redefining \pageref on input line 166.
+LaTeX Info: Redefining \nameref on input line 166.
 
 (./propuesta_de_proyecto.out) (./propuesta_de_proyecto.out)
 \@outlinefile=\write4
@@ -1214,36 +1234,8 @@ File: se-pdfdoc.def 2011/12/02 v1.10 stringenc: PDFDocEncoding
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-utf8.def
 File: se-utf8.def 2011/12/02 v1.10 stringenc: UTF-8
 )
-./propuesta_de_proyecto.tex:164: You can't use `the character 1' after \the.
-\topmargin ->1
-              0pt
-l.164 \begin{document}
-                      
-I'm forgetting what you said and using zero instead.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-./propuesta_de_proyecto.tex:164: You can't use `the character 1' after \the.
-\topmargin ->1
-              0pt
-l.164 \begin{document}
-                      
-I'm forgetting what you said and using zero instead.
-
-./propuesta_de_proyecto.tex:164: You can't use `the character 1' after \the.
-\topmargin ->1
-              0pt
-l.164 \begin{document}
-                      
-I'm forgetting what you said and using zero instead.
-
-./propuesta_de_proyecto.tex:164: You can't use `the character 1' after \the.
-\topmargin ->1
-              0pt
-l.164 \begin{document}
-                      
-I'm forgetting what you said and using zero instead.
-
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: <default>
@@ -1258,8 +1250,8 @@ I'm forgetting what you said and using zero instead.
 * \textheight=556.47656pt
 * \oddsidemargin=19.8752pt
 * \evensidemargin=19.8752pt
-* \topmargin=00pt
-* \headheight=32.0pt
+* \topmargin=-35.87262pt
+* \headheight=34.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -1280,66 +1272,66 @@ I'm forgetting what you said and using zero instead.
 File: img/bitparty_big.jpg Graphic file (type jpg)
 
 <use img/bitparty_big.jpg>
-Package pdftex.def Info: img/bitparty_big.jpg used on input line 165.
+Package pdftex.def Info: img/bitparty_big.jpg used on input line 167.
 (pdftex.def)             Requested size: 158.09024pt x 90.83914pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 165.
+(Font)              <20.74> on input line 167.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 165.
+(Font)              <14.4> on input line 167.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 165.
+(Font)              <12> on input line 167.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 168.
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/b
 itparty_big.jpg>] (./tex/00_resumen_ejecutivo.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 182.
 [2
 
 ] (./propuesta_de_proyecto.toc
@@ -1356,772 +1348,1420 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `propuesta_de_proyecto.toc'.
 
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 187.
-Package epstopdf Info: Output file is already uptodate.
 
-<img/bitparty_small-eps-converted-to.pdf, id=90, 247.92625pt x 248.93pt>
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
+<img/bitparty_small.pdf, id=90, 247.92625pt x 248.93pt>
+File: img/bitparty_small.pdf Graphic file (type pdf)
 
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 187.
+<use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 189.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
-Package cleveref Info: loaded `spanish' language definitions on input line 187.
-
-
-
-Package Fancyhdr Warning: \headheight is too small (32.0pt): 
- Make it at least 33.57443pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+Package cleveref Info: loaded `spanish' language definitions on input line 189.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 187.
-[3 <./img/bitparty_small-eps-converted-to.pdf>]
+(babel)             in language  on input line 189.
+ [3 <./img/bitparty_small.pdf>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 197.
 
 (./tex/01_identificacion_del_proyecto.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 205.
  (./tex/02_0_datos_del_licitador.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 208.
 (./tex/02_1_denominacion_de_la_empresa.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 211.
 
 (./tex/02_2_historial_del_equipo.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 218.
  (./tex/03_objeto_de_la_propuesta.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 
 (./tex/04_requisitos_del_sistema.tex
-
-./tex/04_requisitos_del_sistema.tex:3: LaTeX Error: Something's wrong--perhaps 
-a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...ate}[label=\bf RF\twodigits*.,leftmargin=*]
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 7.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 7.
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 5.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-Package cleveref Info: loaded `spanish' language definitions on input line 7.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
  [4
 
 ]
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 43.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
+File: img/bitparty_small.pdf Graphic file (type pdf)
 
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 43.
+<use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 36.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-Package cleveref Info: loaded `spanish' language definitions on input line 43.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+Package cleveref Info: loaded `spanish' language definitions on input line 36.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 36.
  [5])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 234.
 
 (./tex/05_0_descripcion_tecnica_de_la_solucion.tex
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
+File: img/bitparty_small.pdf Graphic file (type pdf)
 
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 19.
+<use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 12.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
-Package cleveref Info: loaded `spanish' language definitions on input line 19.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package cleveref Info: loaded `spanish' language definitions on input line 12.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 12.
  [6])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 235.
-
-(./tex/05_1_esquema_de_la_arquitectura.tex
-Overfull \hbox (5.71709pt too wide) in paragraph at lines 1--4
-\T1/qpl/m/n/10.95 ser el de Modelo-Vista-Controlador, en con-tre-to, la va-rian
--te Modelo-Vista-Presentador
- []
-
-<img/diagrama_despliegue.png, id=149, 462.72874pt x 161.60374pt>
+(babel)             in language  on input line 237.
+ (./tex/05_1_esquema_de_la_arquitectura.tex
+<img/diagrama_despliegue.png, id=150, 462.72874pt x 161.60374pt>
 File: img/diagrama_despliegue.png Graphic file (type png)
 
 <use img/diagrama_despliegue.png>
 Package pdftex.def Info: img/diagrama_despliegue.png used on input line 7.
 (pdftex.def)             Requested size: 277.63939pt x 96.96298pt.
-)
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 238.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 238.
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 23.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
-Package cleveref Info: loaded `spanish' language definitions on input line 238.
-
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+Package cleveref Info: loaded `spanish' language definitions on input line 23.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 238.
- [7 <./img/diagrama_despliegue.png (PNG copy)>]
+(babel)             in language  on input line 23.
+ [7 <./img/diagrama_despliegue.png (PNG copy)>])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 240.
  (./tex/05_2_tecnologias.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 251.
 
 (./tex/06_0_metodologia_de_gestion_y_planificacion.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 
 (./tex/06_1_fases_y_actividades_del_proyecto.tex
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 26.
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 25.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
-Package cleveref Info: loaded `spanish' language definitions on input line 26.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+Package cleveref Info: loaded `spanish' language definitions on input line 25.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
- [8])
+(babel)             in language  on input line 25.
+
+[8])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 257.
+ (./tex/06_2_recursos_humanos.tex
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 1.
+(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [9]
 
-(./tex/06_2_recursos_humanos.tex
-./tex/06_2_recursos_humanos.tex:2: Undefined control sequence.
-l.2 \includepdf
-               [1-1]{../cv_pdf/alberto_berbel_curriculum_vitae.pdf}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
 
-./tex/06_2_recursos_humanos.tex:2: Missing $ inserted.
-<inserted text> 
-                $
-l.2 \includepdf[1-1]{../cv_
-                           pdf/alberto_berbel_curriculum_vitae.pdf}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./tex/06_2_recursos_humanos.tex:2: Extra }, or forgotten $.
-l.2 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./tex/06_2_recursos_humanos.tex:3: Undefined control sequence.
-l.3 \includepdf
-               [1-1]{../cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./tex/06_2_recursos_humanos.tex:4: Undefined control sequence.
-l.4 \includepdf
-               [1-1]{../cv_pdf/javier_curriculum_vitae.pdf}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<cv_pdf/alberto_berbel_curriculum_vitae.pdf, id=181, page=1, 597.50829pt x 845.
+0471pt>
+File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
+ <use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
+ on input line 1.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
+ on input line 1.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
+ on input line 1.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
+ on input line 1.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:1: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...cv_pdf/alberto_berbel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alberto_berbel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/alberto_berbel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alberto_berbel_curriculum_vitae.pdf, page1 used
+ on input line 1.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [10 <./cv_pdf/alberto_berbel_curriculum_vitae.pdf>]
+
+./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, id=199, page=1, 597.50829p
+t x 845.0471pt>
+File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
+)
+
+<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
+ge1 used on input line 2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
+)
+<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
+ge1 used on input line 2.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
+)
+<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
+ge1 used on input line 2.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
+)
+<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
+ge1 used on input line 2.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:2: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...lejandro_gracia_mateo_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf Graphic file (type pdf
+)
+<use cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf, pa
+ge1 used on input line 2.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2.
+ [11 <./cv_pdf/alejandro_gracia_mateo_curriculum_vitae.pdf>]
+
+./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<cv_pdf/javier_curriculum_vitae.pdf, id=213, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
+
+<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
+t line 3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
+t line 3.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
+t line 3.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
+t line 3.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:3: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...df[1-1]{cv_pdf/javier_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/javier_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/javier_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/javier_curriculum_vitae.pdf, page1 used on inpu
+t line 3.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3.
+ [12 <./cv_pdf/javier_curriculum_vitae.pdf>]
+
+./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<cv_pdf/daniel_curriculum_vitae.pdf, id=232, page=1, 597.50829pt x 845.0471pt>
+File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
+
+<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
+t line 4.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
+t line 4.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
+t line 4.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
+t line 4.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+
+./tex/06_2_recursos_humanos.tex:4: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...df[1-1]{cv_pdf/daniel_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cv_pdf/daniel_curriculum_vitae.pdf Graphic file (type pdf)
+<use cv_pdf/daniel_curriculum_vitae.pdf, page 1>
+Package pdftex.def Info: cv_pdf/daniel_curriculum_vitae.pdf, page1 used on inpu
+t line 4.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 4.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 4.
+ [13 <./cv_pdf/daniel_curriculum_vitae.pdf>]
+
+./tex/06_2_recursos_humanos.tex:5: Package pdfpages Error: Cannot find file `cv
+_pdf/hector_curriculum_vitae.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
 ./tex/06_2_recursos_humanos.tex:5: Undefined control sequence.
-l.5 \includepdf
-               [1-1]{../cv_pdf/daniel_curriculum_vitae.pdf}
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
-./propuesta_de_proyecto.tex:257: Missing $ inserted.
-<inserted text> 
-                $
-l.257 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./propuesta_de_proyecto.tex:257: Missing } inserted.
-<inserted text> 
-                }
-l.257 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+./tex/06_2_recursos_humanos.tex:5: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
-Overfull \hbox (110.68489pt too wide) in paragraph at lines 2--257
-[]\T1/qpl/m/n/10.95 [1-1]../cv$[]\OML/cmm/m/it/10.95 df=alberto[]erbel[]urricul
-um[]itae:pdf\OT1/cmr/m/n/10.95 [1 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1]
-[][1 \OMS/cmsy/m/n/10.95 ^^@
- []
+./tex/06_2_recursos_humanos.tex:5: Package pdfpages Error: page 1 of `\AM@curre
+ntdocname ' does not exist.
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 258.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 258.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 258.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 258.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 258.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 258.
-(./tex/06_3_cronograma.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 261.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 261.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 261.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 261.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 261.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 261.
- (./tex/06_4_presupuesto.tex
-./tex/06_4_presupuesto.tex:2: Undefined control sequence.
-l.2 \includepdf
-               [pages=-]{oferta_economica.pdf}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./tex/06_4_presupuesto.tex:2: Missing $ inserted.
-<inserted text> 
-                $
-l.2 \includepdf[pages=-]{oferta_
-                                economica.pdf}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./tex/06_4_presupuesto.tex:2: Extra }, or forgotten $.
-l.2 \includepdf[pages=-]{oferta_economica.pdf}
-                                              
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-)
-./propuesta_de_proyecto.tex:263: Missing $ inserted.
-<inserted text> 
-                $
-l.263 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./propuesta_de_proyecto.tex:263: Missing } inserted.
-<inserted text> 
-                }
-l.263 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
 
 
-Overfull \hbox (9.1444pt too wide) in paragraph at lines 1--263
-[] [][] \T1/qpl/m/n/10.95 Se pre-sen-ta a con-ti-nua-ción la pro-pues-ta de pre
--su-pues-to u ofer-ta eco-nó-mi-ca: [pages=-
- []
+./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-./propuesta_de_proyecto.tex:264: LaTeX Error: \begin{enumerate} on input line 1
- ended by \end{document}.
+./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
+g.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 264.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 264.
+
+./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:5: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...df[1-1]{cv_pdf/hector_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+[14]
+
+./tex/06_2_recursos_humanos.tex:6: Package pdfpages Error: Cannot find file `cv
+_pdf/simon_curriculum_vitae.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+(That was another \errmessage.)
+
+./tex/06_2_recursos_humanos.tex:6: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_2_recursos_humanos.tex:6: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./tex/06_2_recursos_humanos.tex:6: Package pdfpages Error: page 1 of `\AM@curre
+ntdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+
+./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: Package keyval Error: 1-1 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_recursos_humanos.tex:6: LaTeX Error: Unknown graphics extension: .sv
+g.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...pdf[1-1]{cv_pdf/simon_curriculum_vitae.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+[15])
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 260.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 260.
+ (./tex/06_3_cronograma.tex)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 263.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 263.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 263.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 263.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 263.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 263.
+ (./tex/06_4_presupuesto.tex
+
+./tex/06_4_presupuesto.tex:2: Package pdfpages Error: Cannot find file `oferta_
+economica.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \includepdf[pages=-]{oferta_economica.pdf}
+                                              
+(That was another \errmessage.)
+
+./tex/06_4_presupuesto.tex:2: Undefined control sequence.
+\AM@checklast ...pii \\ \@tempcntb =\AM@pagecount 
+                                                  \relax \ifAM@DVIoutput \if...
+l.2 \includepdf[pages=-]{oferta_economica.pdf}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_4_presupuesto.tex:2: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.2 \includepdf[pages=-]{oferta_economica.pdf}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
+Runaway argument?
+\expandafter \AM@setphantomdoc \AM@doclist ,\END \ifthenelse {\boolean \ETC.
+./propuesta_de_proyecto.tex:264: File ended while scanning use of \AM@gobble.
+<inserted text> 
+                \par 
+l.264 \input{tex/06_4_presupuesto}
+                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+File: img/bitparty_small.pdf Graphic file (type pdf)
+<use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 266.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
-Package cleveref Info: loaded `spanish' language definitions on input line 264.
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
+Package cleveref Info: loaded `spanish' language definitions on input line 266.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 264.
- [9]
-Package epstopdf Info: Source file: <img/bitparty_small.eps>
-(epstopdf)                    date: 2014-03-11 13:38:26
-(epstopdf)                    size: 87265 bytes
-(epstopdf)             Output file: <img/bitparty_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-11 13:39:14
-(epstopdf)                    size: 117488 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitparty_small-eps-con
-verted-to.pdf img/bitparty_small.eps>
-(epstopdf)             \includegraphics on input line 264.
-Package epstopdf Info: Output file is already uptodate.
-File: img/bitparty_small-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/bitparty_small-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitparty_small-eps-converted-to.pdf used on input 
-line 264.
-(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
-Package cleveref Info: loaded `spanish' language definitions on input line 264.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 264.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 264.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+(babel)             in language  on input line 266.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./propuesta_de_proyecto.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 Package cleveref Info: loaded `spanish' language definitions on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `propuesta_de_proyecto.out' has not changed.
 (rerunfilecheck)             Checksum: 8976E9B776876BB38DCC6A0C08AA192B;961.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 1 (\begingroup)
-### bottom level 
+### semi simple group (level 1) entered at line 2 (\begingroup)
+### bottom level
+(\end occurred when \iftrue on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 24495 strings out of 493315
- 451633 string characters out of 6137904
- 573153 words of memory out of 5000000
- 27385 multiletter control sequences out of 15000+600000
+ 25205 strings out of 493315
+ 463559 string characters out of 6137904
+ 588367 words of memory out of 5000000
+ 28054 multiletter control sequences out of 15000+600000
  51649 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,17n,59p,824b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-
-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc
-}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplb.pfb></
-usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplbi.p
-fb></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qp
-lr.pfb></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyr
-e/qplri.pfb>
-Output written on propuesta_de_proyecto.pdf (10 pages, 532671 bytes).
+ 63i,18n,59p,824b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/t
+exmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2013/texmf-dist
+/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/../texmf-local/fonts/type
+1/local/public/tex-gyre/qplb.pfb></usr/local/texlive/2013/../texmf-local/fonts/
+type1/local/public/tex-gyre/qplbi.pfb></usr/local/texlive/2013/../texmf-local/f
+onts/type1/local/public/tex-gyre/qplr.pfb></usr/local/texlive/2013/../texmf-loc
+al/fonts/type1/local/public/tex-gyre/qplri.pfb>
+Output written on propuesta_de_proyecto.pdf (16 pages, 562625 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

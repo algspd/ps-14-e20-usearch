@@ -25,6 +25,11 @@
 \AddEnumerateCounter{\twodigits}{\@twodigits}{100}
 
 %----------------------------------------------------------------------------------------
+% Indentar primera línea párrafos
+\usepackage{indentfirst}
+
+
+%----------------------------------------------------------------------------------------
 % MODIFICAR EL ESTILO DE LAS SECCIONES 
 \usepackage{titlesec}
 \titleformat{\section}{\bfseries\Large}{\thesection}{0.8em}{}
@@ -48,6 +53,9 @@
 \DeclareGraphicsExtensions{.svg,.eps,.ps,.pdf,.png,.jpg,.jpeg}
 \addto{\captionsspanish}{\renewcommand{\listfigurename}{\bfseries\Large Figuras}}
 
+%----------------------------------------------------------------------------------------
+% Poder insertar .pdf en .tex
+\usepackage{pdfpages}
 
 %----------------------------------------------------------------------------------------
 % Cronograma: Diagrama de Gantt
@@ -88,9 +96,6 @@
 \usepackage{hyperref}
 \usepackage{hyperxmp}
 
-% DATOS A CAMBIAR
-\newcommand{\nombreDelProyecto}{$\mu$Search}
-
 \hypersetup{
 	pdfauthor={Alberto Berbel Aznar, 
 				Javier Briz Alastrué, 
@@ -125,32 +130,29 @@
 \Crefname{section}{Sección}{Secciones}
 
 %----------------------------------------------------------------------------------------
-%% FANCY HEADER
-%
-\usepackage[head=32pt]{geometry}
+% FANCY HEADER
+\usepackage[head=34pt]{geometry}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % borrar todos los ajustes
 
-% En lo siguiente, fancyhead sirve para configurar la cabecera, fancyfoot para el pie.
-% Justificación: C=centered, R=right, L=left, (nada)=LRC
-% Página: O=odd, E=even, (nada)=OE
+% Configurar la cabecera: fancyhead, fancyfoot para el pie.
 \fancyhead[L]{\nouppercase\leftmark}
 \fancyhead[R]{\nouppercase\rightmark\hspace{0.5em}}
 \fancyfoot[C]{-- \thepage\ --}
 
+% Cabecera parte derecha: número y título de sección, subsección, etc.
 \renewcommand{\sectionmark}[1]{\markright{\small{{\bf \thesection} - #1}}}
 \renewcommand{\subsectionmark}[1]{\markright{\small{{\bf \thesubsection} - #1}}}
 \renewcommand{\subsubsectionmark}[1]{\markright{\small{{\bf \thesubsubsection} - #1}}}
 
-
+% Cabecera parte izquierda: Nombre de la empresa (logo) y nombre del proyecto
 \lhead{\raisebox{-0.5\height}{\rule[-.5ex]{0pt}{2ex}\includegraphics[scale=0.125]{img/bitparty_small}}\hspace{1em}{\large\nombreDelProyecto}}
 
 \renewcommand{\headrulewidth}{0.6pt} % Tam. separador cabecera
 \renewcommand{\footrulewidth}{0pt}   % Tam. separador pie
 \renewcommand{\headwidth}{6in}       % Anchura cabecera (incluido separador)
-\renewcommand{\topmargin}{10pt}
 
 %----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
