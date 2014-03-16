@@ -1,0 +1,40 @@
+NOTAS DE LA REUNIÓN 10/04/14 @ 12:00
+================================================================   
++ [] Se han abordado algunos de la gestión de configuraciones 
+y se ha decidido quién realizará qué en la propuesta.
+...
+
+División en tareas (Cronograma)
+
++ Tarea 0:
+    --> Requisitos + Análisis + Diseño (lo que ya está hecho desde el Acta
+    de la reunión de "Lanzamiento de proyecto").
+ 	--> Instalación (relativamente irrelevante)
+   	--> Desarrollo de la aplicación base (diseño de MVC, objetos, plataforma),
+   	sin interfaz Web (Vista).
+   	
++ Tarea 1A:
+
+   --> Marco común de las Web
+
++ Tarea 1B:
+
+    --> Insertar + Modificar + Eliminar (máx 2 persona).
+    
++ Tarea 2:
+
+    --> Mostrar el listado completo.
+    
++ Tarea 3:
+
+    --> Gestión de pedidos
+    
++ Tarea 4A: 
+    --> Documentación
+
++ Tarea 4B:
+    --> Manuales
+
+
+(La vista: pág. Web se desarrollará en el momento según se necesite y quien lo
+necesite).
