@@ -335,15 +335,15 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box27
+\ttl@box=\box28
 \beforetitleunit=\skip44
 \aftertitleunit=\skip45
-\ttl@plus=\dimen105
-\ttl@minus=\dimen106
+\ttl@plus=\dimen106
+\ttl@minus=\dimen107
 \ttl@toksa=\toks19
-\titlewidth=\dimen107
-\titlewidthlast=\dimen108
-\titlewidthfirst=\dimen109
+\titlewidth=\dimen108
+\titlewidthlast=\dimen109
+\titlewidthfirst=\dimen110
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -359,8 +359,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen110
-\Gin@req@width=\dimen111
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2012/04/08 v1.5: mdframed
@@ -1105,7 +1105,7 @@ Package: hyperxmp 2012/03/10 v1.5 Store hyperref metadata in XMP format
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 ))
-Package hyperref Info: Option `colorlinks' set `false' on input line 147.
+Package hyperref Info: Option `colorlinks' set `false' on input line 153.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2012/03/07{} v0.18.5{} Intelligent cross-referencing
@@ -1162,22 +1162,22 @@ LaTeX Info: Redefining \% on input line 22.
 )
 \openout1 = `propuesta_de_proyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1208,8 +1208,8 @@ e
 ))
 \AtBeginShipoutBox=\box57
 
-ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 195.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1219,13 +1219,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 195.
-LaTeX Info: Redefining \pageref on input line 195.
-LaTeX Info: Redefining \nameref on input line 195.
+LaTeX Info: Redefining \ref on input line 201.
+LaTeX Info: Redefining \pageref on input line 201.
+LaTeX Info: Redefining \nameref on input line 201.
 
 (./propuesta_de_proyecto.out) (./propuesta_de_proyecto.out)
-\@outlinefile=\write4
-\openout4 = `propuesta_de_proyecto.out'.
+\@outlinefile=\write3
+\openout3 = `propuesta_de_proyecto.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1262,11 +1262,11 @@ LaTeX Info: Redefining \nameref on input line 195.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/bitparty_big.jpg, id=83, 632.3625pt x 363.3575pt>
+<img/bitparty_big.jpg, id=80, 632.3625pt x 363.3575pt>
 File: img/bitparty_big.jpg Graphic file (type jpg)
 
 <use img/bitparty_big.jpg>
-Package pdftex.def Info: img/bitparty_big.jpg used on input line 196.
+Package pdftex.def Info: img/bitparty_big.jpg used on input line 202.
 (pdftex.def)             Requested size: 158.09024pt x 90.83914pt.
 
 
@@ -1274,9 +1274,9 @@ LaTeX Font Warning: Font shape `T1/qpl/b/n' undefined
 (Font)              using `T1/qpl/m/n' instead on input line 196.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 196.
+(Font)              <20.74> on input line 202.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 196.
+(Font)              <14.4> on input line 202.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 196.
 [1
@@ -1284,7 +1284,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/bitparty_big.jpg>] (
 ./tex/00_resumen_ejecutivo.tex) [2
 
-] (./propuesta_de_proyecto.toc
+]
+(./propuesta_de_proyecto.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1294,15 +1295,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 )
-\tf@toc=\write5
-\openout5 = `propuesta_de_proyecto.toc'.
+\tf@toc=\write4
+\openout4 = `propuesta_de_proyecto.toc'.
 
 
 <img/bitparty_small.pdf, id=118, 247.92625pt x 248.93pt>
 File: img/bitparty_small.pdf Graphic file (type pdf)
 
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 219.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 225.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 219.
 LaTeX Info: Redefining \% on input line 219.
@@ -1325,7 +1326,7 @@ LaTeX Font Warning: Font shape `T1/qpl/b/it' undefined
 )
 File: img/bitparty_small.pdf Graphic file (type pdf)
  <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 235.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 241.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 235.
 LaTeX Info: Redefining \% on input line 235.
@@ -1334,10 +1335,10 @@ LaTeX Info: Redefining \% on input line 235.
 
 ] (./tex/02_0_datos_del_licitador.tex)
 (./tex/02_1_denominacion_de_la_empresa.tex)
-(./tex/02_2_historial_del_equipo.tex)
+]) (./tex/02_2_historial_del_equipo.tex)
 File: img/bitparty_small.pdf Graphic file (type pdf)
  <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 248.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 254.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 248.
 LaTeX Info: Redefining \% on input line 248.
@@ -1346,9 +1347,8 @@ LaTeX Info: Redefining \% on input line 248.
 ]
 (./tex/03_objeto_de_la_propuesta.tex) (./tex/04_requisitos_del_sistema.tex
 File: img/bitparty_small.pdf Graphic file (type pdf)
-
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 36.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 38.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
@@ -1357,7 +1357,7 @@ LaTeX Info: Redefining \% on input line 36.
 ])
 File: img/bitparty_small.pdf Graphic file (type pdf)
  <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 264.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 270.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 264.
 LaTeX Info: Redefining \% on input line 264.
@@ -1389,7 +1389,7 @@ Package pdftex.def Info: img/bitparty_small.pdf used on input line 16.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
 
-[9 <./img/diagrama_despliegue.png (PNG copy)>]
+[11 <./img/diagrama_despliegue.png (PNG copy)>]
 
 LaTeX Font Warning: Font shape `T1/qpl/m/it' undefined
 (Font)              using `T1/qpl/m/n' instead on input line 26.
@@ -1405,7 +1405,7 @@ LaTeX Info: Redefining \% on input line 292.
 File: img/bitparty_small.pdf Graphic file (type pdf)
 
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 296.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 302.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
@@ -1413,7 +1413,7 @@ LaTeX Info: Redefining \% on input line 296.
 File: img/bitparty_small.pdf Graphic file (type pdf)
 
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 300.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 310.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 300.
 LaTeX Info: Redefining \% on input line 300.
@@ -1421,15 +1421,297 @@ LaTeX Info: Redefining \% on input line 300.
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 	\item[2013] Co­
-                      fundador de Prototyp3D y FaryNozzle.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.28 ...sarrollo de una aplicación Web de pelÃ­
+                                                  culas mediante el uso
+? 
+File: img/bitparty_small.pdf Graphic file (type pdf)
+<use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 45.
+(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+ [18])
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 326.
+(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
+ [19]
+(./tex/06_3_cronograma.tex
+
+! LaTeX Error: Environment gantt undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...ar \begin {ganttitle} \titleelement 
+                                                  {2014}{25} \end {ganttitle...
+l.67 }
+      
+? 
+
+! LaTeX Error: \begin{figure} on input line 1 ended by \end{ganttitle}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...ar \begin {ganttitle} \titleelement 
+                                                  {Febrero}{5} \titleelement...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...eelement {Febrero}{5} \titleelement 
+                                                  {Marzo}{5} \titleelement {...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...tleelement {Marzo}{5} \titleelement 
+                                                  {Abril}{5} \titleelement {...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...tleelement {Abril}{5} \titleelement 
+                                                  {Mayo}{5} \titleelement {J...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...itleelement {Mayo}{5} \titleelement 
+                                                  {Junio}{5} \end {ganttitle...
+l.67 }
+      
+? 
+
+! LaTeX Error: \begin{figure} on input line 1 ended by \end{ganttitle}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...egin {ganttitle} \par \titleelement 
+                                                  { }{4} \titleelement {28}{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement { }{4} \titleelement 
+                                                  {28}{1} \par \titleelement...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...eelement {28}{1} \par \titleelement 
+                                                  { }{1} \titleelement {10}{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement { }{1} \titleelement 
+                                                  {10}{1} \titleelement { }{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\titleelement {10}{1} \titleelement 
+                                                  { }{1} \titleelement {20}{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement { }{1} \titleelement 
+                                                  {20}{1} \titleelement {27}...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\titleelement {20}{1} \titleelement 
+                                                  {27}{1} \par \titleelement...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...eelement {27}{1} \par \titleelement 
+                                                  { }{1} \titleelement {10}{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement { }{1} \titleelement 
+                                                  {10}{1} \titleelement { }{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\titleelement {10}{1} \titleelement 
+                                                  { }{1} \titleelement {24}{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement { }{1} \titleelement 
+                                                  {24}{1} \titleelement { }{...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\titleelement {24}{1} \titleelement 
+                                                  { }{2} \par \titleelement ...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...leelement { }{2} \par \titleelement 
+                                                  {1}{1} \titleelement {2}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {1}{1} \titleelement 
+                                                  {2}{1} \titleelement {3}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {2}{1} \titleelement 
+                                                  {3}{1} \titleelement {4}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {3}{1} \titleelement 
+                                                  {4}{1} \titleelement {5}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {4}{1} \titleelement 
+                                                  {5}{1} \titleelement {5}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {5}{1} \titleelement 
+                                                  {5}{1} \par \titleelement ...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...leelement {5}{1} \par \titleelement 
+                                                  {1}{1} \titleelement {2}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {1}{1} \titleelement 
+                                                  {2}{1} \titleelement {3}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {2}{1} \titleelement 
+                                                  {3}{1} \titleelement {4}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {3}{1} \titleelement 
+                                                  {4}{1} \titleelement {5}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {4}{1} \titleelement 
+                                                  {5}{1} \titleelement {5}{1...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \titleelement {5}{1} \titleelement 
+                                                  {5}{1} \par \end {ganttitl...
+l.67 }
+      
+? 
+
+! LaTeX Error: \begin{figure} on input line 1 ended by \end{ganttitle}.
 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -1438,95 +1720,81 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ­
-        		\subitem Impresión 3D, construcción de impresoras y creación de...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...r \end {ganttitle} \par \ganttgroup 
+                                                  {1\textsuperscript {a} ite...
+l.67 }
+      
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 67.
+! Undefined control sequence.
+<argument> ...pt {a} iteración}{4}{18} \ganttbar 
+                                                  [pattern=crosshatch,color=...
+l.67 }
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...=verde_P1]{Tarea 0}{4}{4} \ganttbar 
+                                                  [pattern=crosshatch,color=...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...r=rojo_P1]{Tarea 1}{6}{4} \ganttbar 
+                                                  [pattern=crosshatch,color=...
+l.67 }
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...o_P1]{Tarea 2}{6}{4} \par \ganttbar 
+                                                  {task 2}{5}{10} \ganttbar ...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\ganttbar {task 2}{5}{10} \ganttbar 
+                                                  [pattern=vertical lines,co...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...olor=blue]{task 3}{15}{3} \ganttbar 
+                                                  {task 4}{20}{3} \ganttcon ...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ...\ganttbar {task 4}{20}{3} \ganttcon 
+                                                  {15}{4}{20}{6} \ganttbar {...
+l.67 }
+      
+? 
+! Undefined control sequence.
+<argument> ... \ganttcon {15}{4}{20}{6} \ganttbar 
+                                                  {task 5}{15}{5} \end {gantt} 
+l.67 }
+      
+? 
 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ­
-        		\subitem Automatización de impresoras 3D RepRap.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ­
-        		\subitem Administración de sistemas y desarrollos centrados en Ra...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ­
-        		\subitem Colaboración en el desarrollo de Octoprint: Software anf...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 	\item[2007  ­  actualidad]
-                                   Presidente  en  Púlsar.  Púlsar  es  la...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 	\item[2008  ­ actualidad  ISC]
-                                       Secretario.  ISC  es  una  junior emp...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 	\item[2008  ­ actualidad]
-                                  Administrador  de  sistemas  y  clusters d...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! LaTeX Error: \begin{figure} on input line 1 ended by \end{gantt}.
 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -1535,25 +1803,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 ...versidad  de  Zaragoza.  Becado  (2008  ­
-                                                    mayo  2012)  y  Personal...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ...nistración   y  Servicios  (junio  2012­
-                                                  febrero
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.67 }
+      
+? 
 
 
 Overfull \hbox (4.93466pt too wide) in paragraph at lines 26--29
@@ -1590,8 +1842,15 @@ LaTeX Info: Redefining \% on input line 312.
  [15] (./tex/06_2_5_alejandro_cv.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
- []
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...timos de euro\end{tabular} & 11.394,32 €
+                                                   \\
+? 
 
+! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
@@ -1622,22 +1881,24 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 ...sarrollo de una aplicación Web de pelÃ­
-                                                  culas mediante el uso
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.40 ... de euro\end{tabular}       & 6.686,50 €
+                                                   \\
+? 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 File: img/bitparty_small.pdf Graphic file (type pdf)
-<use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 45.
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 333.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
  [17])
 File: img/bitparty_small.pdf Graphic file (type pdf)
  <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 320.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 333.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
 LaTeX Info: Redefining \. on input line 320.
 LaTeX Info: Redefining \% on input line 320.
@@ -1746,8 +2007,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 2 ({)
-### bottom level 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  23953 strings out of 495059
  429096 string characters out of 3182029
