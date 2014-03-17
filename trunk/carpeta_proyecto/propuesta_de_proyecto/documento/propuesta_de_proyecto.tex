@@ -35,9 +35,23 @@
 \titleformat{\section}{\bfseries\Large}{\thesection}{0.8em}{}
 \titleformat{\subsection}{\bfseries\large}{\thesubsection}{0.8em}{}
 \titleformat{\subsubsection}{\bfseries\large}{\thesubsubsection}{0.8em}{}
-%\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
+\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
 
 
+%----------------------------------------------------------------------------------------
+% MODIFICAR EL ESTILO DEL ABSTRACT
+\addto{\captionsspanish}{\renewcommand{\abstractname}{\bfseries\large{Resumen}}}
+\renewenvironment{abstract}
+ {\small
+  \begin{center}
+  \bfseries \abstractname\vspace{-.5em}\vspace{0pt}
+  \end{center}
+  \list{}{%
+    \setlength{\leftmargin}{15mm}% <---------- CHANGE HERE
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \item\relax}
+ {\endlist}
 %----------------------------------------------------------------------------------------
 % Footnotes without line
 \makeatletter
@@ -58,17 +72,12 @@
 \usepackage{currvita} 
 \setlength{\cvlabelwidth}{40mm}
 
-\usepackage{marginnote} % For margin years
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
-\renewcommand*{\raggedleftmarginnote}{}
-
 %----------------------------------------------------------------------------------------
 % Cronograma: Diagrama de Gantt
 \usepackage{gantt}
 % Cronograma girado 90º
 \usepackage{rotating}
 \usepackage{fixltx2e} % poder poner 1ª en modo texto (no matemático)
-
 
 %----------------------------------------------------------------------------------------
 % COLORES
@@ -193,10 +202,11 @@
 %----------------------------------------------------------------------------------------
 \thispagestyle{empty}
 \null\vspace{\fill}
+
 \begin{abstract}
 \input{tex/00_resumen_ejecutivo}
-
 \end{abstract}
+
 
 \vspace{\fill}
 \newpage
@@ -265,6 +275,12 @@
 % 6. METODOLOGÍA DE GESTIÓN Y PLANIFICACIÓN
 % 6.1. FASES Y ACTIVIDADES DEL PROYECTO
 % 6.2. RECURSOS HUMANOS
+% 6.2.1. ALBERTO BERBEL AZNAR
+% 6.2.2. JAVIER BRIZ ALASTRUÉ
+% 6.2.3. HÉCTOR FRANCIA MOLINERO
+% 6.2.4. DANIEL GARCÍA PÁEZ
+% 6.2.5. ALEJANDRO GRACIA MATEO
+% 6.2.6. SIMÓN ORTEGO PARRA
 % 6.3. CRONOGRAMA
 % 6.4. PRESUPUESTO
 %----------------------------------------------------------------------------------------
@@ -277,7 +293,7 @@
 \subsection{Recursos humanos}
 \input{tex/06_2_recursos_humanos}
 
-\newpage				
+\newpage				a
 \subsubsection{Alberto Berbel Aznar}
 \input{tex/06_2_1_alberto_cv}
 
@@ -294,11 +310,11 @@
 \input{tex/06_2_4_daniel_cv}
 
 \newpage
-\subsubsection{Alejandro}
+\subsubsection{Alejandro Gracia Mateo}
 \input{tex/06_2_5_alejandro_cv}
 
 \newpage
-\subsubsection{Simon}
+\subsubsection{Simón Ortego Parra}
 \input{tex/06_2_6_simon_cv}
 
 \newpage
