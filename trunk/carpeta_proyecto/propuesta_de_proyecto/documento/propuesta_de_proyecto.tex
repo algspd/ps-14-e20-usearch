@@ -58,6 +58,10 @@
 \usepackage{currvita} 
 \setlength{\cvlabelwidth}{40mm}
 
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+
 %----------------------------------------------------------------------------------------
 % Cronograma: Diagrama de Gantt
 \usepackage{gantt}
@@ -273,21 +277,31 @@
 \subsection{Recursos humanos}
 \input{tex/06_2_recursos_humanos}
 
-\subsubsection*{Alberto}
+\newpage				
+\subsubsection{Alberto Berbel Aznar}
 \input{tex/06_2_1_alberto_cv}
-\subsubsection*{Alejandro}
-\input{tex/06_2_2_alejandro_cv}
-\subsubsection*{Daniel}
-\input{tex/06_2_3_daniel_cv}
-\subsubsection*{Hector}
-\input{tex/06_2_4_hector_cv}
-\subsubsection*{Javier}
-\input{tex/06_2_5_javier_cv}
-\subsubsection*{Simon}
+
+\newpage
+\subsubsection{Javier Briz Alastrué}
+\input{tex/06_2_2_javier_cv}
+
+\newpage
+%\subsubsection{Héctor Francia Molinero}
+%\input{tex/06_2_3_hector_cv}
+
+\newpage
+\subsubsection{Daniel García Páez}
+\input{tex/06_2_4_daniel_cv}
+
+\newpage
+\subsubsection{Alejandro}
+\input{tex/06_2_5_alejandro_cv}
+
+\newpage
+\subsubsection{Simon}
 \input{tex/06_2_6_simon_cv}
 
-
-
+\newpage
 \subsection{Cronograma}
 \input{tex/06_3_cronograma}
 
