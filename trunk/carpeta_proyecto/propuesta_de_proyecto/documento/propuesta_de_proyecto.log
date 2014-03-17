@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  17 MAR 2014 12:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  17 MAR 2014 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1284,7 +1284,7 @@ File: se-utf8.def 2011/12/02 v1.10 stringenc: UTF-8
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/bitparty_big.jpg, id=63, 632.3625pt x 363.3575pt>
+<img/bitparty_big.jpg, id=55, 632.3625pt x 363.3575pt>
 File: img/bitparty_big.jpg Graphic file (type jpg)
 
 <use img/bitparty_big.jpg>
@@ -1365,7 +1365,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `propuesta_de_proyecto.toc'.
 
 
-<img/bitparty_small.pdf, id=90, 247.92625pt x 248.93pt>
+<img/bitparty_small.pdf, id=80, 247.92625pt x 248.93pt>
 File: img/bitparty_small.pdf Graphic file (type pdf)
 
 <use img/bitparty_small.pdf>
@@ -1608,7 +1608,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 252.
  (./tex/05_1_esquema_de_la_arquitectura.tex
-<img/diagrama_despliegue.png, id=150, 462.72874pt x 161.60374pt>
+<img/diagrama_despliegue.png, id=139, 462.72874pt x 161.60374pt>
 File: img/diagrama_despliegue.png Graphic file (type png)
 
 <use img/diagrama_despliegue.png>
@@ -1765,7 +1765,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
  [9]
-<cv_pdf/alberto_cv.pdf, id=181, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/alberto_cv.pdf, id=171, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/alberto_cv.pdf, page 1>
@@ -1814,7 +1814,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
  [10 <./cv_pdf/alberto_cv.pdf>]
-<cv_pdf/alejandro_cv.pdf, id=199, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/alejandro_cv.pdf, id=189, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/alejandro_cv.pdf, page 1>
@@ -1863,7 +1863,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
  [11 <./cv_pdf/alejandro_cv.pdf>]
-<cv_pdf/javier_cv.pdf, id=213, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/javier_cv.pdf, id=203, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/javier_cv.pdf, page 1>
@@ -1912,7 +1912,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
  [12 <./cv_pdf/javier_cv.pdf>]
-<cv_pdf/daniel_cv.pdf, id=232, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/daniel_cv.pdf, id=222, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/daniel_cv.pdf, page 1>
@@ -1961,7 +1961,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
  [13 <./cv_pdf/daniel_cv.pdf>]
-<cv_pdf/hector_cv.pdf, id=247, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/hector_cv.pdf, id=237, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/hector_cv.pdf, page 1>
@@ -2010,7 +2010,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
  [14 <./cv_pdf/hector_cv.pdf>]
-<cv_pdf/simon_cv.pdf, id=261, page=1, 597.50829pt x 845.0471pt>
+<cv_pdf/simon_cv.pdf, id=251, page=1, 597.50829pt x 845.0471pt>
 File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
 
 <use cv_pdf/simon_cv.pdf, page 1>
@@ -2059,235 +2059,536 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 6.
  [15 <./cv_pdf/simon_cv.pdf>])
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 275.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 275.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 275.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 275.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 275.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 275.
+(./tex/06_2_1_alberto_cv.tex
 
-(./tex/06_3_cronograma.tex
-\ganttx=\count178
-\ganttheight=\count179
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 68.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 68.
+./tex/06_2_1_alberto_cv.tex:1: LaTeX Error: Can be used only in preamble.
 
-Overfull \hbox (66.62411pt too wide) in paragraph at lines 68--69
- [][] 
- []
-
-)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 278.
- (./tex/06_4_presupuesto.tex
-
-./tex/06_4_presupuesto.tex:2: Package pdfpages Error: Cannot find file `oferta_
-economica.pdf'.
-
-See the pdfpages package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 \includepdf[pages=-]{oferta_economica.pdf}
-                                              
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+l.1 \documentclass
+                  [letterpaper,12pt]{article}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-./tex/06_4_presupuesto.tex:2: Undefined control sequence.
-\AM@checklast ...pii \\ \@tempcntb =\AM@pagecount 
-                                                  \relax \ifAM@DVIoutput \if...
-l.2 \includepdf[pages=-]{oferta_economica.pdf}
-                                              
+
+./tex/06_2_1_alberto_cv.tex:3: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \usepackage
+               {currvita}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:4: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \usepackage
+               [spanish]{babel}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:5: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \usepackage
+               [latin1]{inputenc}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:6: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage
+               {fullpage}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:15: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./tex/06_2_1_alberto_cv.tex:17: Undefined control sequence.
+<argument> \cvlabelwidth 
+                         
+l.17 \setlength{\cvlabelwidth}{40mm}
+                                      % Modifica el espacio para las etiquet...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./tex/06_4_presupuesto.tex:2: Missing number, treated as zero.
+./tex/06_2_1_alberto_cv.tex:18: Missing number, treated as zero.
 <to be read again> 
-                   \relax 
-l.2 \includepdf[pages=-]{oferta_economica.pdf}
-                                              
+                   \par 
+l.18 
+     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-)
-Runaway argument?
-\expandafter \AM@setphantomdoc \AM@doclist ,\END \ifthenelse {\boolean \ETC.
-./propuesta_de_proyecto.tex:279: File ended while scanning use of \AM@gobble.
-<inserted text> 
-                \par 
-l.279 \input{tex/06_4_presupuesto}
-                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+./tex/06_2_1_alberto_cv.tex:18: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \par 
+l.18 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+
+./tex/06_2_1_alberto_cv.tex:19: LaTeX Error: Environment cv undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{cv}
+               {Curriculum Vitae}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:24: LaTeX Error: Environment cvlist undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{cvlist}
+                   {Lenguajes de programaci\'on utilizados}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:25: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \item J
+            ava, C, C++,(ensamblador)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 25
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:26: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \item A
+            RM, ARM thumb
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:27: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \item C
+            LIPS, Haskell, erlang
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 27
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:28: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \item H
+            TML, CSS, JSP, XML
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:29: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \item M
+            atlab, SQL
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 29
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:30: LaTeX Error: \begin{document} on input line 15 
+ended by \end{cvlist}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \end{cvlist}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:32: LaTeX Error: Environment cvlist undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \begin{cvlist}
+                   {Experiencia}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:34: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 	\item[2013]
+                  Realizaci\'on de un Documento de Especificaci\'on de Requi...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 34
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:37: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 	\item[2013]
+                  Desarrollo de una nueva funcionalidad para un sistema de gran
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 37
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:40: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 	\item[2013]
+                  Herramientas de control de versiones como Bitbucket.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:42: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	\item[2013]
+                  T\'ecnicas y herramientas de validaci\'on y verificaci\'on...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:44: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 	\item[2013]
+                  Herramientas para la gesti\'on y an\'alisis de requisitos.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 44
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:46: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 	\item[2013]
+                  Herramientas de seguimiento de errores como Bugzilla.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 46
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:48: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 	\item[Actualidad]
+                        Desarrollo de una aplicaci\'on web consistente en un...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 48
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:50: LaTeX Error: \begin{document} on input line 15 
+ended by \end{cvlist}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \end{cvlist}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:52: LaTeX Error: Environment cvlist undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \begin{cvlist}
+                   {Formaci\'on}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:54: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 	\item[2010 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 54
+[][]
+ []
+
+
+./tex/06_2_1_alberto_cv.tex:58: LaTeX Error: \begin{document} on input line 15 
+ended by \end{cvlist}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \end{cvlist}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_1_alberto_cv.tex:60: LaTeX Error: \begin{document} on input line 15 
+ended by \end{cv}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \end{cv}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
 File: img/bitparty_small.pdf Graphic file (type pdf)
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 281.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 62.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
-Package cleveref Info: loaded `spanish' language definitions on input line 281.
-
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+Package cleveref Info: loaded `spanish' language definitions on input line 62.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 62.
  [16]
-File: img/bitparty_small.pdf Graphic file (type pdf)
- <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 281.
-(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
-Package cleveref Info: loaded `spanish' language definitions on input line 281.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 281.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 281.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
-
-(./propuesta_de_proyecto.aux
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+ (./propuesta_de_proyecto.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 Package cleveref Info: loaded `spanish' language definitions on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `propuesta_de_proyecto.out' has not changed.
-(rerunfilecheck)             Checksum: 8976E9B776876BB38DCC6A0C08AA192B;961.
- )
+(rerunfilecheck)             Checksum: 629D38376F2DA55AA918F311BAC8A3B4;840.
+ ) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 2 (\begingroup)
-### bottom level
-(\end occurred when \iftrue on line 2 was incomplete) 
+### semi simple group (level 1) entered at line 15 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 25336 strings out of 493315
- 462232 string characters out of 6137904
- 604026 words of memory out of 5000000
- 28175 multiletter control sequences out of 15000+600000
- 54446 words of font info for 48 fonts, out of 8000000 for 9000
+ 25184 strings out of 493315
+ 458735 string characters out of 6137904
+ 585026 words of memory out of 5000000
+ 28033 multiletter control sequences out of 15000+600000
+ 51649 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,18n,57p,824b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/t
-exmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2013/texmf-dist
-/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/../texmf-local/fonts/type
-1/local/public/tex-gyre/qplb.pfb></usr/local/texlive/2013/../texmf-local/fonts/
-type1/local/public/tex-gyre/qplbi.pfb></usr/local/texlive/2013/../texmf-local/f
-onts/type1/local/public/tex-gyre/qplr.pfb></usr/local/texlive/2013/../texmf-loc
-al/fonts/type1/local/public/tex-gyre/qplri.pfb>
-Output written on propuesta_de_proyecto.pdf (17 pages, 573656 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-
+ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc
+}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplb.pfb></us
+r/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplbi.pfb
+></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplr
+.pfb></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/
+qplri.pfb>
+Output written on propuesta_de_proyecto.pdf (16 pages, 570106 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 82 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
