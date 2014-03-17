@@ -1,30 +1,32 @@
 \begin{figure}
 \centering
-\scalebox{0.725}{
-  \begin{gantt}[xunitlength=0.5cm,fontsize=\small,titlefontsize=\small]{15}{30}
+\scalebox{0.75}{
+  \begin{gantt}[xunitlength=0.75cm,fontsize=\small,titlefontsize=\small]{12}{25}
 	  
     \begin{ganttitle} % Primer título año: 2014
-      \titleelement{2014}{30}
+      \titleelement{2014}{25}
     \end{ganttitle}
 	
     \begin{ganttitle} % Segundo título meses: Ene-Junio
-	  \titleelement{Febrero}{6}
-	  \titleelement{Marzo}{6}
-	  \titleelement{Abril}{6}
-	  \titleelement{Mayo}{6}
-	  \titleelement{Junio}{6}
+	  \titleelement{Febrero}{5}
+	  \titleelement{Marzo}{5}
+	  \titleelement{Abril}{5}
+	  \titleelement{Mayo}{5}
+	  \titleelement{Junio}{5}
     \end{ganttitle}
 	
     \begin{ganttitle} % Tercer título fechas importantes
 	  
 	  % Febrero
 	  \titleelement{ }{4}
-	  \titleelement{28}{2}
+	  \titleelement{28}{1}
 	  
 	  % Marzo
-	  \titleelement{10}{2}
-	  \titleelement{20}{2}
-	  \titleelement{27}{2}
+	  \titleelement{ }{1}
+	  \titleelement{10}{1}
+	  \titleelement{ }{1}
+	  \titleelement{20}{1}
+	  \titleelement{27}{1}
 	  
 	  % Abril
 	  \titleelement{1}{1}
@@ -53,20 +55,15 @@
     \end{ganttitle}
 	
 	\ganttgroup{1\textsuperscript{a} iteración}{4}{18}
-    \ganttbar[pattern=crosshatch,color=blue]{\textcolor{blue}{Tarea 0}}{4}{4}
-	\ganttbar{Tarea 1}{6}{4}
-	\ganttbar{Tarea 2}{4}{4}
-	\ganttbar{Tarea 3}{4}{4}
-	\ganttbar{Tarea 4}{4}{4}
-	\ganttbar{Tarea 5}{4}{4}
+    \ganttbar[pattern=crosshatch,color=verde_P1]{Tarea 0}{4}{4}
+	\ganttbar[pattern=crosshatch,color=rojo_P1]{Tarea 1}{6}{4}
+	\ganttbar[pattern=crosshatch,color=rojo_P1]{Tarea 2}{6}{4}
 	
     \ganttbar{task 2}{5}{10}
-    \ganttbar[pattern=crosshatch,color=blue]{task 3}{15}{3}
+    \ganttbar[pattern=vertical lines,color=blue]{task 3}{15}{3}
     \ganttbar{task 4}{20}{3}
     \ganttcon{15}{4}{20}{6}
     \ganttbar{task 5}{15}{5}
-    \ganttbarcon[color=red]{task 6}{20}{5}
-    \ganttbarcon{task 7}{30}{5}
   \end{gantt}
 }
 \caption{Diagrama de Gantt}
