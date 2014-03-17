@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  17 MAR 2014 12:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.21)  17 MAR 2014 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -656,35 +656,16 @@ File: md-frame-0.mdf 2013/03/09\ 1.8: md-frame-0
 Package zref Info: New property: mdf@pagevalue on input line 840.
 \mdf@horizontalspaceofbox=\skip115
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/currvita/currvita.sty
+Package: currvita 1999/09/13 v0.9i Typesetting a Curriculum Vitae
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count129
-\calc@Bcount=\count130
-\calc@Adimen=\dimen143
-\calc@Bdimen=\dimen144
-\calc@Askip=\skip116
-\calc@Bskip=\skip117
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count131
-\calc@Cskip=\skip118
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box48
-\AM@toc@title=\toks20
-\c@AM@survey=\count132
-\AM@templatesizebox=\box49
+\@cvlistheading=\box48
+\cvlabelsep=\skip116
+\cvlabelskip=\skip117
+\cvlabelwidth=\skip118
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/gantt.sty
 Package: gantt 2011/03/20 Some macros for drawing gantt diagrams using tkiz v.1
@@ -695,10 +676,10 @@ Package: gantt 2011/03/20 Some macros for drawing gantt diagrams using tkiz v.1
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks21
+\pgfutil@everybye=\toks20
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box50
+\pgfutil@abb=\box49
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -711,27 +692,27 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks23
 ))
-\pgf@x=\dimen145
-\pgf@y=\dimen146
-\pgf@xa=\dimen147
-\pgf@ya=\dimen148
-\pgf@xb=\dimen149
-\pgf@yb=\dimen150
-\pgf@xc=\dimen151
-\pgf@yc=\dimen152
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count133
-\c@pgf@countb=\count134
-\c@pgf@countc=\count135
-\c@pgf@countd=\count136
+\c@pgf@counta=\count129
+\c@pgf@countb=\count130
+\c@pgf@countc=\count131
+\c@pgf@countd=\count132
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -749,8 +730,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count137
-\pgfsyssoftpath@bigbuffer@items=\count138
+\pgfsyssoftpath@smallbuffer@items=\count133
+\pgfsyssoftpath@bigbuffer@items=\count134
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -779,12 +760,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen153
-\pgfmath@count=\count139
-\pgfmath@box=\box51
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@dimen=\dimen151
+\pgfmath@count=\count135
+\pgfmath@box=\box50
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -803,57 +784,57 @@ code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count140
+\c@pgfmathroundto@lastzeros=\count136
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen154
-\pgf@picmaxx=\dimen155
-\pgf@picminy=\dimen156
-\pgf@picmaxy=\dimen157
-\pgf@pathminx=\dimen158
-\pgf@pathmaxx=\dimen159
-\pgf@pathminy=\dimen160
-\pgf@pathmaxy=\dimen161
-\pgf@xx=\dimen162
-\pgf@xy=\dimen163
-\pgf@yx=\dimen164
-\pgf@yy=\dimen165
-\pgf@zx=\dimen166
-\pgf@zy=\dimen167
+\pgf@picminx=\dimen152
+\pgf@picmaxx=\dimen153
+\pgf@picminy=\dimen154
+\pgf@picmaxy=\dimen155
+\pgf@pathminx=\dimen156
+\pgf@pathmaxx=\dimen157
+\pgf@pathminy=\dimen158
+\pgf@pathmaxy=\dimen159
+\pgf@xx=\dimen160
+\pgf@xy=\dimen161
+\pgf@yx=\dimen162
+\pgf@yy=\dimen163
+\pgf@zx=\dimen164
+\pgf@zy=\dimen165
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen168
-\pgf@path@lasty=\dimen169
+\pgf@path@lastx=\dimen166
+\pgf@path@lasty=\dimen167
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen170
-\pgf@shorten@start@additional=\dimen171
+\pgf@shorten@end@additional=\dimen168
+\pgf@shorten@start@additional=\dimen169
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box52
-\pgf@hbox=\box53
-\pgf@layerbox@main=\box54
-\pgf@picture@serial@count=\count141
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count137
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen172
+\pgflinewidth=\dimen170
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen173
-\pgf@pt@y=\dimen174
-\pgf@pt@temp=\dimen175
+\pgf@pt@x=\dimen171
+\pgf@pt@y=\dimen172
+\pgf@pt@temp=\dimen173
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -874,8 +855,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen176
-\pgf@sys@shading@range@num=\count142
+\pgf@max=\dimen174
+\pgf@sys@shading@range@num=\count138
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -884,7 +865,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box55
+\pgfexternal@startupbox=\box54
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -901,7 +882,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box56
+\pgfnodeparttextbox=\box55
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -910,8 +891,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen177
-\pgf@nodesepend=\dimen178
+\pgf@nodesepstart=\dimen175
+\pgf@nodesepend=\dimen176
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -922,10 +903,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen179
-\pgffor@skip=\dimen180
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@iter=\dimen177
+\pgffor@skip=\dimen178
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -934,30 +915,30 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count143
-\pgfplotmarksize=\dimen181
+\pgf@plot@mark@count=\count139
+\pgfplotmarksize=\dimen179
 )
-\tikz@lastx=\dimen182
-\tikz@lasty=\dimen183
-\tikz@lastxsaved=\dimen184
-\tikz@lastysaved=\dimen185
-\tikzleveldistance=\dimen186
-\tikzsiblingdistance=\dimen187
-\tikz@figbox=\box57
-\tikz@tempbox=\box58
-\tikztreelevel=\count144
-\tikznumberofchildren=\count145
-\tikznumberofcurrentchild=\count146
-\tikz@fig@count=\count147
+\tikz@lastx=\dimen180
+\tikz@lasty=\dimen181
+\tikz@lastxsaved=\dimen182
+\tikz@lastysaved=\dimen183
+\tikzleveldistance=\dimen184
+\tikzsiblingdistance=\dimen185
+\tikz@figbox=\box56
+\tikz@tempbox=\box57
+\tikztreelevel=\count140
+\tikznumberofchildren=\count141
+\tikznumberofcurrentchild=\count142
+\tikz@fig@count=\count143
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count148
-\pgfmatrixcurrentcolumn=\count149
-\pgf@matrix@numberofcolumns=\count150
+\pgfmatrixcurrentrow=\count144
+\pgfmatrixcurrentcolumn=\count145
+\pgf@matrix@numberofcolumns=\count146
 )
-\tikz@expandcount=\count151
+\tikz@expandcount=\count147
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -967,11 +948,24 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks30
-\XKV@tempa@toks=\toks31
-\XKV@depth=\count152
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+\XKV@depth=\count148
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count149
+\calc@Bcount=\count150
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip119
+\calc@Bskip=\skip120
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count151
+\calc@Cskip=\skip121
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/forloop/forloop.sty
 Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
 )
@@ -992,31 +986,31 @@ code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
 \arrowsize=\dimen188
 ))
-\c@ganttnum=\count153
-\c@ganttwidth=\count154
-\ganttlastx=\skip119
-\nextganttlastx=\skip120
-\gantttmpa=\skip121
-\gantttmpb=\skip122
-\ganttunitlength=\skip123
-\titleunitlength=\skip124
-\c@gantttitlenum=\count155
-\pgf@layerbox@background=\box59
-\pgf@layerboxsaved@background=\box60
-\pgf@layerbox@foreground=\box61
-\pgf@layerboxsaved@foreground=\box62
+\c@ganttnum=\count152
+\c@ganttwidth=\count153
+\ganttlastx=\skip122
+\nextganttlastx=\skip123
+\gantttmpa=\skip124
+\gantttmpb=\skip125
+\ganttunitlength=\skip126
+\titleunitlength=\skip127
+\c@gantttitlenum=\count154
+\pgf@layerbox@background=\box58
+\pgf@layerboxsaved@background=\box59
+\pgf@layerbox@foreground=\box60
+\pgf@layerboxsaved@foreground=\box61
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count156
-\rotFPtop=\skip125
-\rotFPbot=\skip126
-\rot@float@box=\box63
-\rot@mess@toks=\toks32
+\c@r@tfl@t=\count155
+\rotFPtop=\skip128
+\rotFPbot=\skip129
+\rot@float@box=\box62
+\rot@mess@toks=\toks31
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 )
-\drop=\skip127
+\drop=\skip130
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1058,15 +1052,15 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \@linkdim=\dimen189
-\Hy@linkcounter=\count157
-\Hy@pagecounter=\count158
+\Hy@linkcounter=\count156
+\Hy@pagecounter=\count157
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count159
+\Hy@SavedSpaceFactor=\count158
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1078,7 +1072,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count160
+\c@Hy@tempcnt=\count159
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -1086,7 +1080,7 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen190
-\Fld@menulength=\count161
+\Fld@menulength=\count160
 \Field@Width=\dimen191
 \Fld@charsize=\dimen192
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1098,25 +1092,25 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count162
-\c@Item=\count163
-\c@Hfootnote=\count164
+\Hy@abspage=\count161
+\c@Item=\count162
+\c@Hfootnote=\count163
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\HyAnn@Count=\count165
-\Fld@listcount=\count166
-\c@bookmark@seq@number=\count167
+\HyAnn@Count=\count164
+\Fld@listcount=\count165
+\c@bookmark@seq@number=\count166
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip128
+\Hy@SectionHShift=\skip131
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2013/04/16 v2.3a Store hyperref metadata in XMP format
@@ -1125,7 +1119,7 @@ Package: hyperxmp 2013/04/16 v2.3a Store hyperref metadata in XMP format
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 ))
-Package hyperref Info: Option `colorlinks' set `false' on input line 133.
+Package hyperref Info: Option `colorlinks' set `false' on input line 134.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
@@ -1147,9 +1141,9 @@ Package cleveref Info: always capitalise cross-reference names on input line 73
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count168
-\Gm@cntv=\count169
-\c@Gm@tempcnt=\count170
+\Gm@cnth=\count167
+\Gm@cntv=\count168
+\c@Gm@tempcnt=\count169
 \Gm@bindingoffset=\dimen193
 \Gm@wd@mp=\dimen194
 \Gm@odd@mp=\dimen195
@@ -1158,18 +1152,18 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen198
 \Gm@layouthoffset=\dimen199
 \Gm@layoutvoffset=\dimen200
-\Gm@dimlist=\toks33
+\Gm@dimlist=\toks32
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip129
-\f@ncyO@elh=\skip130
-\f@ncyO@erh=\skip131
-\f@ncyO@olh=\skip132
-\f@ncyO@orh=\skip133
-\f@ncyO@elf=\skip134
-\f@ncyO@erf=\skip135
-\f@ncyO@olf=\skip136
-\f@ncyO@orf=\skip137
+\fancy@headwidth=\skip132
+\f@ncyO@elh=\skip133
+\f@ncyO@erh=\skip134
+\f@ncyO@olh=\skip135
+\f@ncyO@orh=\skip136
+\f@ncyO@elf=\skip137
+\f@ncyO@erf=\skip138
+\f@ncyO@olf=\skip139
+\f@ncyO@orf=\skip140
 )
 (./propuesta_de_proyecto.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -1177,37 +1171,37 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `propuesta_de_proyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count171
+\scratchcounter=\count170
 \scratchdimen=\dimen201
-\scratchbox=\box64
-\nofMPsegments=\count172
-\nofMParguments=\count173
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count174
+\scratchbox=\box63
+\nofMPsegments=\count171
+\nofMParguments=\count172
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count173
 Normal \dimen register pool exhausted, switching to extended pool.
 \MPscratchDim=\dimen256
-\MPnumerator=\count175
-\makeMPintoPDFobject=\count176
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1222,10 +1216,10 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box65
+\AtBeginShipoutBox=\box64
 
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 181.
+Package hyperref Info: Link coloring OFF on input line 182.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1233,11 +1227,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count177
+\c@section@level=\count176
 )
-LaTeX Info: Redefining \ref on input line 181.
-LaTeX Info: Redefining \pageref on input line 181.
-LaTeX Info: Redefining \nameref on input line 181.
+LaTeX Info: Redefining \ref on input line 182.
+LaTeX Info: Redefining \pageref on input line 182.
+LaTeX Info: Redefining \nameref on input line 182.
 
 (./propuesta_de_proyecto.out) (./propuesta_de_proyecto.out)
 \@outlinefile=\write4
@@ -1288,197 +1282,194 @@ File: se-utf8.def 2011/12/02 v1.10 stringenc: UTF-8
 File: img/bitparty_big.jpg Graphic file (type jpg)
 
 <use img/bitparty_big.jpg>
-Package pdftex.def Info: img/bitparty_big.jpg used on input line 182.
+Package pdftex.def Info: img/bitparty_big.jpg used on input line 183.
 (pdftex.def)             Requested size: 158.09024pt x 90.83914pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 182.
+(Font)              <20.74> on input line 183.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 182.
+(Font)              <14.4> on input line 183.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 182.
+(Font)              <12> on input line 183.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/b
 itparty_big.jpg>] (./tex/00_resumen_ejecutivo.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 198.
 [2
 
-] (./propuesta_de_proyecto.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package cleveref Info: loaded `spanish' language definitions on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-)
+] (./propuesta_de_proyecto.toc)
 \tf@toc=\write5
 \openout5 = `propuesta_de_proyecto.toc'.
 
 
-<img/bitparty_small.pdf, id=80, 247.92625pt x 248.93pt>
+<img/bitparty_small.pdf, id=68, 247.92625pt x 248.93pt>
 File: img/bitparty_small.pdf Graphic file (type pdf)
 
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 204.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 205.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
-Package cleveref Info: loaded `spanish' language definitions on input line 204.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 205.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 205.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
+Package cleveref Info: loaded `spanish' language definitions on input line 205.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
  [3 <./img/bitparty_small.pdf>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 
-(./tex/01_identificacion_del_proyecto.tex)
+(./tex/01_identificacion_del_proyecto.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 11.
+)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 221.
  (./tex/02_0_datos_del_licitador.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 224.
 (./tex/02_1_denominacion_de_la_empresa.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 
 (./tex/02_2_historial_del_equipo.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 234.
  (./tex/03_objeto_de_la_propuesta.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 241.
 
 (./tex/04_requisitos_del_sistema.tex
 File: img/bitparty_small.pdf Graphic file (type pdf)
@@ -1549,17 +1540,17 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 36.
  [5])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 250.
 
 (./tex/05_0_descripcion_tecnica_de_la_solucion.tex
 File: img/bitparty_small.pdf Graphic file (type pdf)
@@ -1596,19 +1587,19 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 12.
  [6])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 253.
  (./tex/05_1_esquema_de_la_arquitectura.tex
-<img/diagrama_despliegue.png, id=139, 462.72874pt x 161.60374pt>
+<img/diagrama_despliegue.png, id=127, 462.72874pt x 161.60374pt>
 File: img/diagrama_despliegue.png Graphic file (type png)
 
 <use img/diagrama_despliegue.png>
@@ -1647,44 +1638,44 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
  [7 <./img/diagrama_despliegue.png (PNG copy)>])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 256.
  (./tex/05_2_tecnologias.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 267.
 
 (./tex/06_0_metodologia_de_gestion_y_planificacion.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 270.
 
 (./tex/06_1_fases_y_actividades_del_proyecto.tex
 File: img/bitparty_small.pdf Graphic file (type pdf)
@@ -1721,874 +1712,1044 @@ Package babel Info: Redefining spanish shorthand "?
 
 [8])
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
  (./tex/06_2_recursos_humanos.tex
-File: img/bitparty_small.pdf Graphic file (type pdf)
- <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 1.
-(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package cleveref Info: loaded `spanish' language definitions on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
- [9]
-<cv_pdf/alberto_cv.pdf, id=171, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alberto_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
- <use cv_pdf/alberto_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alberto_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
- <use cv_pdf/alberto_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alberto_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alberto_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alberto_cv.pdf, page1 used on input line 1.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
- [10 <./cv_pdf/alberto_cv.pdf>]
-<cv_pdf/alejandro_cv.pdf, id=189, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alejandro_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
- <use cv_pdf/alejandro_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alejandro_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
- <use cv_pdf/alejandro_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/alejandro_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/alejandro_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/alejandro_cv.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2.
- [11 <./cv_pdf/alejandro_cv.pdf>]
-<cv_pdf/javier_cv.pdf, id=203, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/javier_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
- <use cv_pdf/javier_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/javier_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
- <use cv_pdf/javier_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/javier_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/javier_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/javier_cv.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 3.
- [12 <./cv_pdf/javier_cv.pdf>]
-<cv_pdf/daniel_cv.pdf, id=222, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/daniel_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
- <use cv_pdf/daniel_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/daniel_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
- <use cv_pdf/daniel_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/daniel_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/daniel_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/daniel_cv.pdf, page1 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 4.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 4.
- [13 <./cv_pdf/daniel_cv.pdf>]
-<cv_pdf/hector_cv.pdf, id=237, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/hector_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
- <use cv_pdf/hector_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/hector_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
- <use cv_pdf/hector_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/hector_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/hector_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/hector_cv.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
- [14 <./cv_pdf/hector_cv.pdf>]
-<cv_pdf/simon_cv.pdf, id=251, page=1, 597.50829pt x 845.0471pt>
-File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/simon_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
- <use cv_pdf/simon_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/simon_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
- <use cv_pdf/simon_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: cv_pdf/simon_cv.pdf Graphic file (type pdf)
-
-<use cv_pdf/simon_cv.pdf, page 1>
-Package pdftex.def Info: cv_pdf/simon_cv.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 6.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 6.
- [15 <./cv_pdf/simon_cv.pdf>])
-(./tex/06_2_1_alberto_cv.tex
-
-./tex/06_2_1_alberto_cv.tex:1: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \documentclass
-                  [letterpaper,12pt]{article}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:3: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \usepackage
-               {currvita}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:4: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \usepackage
-               [spanish]{babel}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:5: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \usepackage
-               [latin1]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:6: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               {fullpage}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:15: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./tex/06_2_1_alberto_cv.tex:17: Undefined control sequence.
-<argument> \cvlabelwidth 
-                         
-l.17 \setlength{\cvlabelwidth}{40mm}
-                                      % Modifica el espacio para las etiquet...
+./tex/06_2_recursos_humanos.tex:1: Undefined control sequence.
+l.1 \includepdf
+               [pages={1}]{cv_pdf/alberto_cv.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./tex/06_2_1_alberto_cv.tex:18: Missing number, treated as zero.
+./tex/06_2_recursos_humanos.tex:1: Missing $ inserted.
+<inserted text> 
+                $
+l.1 \includepdf[pages={1}]{cv_
+                              pdf/alberto_cv.pdf}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tex/06_2_recursos_humanos.tex:1: Extra }, or forgotten $.
+l.1 \includepdf[pages={1}]{cv_pdf/alberto_cv.pdf}
+                                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tex/06_2_recursos_humanos.tex:2: Undefined control sequence.
+l.2 \includepdf
+               [pages={1}]{cv_pdf/alejandro_cv.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_2_recursos_humanos.tex:3: Undefined control sequence.
+l.3 \includepdf
+               [pages={1}]{cv_pdf/javier_cv.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_2_recursos_humanos.tex:4: Undefined control sequence.
+l.4 \includepdf
+               [pages={1}]{cv_pdf/daniel_cv.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_2_recursos_humanos.tex:5: Undefined control sequence.
+l.5 \includepdf
+               [pages={1}]{cv_pdf/hector_cv.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tex/06_2_recursos_humanos.tex:6: Undefined control sequence.
+l.6 \includepdf
+               [pages={1}]{cv_pdf/simon_cv.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+./propuesta_de_proyecto.tex:275: Missing $ inserted.
+<inserted text> 
+                $
+l.275 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (74.37482pt too wide) in paragraph at lines 1--275
+[]\T1/qpl/m/n/10.95 [pages=1]cv$[]\OML/cmm/m/it/10.95 df=alberto[]v:pdf\OT1/cmr
+/m/n/10.95 [\OML/cmm/m/it/10.95 pages \OT1/cmr/m/n/10.95 = 1][][\OML/cmm/m/it/1
+0.95 pages \OT1/cmr/m/n/10.95 = 1][][\OML/cmm/m/it/10.95 pages \OT1/cmr/m/n/10.
+95 =
+ []
+
+(./tex/06_2_1_alberto_cv.tex
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 5.
+(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+ [9])
+(./tex/06_2_2_alejandro_cv.tex
+File: img/bitparty_small.pdf Graphic file (type pdf)
+ <use img/bitparty_small.pdf>
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 6.
+(pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+Package cleveref Info: loaded `spanish' language definitions on input line 6.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+ [10]
+
+./tex/06_2_2_alejandro_cv.tex:7: Package inputenc Error: Unicode char \u8:ónut 
+not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...list}{Lenguajes de programación utilizados}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:17: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...ión de un compresor de ficheros de texto.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+./tex/06_2_2_alejandro_cv.tex:19: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ión de una aplicación de subastas online.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:19: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ión de una aplicación de subastas online.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+./tex/06_2_2_alejandro_cv.tex:21: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...una página de recomendación de películas.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:21: Package inputenc Error: Unicode char \u8:ági 
+not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...una página de recomendación de películas.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:21: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...una página de recomendación de películas.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:21: Package inputenc Error: Unicode char \u8:ícu 
+not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...una página de recomendación de películas.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+./tex/06_2_2_alejandro_cv.tex:23: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ... chat para múltiples usuarios con erlang.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:23: Package inputenc Error: Keyboard character us
+ed is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ... chat para múltiples usuarios con erlang.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./tex/06_2_2_alejandro_cv.tex:25: Package inputenc Error: Unicode char \u8:ónde
+ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...pilador para un lenguaje similar a Pascal}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./tex/06_2_2_alejandro_cv.tex:30: Argument of \UTFviii@four@octets has an extra
+ }.
+<inserted text> 
+                \par 
+l.30 \begin{cvlist}{Formación}
+                              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./tex/06_2_2_alejandro_cv.tex:30: Paragraph ended before \UTFviii@four@octets w
+as complete.
 <to be read again> 
                    \par 
-l.18 
-     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+l.30 \begin{cvlist}{Formación}
+                              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-./tex/06_2_1_alberto_cv.tex:18: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \par 
-l.18 
-     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-./tex/06_2_1_alberto_cv.tex:19: LaTeX Error: Environment cv undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \begin{cv}
-               {Curriculum Vitae}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:24: LaTeX Error: Environment cvlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \begin{cvlist}
-                   {Lenguajes de programaci\'on utilizados}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:25: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \item J
-            ava, C, C++,(ensamblador)
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 25
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:26: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \item A
-            RM, ARM thumb
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 26
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:27: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \item C
-            LIPS, Haskell, erlang
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 27
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:28: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \item H
-            TML, CSS, JSP, XML
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 28
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:29: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \item M
-            atlab, SQL
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 29
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:30: LaTeX Error: \begin{document} on input line 15 
-ended by \end{cvlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \end{cvlist}
+./tex/06_2_2_alejandro_cv.tex:30: Extra }, or forgotten \endgroup.
+<recently read> }
                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.30 \begin{cvlist}{Formación}
+                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
-./tex/06_2_1_alberto_cv.tex:32: LaTeX Error: Environment cvlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \begin{cvlist}
-                   {Experiencia}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:34: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
+./tex/06_2_2_alejandro_cv.tex:32: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 	\item[2013]
-                  Realizaci\'on de un Documento de Especificaci\'on de Requi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 34
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:37: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 	\item[2013]
-                  Desarrollo de una nueva funcionalidad para un sistema de gran
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 37
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:40: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 	\item[2013]
-                  Herramientas de control de versiones como Bitbucket.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 40
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:42: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 	\item[2013]
-                  T\'ecnicas y herramientas de validaci\'on y verificaci\'on...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 42
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:44: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 	\item[2013]
-                  Herramientas para la gesti\'on y an\'alisis de requisitos.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 44
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:46: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 	\item[2013]
-                  Herramientas de seguimiento de errores como Bugzilla.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 46
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:48: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 	\item[Actualidad]
-                        Desarrollo de una aplicaci\'on web consistente en un...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 48
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:50: LaTeX Error: \begin{document} on input line 15 
-ended by \end{cvlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 \end{cvlist}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:52: LaTeX Error: Environment cvlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 \begin{cvlist}
-                   {Formaci\'on}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tex/06_2_1_alberto_cv.tex:54: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 	\item[2010 a 2014]
+l.32 	\item[2010 a 2014]
                          Estudiante de la EINA
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 54
-[][]
- []
-
-
-./tex/06_2_1_alberto_cv.tex:58: LaTeX Error: \begin{document} on input line 15 
-ended by \end{cvlist}.
+./tex/06_2_2_alejandro_cv.tex:32: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \end{cvlist}
-                 
+l.32 	\item[2010 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_2_alejandro_cv.tex:32: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 	\item[2010 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_2_alejandro_cv.tex:33: Package inputenc Error: Unicode char \u8:íai 
+not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 		Grado en \textbf{Ingeniería informática}
+                                                en la rama de \textbf{comput...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./tex/06_2_1_alberto_cv.tex:60: LaTeX Error: \begin{document} on input line 15 
+./tex/06_2_2_alejandro_cv.tex:33: Package inputenc Error: Unicode char \u8:áti 
+not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 		Grado en \textbf{Ingeniería informática}
+                                                en la rama de \textbf{comput...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:33: Package inputenc Error: Unicode char \u8:ón\c
+heck@icr\expandafter not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...mática} en la rama de \textbf{computación}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_2_alejandro_cv.tex:36: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_2_alejandro_cv.tex:36: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_2_alejandro_cv.tex:36: LaTeX Error: Something's wrong--perhaps a mis
+sing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_2_alejandro_cv.tex:38: LaTeX Error: \begin{cvlist} on input line 30 
 ended by \end{cv}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \end{cv}
+l.38 \end{cv}
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+./tex/06_2_2_alejandro_cv.tex:38: Missing } inserted.
+<inserted text> 
+                }
+l.38 \end{cv}
+             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (./tex/06_2_3_daniel_cv.tex
+
+./tex/06_2_3_daniel_cv.tex:3: Package inputenc Error: Unicode char \u8:íaP not 
+set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \textbf{Nombre completo:} Daniel García P
+                                             áez
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:3: Package inputenc Error: Unicode char \u8:áez not 
+set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \textbf{Nombre completo:} Daniel García Páez
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:6: Package inputenc Error: Unicode char \u8:ónut not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...list}{Lenguajes de programación utilizados}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: img/bitparty_small.pdf Graphic file (type pdf)
 <use img/bitparty_small.pdf>
-Package pdftex.def Info: img/bitparty_small.pdf used on input line 62.
+Package pdftex.def Info: img/bitparty_small.pdf used on input line 8.
 (pdftex.def)             Requested size: 30.99069pt x 31.11617pt.
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
-Package cleveref Info: loaded `spanish' language definitions on input line 62.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package cleveref Info: loaded `spanish' language definitions on input line 8.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
- (./propuesta_de_proyecto.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-Package cleveref Info: loaded `spanish' language definitions on input line 24.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
-Package rerunfilecheck Info: File `propuesta_de_proyecto.out' has not changed.
-(rerunfilecheck)             Checksum: 629D38376F2DA55AA918F311BAC8A3B4;840.
- ) )
-(\end occurred inside a group at level 1)
+(babel)             in language  on input line 8.
+ [11]
 
-### semi simple group (level 1) entered at line 15 (\begingroup)
-### bottom level 
+./tex/06_2_3_daniel_cv.tex:8: Package inputenc Error: Unicode char \u8:ónWe not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...anzado de HTML,CSS,JSP,XML. Programación We
+                                                  b
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:10: Package inputenc Error: Unicode char \u8:ónAn no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item Conocimiento medio de programación An
+                                                droid
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:12: Package inputenc Error: Unicode char \u8:ási not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \item Conocimiento bási
+                            co de PHP
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:17: Package inputenc Error: Unicode char \u8:ónde no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 	\item Realización de
+                           una aplicación web (HTML, CSS, JSP, XML) de red s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:17: Package inputenc Error: Unicode char \u8:ónwe no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 	\item Realización de una aplicación we
+                                            b (HTML, CSS, JSP, XML) de red s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:18: Package inputenc Error: Unicode char \u8:ónde no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 	\item Realización de
+                           una aplicación web (HTML, CSS, JSP, XML) de opera...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:18: Package inputenc Error: Unicode char \u8:ónwe no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 	\item Realización de una aplicación we
+                                            b (HTML, CSS, JSP, XML) de opera...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:20: Package inputenc Error: Unicode char \u8:ónym no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 	\item Creación y m
+                        antenimiento de varias bases de datos en MySQL.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:21: Package inputenc Error: Unicode char \u8:ónde no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 	\item Realización de
+                           una aplicación móvil de gestión de notas para And...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:21: Package inputenc Error: Unicode char \u8:ónmó no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 	\item Realización de una aplicación mó
+                                            vil de gestión de notas para And...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:21: Package inputenc Error: Unicode char \u8:ónde no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ción de una aplicación móvil de gestión de
+                                                   notas para Android. Inclu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:22: Package inputenc Error: Unicode char \u8:áli not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 proceso de análi
+                     sis, requisitos, diseño e implementación del proyecto.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:22: Package inputenc Error: Unicode char \u8:ñoei no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 proceso de análisis, requisitos, diseño e i
+                                                mplementación del proyecto.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:22: Package inputenc Error: Unicode char \u8:ónde no
+t set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...is, requisitos, diseño e implementación de
+                                                  l proyecto.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./tex/06_2_3_daniel_cv.tex:26: Argument of \UTFviii@four@octets has an extra }.
+<inserted text> 
+                \par 
+l.26 \begin{cvlist}{Formación}
+                              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./tex/06_2_3_daniel_cv.tex:26: Paragraph ended before \UTFviii@four@octets was 
+complete.
+<to be read again> 
+                   \par 
+l.26 \begin{cvlist}{Formación}
+                              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./tex/06_2_3_daniel_cv.tex:26: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.26 \begin{cvlist}{Formación}
+                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./tex/06_2_3_daniel_cv.tex:28: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 	\item[2008 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:28: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 	\item[2008 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:28: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 	\item[2008 a 2014]
+                         Estudiante de la EINA
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:29: Package inputenc Error: Unicode char \u8:íai not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 		Grado en \textbf{Ingeniería informática}
+                                                en la rama de \textbf{Softwa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:29: Package inputenc Error: Unicode char \u8:áti not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 		Grado en \textbf{Ingeniería informática}
+                                                en la rama de \textbf{Softwa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:30: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 		\item I
+              nglés: nivel avanzado(B2) de la escuela de Cambridge.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:30: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 		\item I
+              nglés: nivel avanzado(B2) de la escuela de Cambridge.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:30: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 		\item I
+              nglés: nivel avanzado(B2) de la escuela de Cambridge.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:30: Package inputenc Error: Unicode char \u8:és: not
+ set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 		\item Inglés:
+                     nivel avanzado(B2) de la escuela de Cambridge.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./tex/06_2_3_daniel_cv.tex:33: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:33: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:33: LaTeX Error: Something's wrong--perhaps a missin
+g \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{cvlist}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tex/06_2_3_daniel_cv.tex:35: LaTeX Error: \begin{cvlist} on input line 26 end
+ed by \end{cv}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{cv}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./tex/06_2_3_daniel_cv.tex:35: Missing } inserted.
+<inserted text> 
+                }
+l.35 \end{cv}
+             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+
+! LaTeX Error: File `tex/06_2_4_hector_cv.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+./propuesta_de_proyecto.tex:283: Emergency stop.
+<read *> 
+         
+l.283 \input{tex/06_2_4_hector_cv}
+                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
 Here is how much of TeX's memory you used:
- 25184 strings out of 493315
- 458735 string characters out of 6137904
- 585026 words of memory out of 5000000
- 28033 multiletter control sequences out of 15000+600000
+ 24641 strings out of 493315
+ 449656 string characters out of 6137904
+ 572400 words of memory out of 5000000
+ 27511 multiletter control sequences out of 15000+600000
  51649 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,18n,57p,824b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-
-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc
-}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplb.pfb></us
-r/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplbi.pfb
-></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/qplr
-.pfb></usr/local/texlive/2013/../texmf-local/fonts/type1/local/public/tex-gyre/
-qplri.pfb>
-Output written on propuesta_de_proyecto.pdf (16 pages, 570106 bytes).
-PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 63i,17n,57p,824b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
+./propuesta_de_proyecto.tex:283:  ==> Fatal error occurred, no output PDF file 
+produced!
