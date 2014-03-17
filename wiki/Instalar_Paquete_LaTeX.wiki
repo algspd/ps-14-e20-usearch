@@ -1,5 +1,5 @@
+#summary Pequeño tutorial para instalar un paquete LaTeX.
 #labels Latex,Instalar,HowTo
-#Pequeño tutorial para instalar un paquete LaTeX.
 
 = Introducción =
 Muchas veces al crear documentos en LaTeX, con las librerías de paquetes estándares no
@@ -11,14 +11,15 @@ expandan a lo largo de múltiples páginas).
 
 Nota: Todavía no está completa esta página, en el futuro será completada.
 
-= Windows =
+= Procedimiento =
+== Windows ==
 
 http://tex.stackexchange.com/questions/2063/how-can-i-manually-install-a-package-on-miktex-windows
 
-= Linux (Debian/Ubuntu) =
+== Linux (Debian/Ubuntu) ==
 
 http://tex.stackexchange.com/questions/38978/how-can-i-manually-install-a-latex-package-debian-ubuntu-linux
 
-= OSX =
+== OS X ==
 
 http://stackoverflow.com/questions/1390828/how-do-i-install-a-latex-sty-file-on-osx
