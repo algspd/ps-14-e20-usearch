@@ -31,9 +31,7 @@
 %----------------------------------------------------------------------------------------
 % Tablas
 \usepackage{eurosym}
-\usepackage{tabular}
 \usepackage{multirow}
-
 
 %----------------------------------------------------------------------------------------
 % MODIFICAR EL ESTILO DE LAS SECCIONES 
@@ -53,11 +51,12 @@
   \bfseries \abstractname\vspace{-.5em}\vspace{0pt}
   \end{center}
   \list{}{%
-    \setlength{\leftmargin}{15mm}% <---------- CHANGE HERE
+    \setlength{\leftmargin}{15mm}% <---------- Cambiar márgenes
     \setlength{\rightmargin}{\leftmargin}%
   }%
   \item\relax}
  {\endlist}
+ 
 %----------------------------------------------------------------------------------------
 % Footnotes without line
 \makeatletter
@@ -69,6 +68,8 @@
 \usepackage{graphicx}
 %\usepackage{float}
 \usepackage[linecolor=colComment,linewidth=0.65pt]{mdframed}
+
+\usepackage{floatpag} % Pagina en blanco cuando aparece figuras.
 
 \DeclareGraphicsExtensions{.svg,.eps,.ps,.pdf,.png,.jpg,.jpeg}
 \addto{\captionsspanish}{\renewcommand{\listfigurename}{\bfseries\Large Figuras}}
@@ -83,7 +84,7 @@
 \usepackage{gantt}
 % Cronograma girado 90º
 \usepackage{rotating}
-\usepackage{fixltx2e} % poder poner 1ª en modo texto (no matemático)
+\usepackage{fixltx2e} % poder poner "1ª" en modo texto (no matemático)
 
 %----------------------------------------------------------------------------------------
 % COLORES
