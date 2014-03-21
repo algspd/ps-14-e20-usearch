@@ -34,14 +34,19 @@
 			<button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button>
 		</div>
 		<div id="contenido" class="centrar">
-			<div class="listado_main">
-				<div >
-					<ul id="menu" class="main_menu_pelis">
-						
-							
-					</ul>
-				</div>
-			</div>
+			<canvas id="myCanvas">
+				Your browser does not support the HTML5 canvas tag.
+			</canvas>
+
+			<script>
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.font="30px Arial";
+				ctx.fillText("Hello World",10,50);
+			</script>
+		</div>
+		<div class="descripcion">
+		
 		</div>
 	</body>
 </html>
