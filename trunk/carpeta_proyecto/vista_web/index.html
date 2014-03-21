@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Admin Home</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="estilo1.css"/>
+	</head>
+
+	<body>
+		<!-- Cabecera página web con logos -->
+		<div class="cabecera">
+			<div class="logos">
+				<a href="index.html"><img src="logoWeb.png" alt="Logo Web" id="logoWeb"></a>
+				<a href="index.html"><img src="logoEmpresa.jpg" alt="Logo Empresa" id="logoEmpresa"></a>
+			</div>		
+		</div>
+		<!-- Sub-cabecera -->
+		<div class="subcabecera">
+			<!-- Sección de añadir producto -->
+			<a href="index.html"><img src="add.png" alt="Añadir Producto" id="logoAddProduct"></a>
+			<a href="index.html" id="addProduct">Añadir producto</a>
+			
+			<!-- Sección de búsqueda -->
+			<select id="selectPropiedades">
+				<option value="arquitectura">Arquitectura</option>
+				<option value="frecuencia">Frecuencia(MHz)</option>
+				<option value="flash">Flash(KB)</option>
+				<option value="ram">RAM(KB)</option>
+			</select>
+			<input type="text" id="textoBusq" placeholder="Búsqueda...">
+			<input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda">
+			
+			<!-- Sección de listado completo -->
+			<button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button>
+		</div>
+		<div id="contenido" class="centrar">
+			<div class="listado_main">
+				<div >
+					<ul id="menu" class="main_menu_pelis">
+						
+							
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

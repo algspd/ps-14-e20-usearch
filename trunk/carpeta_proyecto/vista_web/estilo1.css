@@ -1,0 +1,90 @@
+/*----------------------------------------------- */
+/* Cabecera principal de la pagina */
+/*----------------------------------------------- */
+.cabecera{
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	left: 0px;
+	top:0px;
+	background-color:#C0C0C0;
+	border:2px solid black;
+}
+/* Logos de la cabecera */
+.logos{
+	position: absolute;
+	left: 320px;
+}
+#logoWeb{
+	width: 120px;
+	height: 80px;
+	margin-top: 10px;
+	border: 1px solid black;
+}
+#logoEmpresa{
+	width: 300px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+
+/*--------------------------------------------------------- */
+/* Subcabecera con los elementos correspondientes */
+/*--------------------------------------------------------- */
+.subcabecera{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width:100%;
+	height: 100px;
+	border-bottom: 2px solid black;
+}
+#logoAddProduct{
+	margin-left: 100px;
+	margin-top: 25px;
+	width: 60px;
+	height: 60px;
+}
+#addProduct{
+	font-weight: bold;
+	font-size: x-large;
+	vertical-align: 25px;
+}
+#selectPropiedades{
+	margin-left: 200px;
+	vertical-align: 25px;
+	width: 150px;
+	height: 30px;
+}
+#textoBusq{
+	vertical-align: 25px;
+	height: 30px;
+	margin-left: 10px;
+}
+#logoBusqueda{
+	margin-bottom: 5px;
+	margin-left: -5px;
+	width: 50px;
+	height: 50px;
+}
+#botonListado{
+	margin-left:200px;
+	vertical-align: 25px;
+	width: 180px;
+	height: 40px;
+	border: 1px solid red;
+	border-radius:20px;
+	font-weight: bold;
+	font-size: 1.01em;
+}
+
+
+/*--------------------------------------------------------- */
+/* Estilos generales*/
+/*--------------------------------------------------------- */
+
+/* Links, botones e inputs tipo submit tendrán la mano como cursor*/
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
