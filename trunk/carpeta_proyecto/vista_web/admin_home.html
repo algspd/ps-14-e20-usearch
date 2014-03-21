@@ -33,20 +33,29 @@
 			<!-- Sección de listado completo -->
 			<button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button>
 		</div>
-		<div id="contenido" class="centrar">
-			<canvas id="myCanvas">
-				Your browser does not support the HTML5 canvas tag.
-			</canvas>
+			<div id="titulo">
+				<canvas id="canvasTitulo" width="1000" height="60"></canvas>
+				<script>
+					var canvas = document.getElementById('canvasTitulo');
+					var context = canvas.getContext('2d');
+					var x = canvas.width / 2;
+					var y = canvas.height / 2;
 
-			<script>
-				var c=document.getElementById("myCanvas");
-				var ctx=c.getContext("2d");
-				ctx.font="30px Arial";
-				ctx.fillText("Hello World",10,50);
-			</script>
-		</div>
-		<div class="descripcion">
-		
-		</div>
+					context.font = '18pt Calibri bold';
+					// textAlign aligns text horizontally relative to placement
+					context.textAlign = 'center';
+					// textBaseline aligns text vertically relative to font style
+					context.textBaseline = 'middle';
+					context.fillStyle = 'blue';
+					context.fillText('!Bienvenido a la página de administración!', x, y);
+				</script>
+			</div>
+			<div>
+				<textarea id="descripcion" rows="20" cols="120" readonly="true">
+					Descripción de las tareas del administrador.
+					
+					Funcionalidades.
+				</textarea>
+			</div>
 	</body>
 </html>
