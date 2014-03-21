@@ -1,0 +1,5 @@
+La pagina de inicio es "start.html"
+
+La correspondiente a la parte de Administrador --> "Home_Admin.html"
+
+La correspondiente a la parte de cliente --> "Home_Cliente.html"
