@@ -1,0 +1,99 @@
+.cabecera{
+	width: 100%;
+	height: 100%;
+	background-color:#1C1C1C;
+}
+
+.centrar{
+	width: 90% !important;
+	margin: 0px auto;
+
+}
+.nombreweb{
+	float:left;
+	width: 254px;
+	height: 71px;
+	display: block;
+	padding-left:40px;
+	color: #FFF;
+	font-family: 'Open Sans',Helvetica, sans-serif, Arial;
+	text-decoration: none;
+}
+
+#headerCenter{
+	padding-top: 6px;
+
+}
+
+.navegador{
+	float:left;
+	margin-top: 15px;
+
+}
+.listado_main{
+	padding-top: 20px;
+	padding-left: 30px;
+	font-family: 'Open Sans',Helvetica, sans-serif, Arial;
+}
+
+.main_menu_pelis li img{
+	
+	opacity: 1;
+	width:115px;
+	height: 171px;
+}
+.main_menu_pelis li{
+	text-align:center;
+	float:left;
+	margin:0px;
+	list-style:none;
+	font-size: 15px;
+	color:black;
+}
+
+.main_menu_pelis li:hover{
+	color:blue;
+}
+
+ul#menu1{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+ul#menu1 li{/*color de fondo*/
+	background-color: ##1C1C1C;
+	float: left;
+	height:2.5em;
+	line-height:2.5em;
+	/*border-color: #1C1C1C;
+	border-style: solid;
+	border-width: 1px 1px;*/
+	background-color: #1C1C1C;
+	border: 1px solid #1C1C1C;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-border-radius: 5px;
+}
+
+ul#menu1 a {/*Color letras*/
+	color: #FFF;
+	text-decoration:none; 
+	padding: 0 10px; 
+	display: block;
+	height: 100%;
+}
+
+#menu1 li:hover {/*color del recuadro al pasar por encima*/
+       	background-color: #088A08;
+	border: 1px solid #FFF;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-border-radius: 5px;
+		
+}
+#menu1 li:hover a {/*color de las letras al pasar por encima*/
+       	color: #1C1C1C;
+}
