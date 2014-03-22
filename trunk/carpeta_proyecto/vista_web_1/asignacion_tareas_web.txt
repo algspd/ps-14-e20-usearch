@@ -1,0 +1,14 @@
+ADMINISTRADOR
+	Home_Admin --> Daniel
+	AddProduct_Admin --> página de añadir producto			--> Héctor
+	ModifyProduct_Admin --> página de modificar producto	--> Héctor
+	SearchResult_Admin --> página de resultado de busqueda	--> Alberto
+	Listado_Admin --> página de mostrar listado completo 	--> Alberto
+
+
+USUARIO
+	Home_User --> Daniel
+	Search_Result_User --> página de resultado de búsqueda	--> Alejandro
+	Listado_User --> pagina de mostrar listado completo 	--> Alejandro
+	Cart_User --> pagina del carrito de compra				--> Daniel
+	
