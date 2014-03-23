@@ -1,0 +1,80 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>AddProduct Admin</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="estilo1.css"/>
+	</head>
+
+	<body>
+		<!-- Cabecera página web con logos -->
+		<div class="cabecera">
+			<div class="logos">
+				<a href="index.html"><img src="logoWeb.png" alt="Logo Web" id="logoWeb"></a>
+				<!--<a href="index.html"><img src="logoEmpresa.jpg" alt="Logo Empresa" id="logoEmpresa"></a>-->
+			</div>		
+		</div>
+		<!-- Sub-cabecera -->
+		<div class="subcabecera">
+						
+			<!-- Sección de búsqueda -->
+			<select id="selectPropiedades">
+				<option value="arquitectura">Arquitectura</option>
+				<option value="frecuencia">Frecuencia(MHz)</option>
+				<option value="flash">Flash(KB)</option>
+				<option value="ram">RAM(KB)</option>
+			</select>
+			<input type="text" id="textoBusq" placeholder="Búsqueda...">
+			<input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda">
+			
+			<!-- Sección de listado completo -->
+			<button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button>
+		</div>
+			<div id="titulo">
+				<canvas id="canvasTitulo" width="1000" height="60"></canvas>
+				<script>
+					var canvas = document.getElementById('canvasTitulo');
+					var context = canvas.getContext('2d');
+					var x = canvas.width / 2;
+					var y = canvas.height / 2;
+
+					context.font = '18pt Calibri bold';
+					// textAlign aligns text horizontally relative to placement
+					context.textAlign = 'center';
+					// textBaseline aligns text vertically relative to font style
+					context.textBaseline = 'middle';
+					context.fillStyle = 'blue';
+					context.fillText('Añadir un producto', x, y);
+				</script>
+			</div>
+			<div>				
+					<form class="formañadir" id="descripcionForm" name="formañadir" method="post" action="">
+						
+						<LABEL for="nombre">Arquitectura: </LABEL>
+							<select name="arquitectura">
+								<option value="-1">-</option>
+								<option value="Intel">Intel</option>
+								<option value="Motorola">Motorola</option>
+								<option value="SPARC">SPARC</option>
+								<option value="ARM">ARM</option>
+						</select>
+						
+						<LABEL for="Frecuencia">Frecuencia: </LABEL>
+								<INPUT type="text"><BR>
+							
+						<LABEL for="Flash">Memoria Flash: </LABEL>
+								<INPUT type="text"><BR>
+						
+						<LABEL for="RAM">Memoria RAM: </LABEL>
+								<INPUT type="text"><BR>
+						
+						<LABEL for="Precio">Precio: </LABEL>
+								<INPUT type="text"><BR>
+							
+						<INPUT type="submit" value="Añadir">
+						<INPUT type="button" value="Cancelar" onClick=" window.location.href='index.html' ">
+						
+					</form>				
+			</div>
+	</body>
+</html>
