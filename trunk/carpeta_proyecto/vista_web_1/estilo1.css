@@ -173,6 +173,22 @@ table{
 	background-color: white;
 	border: none;
 }
+/* ultima fila */
+#lastRow1{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:50;
+}
+/* ultima fila */
+#lastRow2{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:80;
+}
 /* Logo añadir a carrito */
 #logoTabla{
 	width: 50px;

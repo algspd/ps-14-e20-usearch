@@ -1,0 +1,78 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Carro Compra</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="estilo1.css"/>
+	</head>
+
+	<body>
+		<!-- Cabecera página web con logos -->
+		<div class="cabecera">
+			<div class="logos">
+				<a href="admin_home.html"><img src="logoWeb.png" alt="Logo Web" id="logoWeb"></a>
+				<a href="admin_home.html"><img src="logoEmpresa.jpg" alt="Logo Empresa" id="logoEmpresa"></a>
+			</div>		
+		</div>
+		<!-- Sub-cabecera -->
+		<div class="subcabecera">
+			<!-- Sección de búsqueda -->
+			<select id="selectPropiedades">
+				<option value="arquitectura">Arquitectura</option>
+				<option value="frecuencia">Frecuencia(MHz)</option>
+				<option value="flash">Flash(KB)</option>
+				<option value="ram">RAM(KB)</option>
+			</select>
+			<input type="text" id="textoBusq" placeholder="Búsqueda...">
+			<a href="admin_busqueda.html"><input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda"></a>
+			
+			<!-- Sección de listado completo -->
+			<a href="admin_listado.html"><button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button></a>
+		</div>
+
+<!--FORMULARIO-->
+
+	<!-- Tabla -->
+		<FORM method=post action="">
+			<table border="1" bordercolor="0" cellspacing="0">
+				<tr class="first_row" ALIGN=CENTER>
+					<td>REF</td>
+					<td>Nº DE UNIDADES</td>
+					<td>PRECIO/UNIDAD</td>
+				</tr>
+				<!--Todos datos-->
+				<tr class="all_row" ALIGN=CENTER>
+					<td>8912302</td>
+					<td>
+						<INPUT type=text name="num_unidades" value="10">
+					</td>
+					<td>
+						<INPUT readonly="readonly" type=text name="precio_unidad" value="2">€			
+					</td>
+					<td id="firstCol"><img src="eliminar.png" alt="Eliminar" id="logoTabla"></td>
+				</tr>
+				<!--Linea total y enviar-->
+				<tr id="lastRow1" ALIGN=CENTER>
+					<td>
+						TOTAL
+					</td>
+					<td>
+						<INPUT readonly="readonly" type=text name="total_unidades" value="10">
+					</td>
+					<td>
+						<INPUT readonly="readonly" type=text name="total_precio_unidad" value="20">€
+					</td>
+				</tr>	
+				<tr id="lastRow2" ALIGN=CENTER>
+					<td></td>
+					<td>
+						<INPUT type="submit" value="Actualizar">
+					</td>
+					<td>
+						<INPUT type="submit" value="Factura">
+					</td>
+				</tr>	
+			</table>
+		</form>
+	</body>
+</html>
