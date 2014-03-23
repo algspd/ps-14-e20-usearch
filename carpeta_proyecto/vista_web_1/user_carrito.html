@@ -33,7 +33,10 @@
 <!--FORMULARIO-->
 
 	<!-- Tabla -->
-		<FORM method=post action="">
+		<form
+			name="formCarrito"
+			method="post" action=""
+		>
 			<table border="1" bordercolor="0" cellspacing="0">
 				<tr class="first_row" ALIGN=CENTER>
 					<td>REF</td>
@@ -44,32 +47,30 @@
 				<tr class="all_row" ALIGN=CENTER>
 					<td>8912302</td>
 					<td>
-						<INPUT type=text name="num_unidades" value="10">
+						<input type="number" name="num_unidades" value="10" class="unidades">
 					</td>
 					<td>
-						<INPUT readonly="readonly" type=text name="precio_unidad" value="2">€			
+						<input readonly="true" type="text" name="precio_unidad" value="2" class="precio">€			
 					</td>
 					<td id="firstCol"><img src="eliminar.png" alt="Eliminar" id="logoTabla"></td>
 				</tr>
 				<!--Linea total y enviar-->
 				<tr id="lastRow1" ALIGN=CENTER>
+					<td><b>TOTAL</b></td>
 					<td>
-						TOTAL
+						<input readonly="true" type="text" name="total_unidades" value="10" class="unidades">
 					</td>
 					<td>
-						<INPUT readonly="readonly" type=text name="total_unidades" value="10">
-					</td>
-					<td>
-						<INPUT readonly="readonly" type=text name="total_precio_unidad" value="20">€
+						<input readonly="true" type="text" name="total_precio_unidad" value="20" class="precio">€
 					</td>
 				</tr>	
 				<tr id="lastRow2" ALIGN=CENTER>
 					<td></td>
 					<td>
-						<INPUT type="submit" value="Actualizar">
+						<input type="submit" value="Actualizar" class="buttonForm">
 					</td>
 					<td>
-						<INPUT type="submit" value="Factura">
+						<input type="submit" value="Factura" class="buttonForm">
 					</td>
 				</tr>	
 			</table>
