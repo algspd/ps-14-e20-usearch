@@ -1,6 +1,22 @@
+/*--------------------------------------------------------- */
+/* Estilos generales*/
+/*--------------------------------------------------------- */
 body{
 	width:1365px;
 }
+
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
+
+label{
+	font-weight: bold;
+	margin-left: 30px;
+}
+legend{
+	font-size: large;
+}
+
 
 /*----------------------------------------------- */
 /* Cabecera principal de la pagina */
@@ -133,9 +149,6 @@ body{
 	resize: none;
 }
 
-
-/*Añadido por alex*/
-
 /*---------------------------------------------------------*/
 /* Tabla de busquedas y listado  */
 /*---------------------------------------------------------*/
@@ -173,22 +186,6 @@ table{
 	background-color: white;
 	border: none;
 }
-/* ultima fila */
-#lastRow1{
-	position:relative;
-	top: 10px;
-	background-color: white;
-	border:white;
-	height:50;
-}
-/* ultima fila */
-#lastRow2{
-	position:relative;
-	top: 10px;
-	background-color: white;
-	border:white;
-	height:80;
-}
 /* Logo añadir a carrito */
 #logoTabla{
 	width: 50px;
@@ -196,40 +193,53 @@ table{
 }
 
 
-/*imagen editar*/
-.modificar{
-position: absolute;
-left:-15px;
-top: 299px;
-width: 45px;
-height: 39px;
+/*--------------------------------------------------------- */
+/* Formularios */
+/*--------------------------------------------------------- */
+#addModForm{
+	position: absolute;
+	top:350px;
+	left: 182px;
+	width: 500px;
 }
-.imagenModificar{
-position:relative;
-left:110px;
-width: 45px;
-height: 39px;
+.campoForm{
+	margin: .8em 0;
 }
-
-.eliminar{
-position: absolute;
-left:1070px;
-top: 299px;
-width: 45px;
-height: 39px;
+#buttonsForm{
+	margin-left: 200px;
 }
-.imagenEliminar{
-position:relative;
-left:110px;
-width: 45px;
-height: 39px;
+.buttonForm{
+	font-weight:bold;
+	padding: 5px;
+	margin-right: 20px;
 }
 
 /*--------------------------------------------------------- */
-/* Estilos generales*/
+/* Pagina del carrito */
 /*--------------------------------------------------------- */
 
-/* Links, botones e inputs tipo submit tendrán la mano como cursor*/
-a, button, input[type="submit"] {
-    cursor: pointer;
+/* Fila de totales */
+#lastRow1{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:50;
+}
+
+/* Fila de botones */
+#lastRow2{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:80;
+}
+
+.precio{
+	text-align: right;
+}
+
+.unidades{
+	text-align: center;
 }
