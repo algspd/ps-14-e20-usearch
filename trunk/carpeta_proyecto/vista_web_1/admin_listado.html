@@ -17,8 +17,8 @@
 		<!-- Sub-cabecera -->
 		<div class="subcabecera">
 			<!-- Sección de añadir producto -->
-			<a href="index.html"><img src="add.png" alt="Añadir Producto" id="logoAddProduct"></a>
-			<a href="index.html" id="addProduct">Añadir producto</a>
+			<a href="admin_add.html"><img src="add.png" alt="Añadir Producto" id="logoAddProduct"></a>
+			<a href="admin_add.html" id="addProduct">Añadir producto</a>
 			
 			<!-- Sección de búsqueda -->
 			<select id="selectPropiedades">
@@ -28,13 +28,14 @@
 				<option value="ram">RAM(KB)</option>
 			</select>
 			<input type="text" id="textoBusq" placeholder="Búsqueda...">
-			<input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda">
+			<a href="admin_busqueda.html"><input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda"></a>
 		</div>
 
-		<!-- Tabla -->
-	<div class="table">
-		<table border="1" bordercolor="0"  style="background-color:#FFFF;border-collapse: collapse;" width="100%" cellspacing="0">
+	<!-- Tabla -->
+	<div>
+		<table border="1" bordercolor="0" cellspacing="0">
 			<tr class="first_row" ALIGN=CENTER>
+				<td id="firstCol"></td>
 				<td>REF</td>
 				<td>ARQ</td>
 				<td>FREQ</td>
@@ -43,69 +44,15 @@
 				<td>PRECIO</td>
 			</tr>
 			<tr class="all_row" ALIGN=CENTER>
+				<td id="firstCol"><a href="admin_modificar"><img src="modificar.png" alt="Modificar" id="logoTabla"></a></td>
 				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
-			</tr>
-			<tr class="all_row" ALIGN=CENTER>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr class="all_row" ALIGN=CENTER>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr class="all_row" ALIGN=CENTER>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td id="firstCol"><img src="eliminar.png" alt="Eliminar" id="logoTabla"></td>
 			</tr>
 		</table>
-	</div>
-	<div class="modificar">
-		<a href="index.html">
-			<img src="modificar.png"  class="imagenModificar" alt="Modificar" id="logoModificar">
-		</a>
-		
-		<a href="index.html"style="position: relative;top: 30px;">
-			<img src="modificar.png" class="imagenModificar" alt="Modificar" id="logoModificar">
-		</a>
-		<a href="index.html"style="position: relative;top: 60px;">
-			<img src="modificar.png" class="imagenModificar" alt="Modificar" id="logoModificar">
-		</a>
-		<a href="index.html"style="position: relative;top: 90px;">
-			<img src="modificar.png" class="imagenModificar" alt="Modificar" id="logoModificar">
-		</a>
-	</div>
-		<div class="eliminar">
-		<a href="index.html">
-			<img src="eliminar.png"  class="imagenEliminar" alt="Eliminar" id="logoEliminar">
-		</a>
-		
-		<a href="index.html"style="position: relative;top: 30px;">
-			<img src="eliminar.png"  class="imagenEliminar" alt="Eliminar" id="logoEliminar">
-		</a>
-		<a href="index.html"style="position: relative;top: 60px;">
-			<img src="eliminar.png"  class="imagenEliminar" alt="Eliminar" id="logoEliminar">
-		</a>
-		<a href="index.html"style="position: relative;top: 90px;">
-			<img src="eliminar.png"  class="imagenEliminar" alt="Eliminar" id="logoEliminar">
-		</a>
-	</div>
-
 	</body>
 </html>

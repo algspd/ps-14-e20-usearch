@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Añadir microcontrolador</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="estilo1.css"/>
+	</head>
+
+	<body>
+		<!-- Cabecera página web con logos -->
+		<div class="cabecera">
+			<div class="logos">
+				<a href="admin_home.html"><img src="logoWeb.png" alt="Logo Web" id="logoWeb"></a>
+				<a href="admin_home.html"><img src="logoEmpresa.jpg" alt="Logo Empresa" id="logoEmpresa"></a>
+			</div>		
+		</div>
+		<!-- Sub-cabecera -->
+		<div class="subcabecera">
+			<!-- Sección de búsqueda -->
+			<select id="selectPropiedades">
+				<option value="arquitectura">Arquitectura</option>
+				<option value="frecuencia">Frecuencia(MHz)</option>
+				<option value="flash">Flash(KB)</option>
+				<option value="ram">RAM(KB)</option>
+			</select>
+			<input type="text" id="textoBusq" placeholder="Búsqueda...">
+			<a href="admin_busqueda.html"><input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda"></a>
+			
+			<!-- Sección de listado completo -->
+			<a href="admin_listado.html"><button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button></a>
+		</div>
+	</body>
+</html>

@@ -17,8 +17,8 @@
 		<!-- Sub-cabecera -->
 		<div class="subcabecera">
 			<!-- Sección de añadir producto -->
-			<a href="index.html"><img src="add.png" alt="Añadir Producto" id="logoAddProduct"></a>
-			<a href="index.html" id="addProduct">Añadir producto</a>
+			<a href="admin_add.html"><img src="add.png" alt="Añadir Producto" id="logoAddProduct"></a>
+			<a href="admin_add.html" id="addProduct">Añadir producto</a>
 			
 			<!-- Sección de búsqueda -->
 			<select id="selectPropiedades">
@@ -28,34 +28,34 @@
 				<option value="ram">RAM(KB)</option>
 			</select>
 			<input type="text" id="textoBusq" placeholder="Búsqueda...">
-			<input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda">
+			<a href="admin_busqueda.html"><input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda"></a>
 			
 			<!-- Sección de listado completo -->
-			<button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button>
+			<a href="admin_listado.html"><button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button></a>
 		</div>
-			<div id="titulo">
-				<canvas id="canvasTitulo" width="1000" height="60"></canvas>
-				<script>
-					var canvas = document.getElementById('canvasTitulo');
-					var context = canvas.getContext('2d');
-					var x = canvas.width / 2;
-					var y = canvas.height / 2;
+		<div id="titulo">
+			<canvas id="canvasTitulo" width="1000" height="60"></canvas>
+			<script>
+				var canvas = document.getElementById('canvasTitulo');
+				var context = canvas.getContext('2d');
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
 
-					context.font = '18pt Calibri bold';
-					// textAlign aligns text horizontally relative to placement
-					context.textAlign = 'center';
-					// textBaseline aligns text vertically relative to font style
-					context.textBaseline = 'middle';
-					context.fillStyle = 'blue';
-					context.fillText('!Bienvenido a la página de administración!', x, y);
-				</script>
-			</div>
-			<div>
-				<textarea id="descripcion" rows="20" cols="120" readonly="true">
-					Descripción de las tareas del administrador.
-					
-					Funcionalidades.
-				</textarea>
-			</div>
+				context.font = '18pt Calibri bold';
+				// textAlign aligns text horizontally relative to placement
+				context.textAlign = 'center';
+				// textBaseline aligns text vertically relative to font style
+				context.textBaseline = 'middle';
+				context.fillStyle = 'blue';
+				context.fillText('!Bienvenido a la página de administración!', x, y);
+			</script>
+		</div>
+		<div>
+			<textarea id="descripcion" rows="20" cols="120" readonly="true">
+				Descripción de las tareas del administrador.
+				
+				Funcionalidades.
+			</textarea>
+		</div>
 	</body>
 </html>
