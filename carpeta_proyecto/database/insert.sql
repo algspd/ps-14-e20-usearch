@@ -7,6 +7,8 @@ INSERT INTO micros VALUES ('P8X32A-D40',    '32-bit Multicore', '12',   '64',   
 INSERT INTO micros VALUES ('AT32UC3A0128', 	'32-bit AVR', 		'66', 	'128', 	 '32', 	'5.68');  -- Atmel
 INSERT INTO micros VALUES ('PIC32MX110', 	'32-bit RISC', 		'40', 	'32', 	 '4', 	'1.66');  -- Microchip
 INSERT INTO micros VALUES ('TMS320F28030', 	'32-bit Piccolo', 	'60', 	'32', 	 '12', 	'2.20');  -- Texas instruments
+INSERT INTO micros VALUES ('SIM3U167-B-GQ', '32-bit ARM Cortex-M3', '80', '256', '32', 	'5.71');  -- Silabs
+INSERT INTO micros VALUES ('P8X32A-M44', 	'32-bit Multicore', '80', 	'512', 	 '64', 	'5.78');  -- Parallax
 --INSERT INTO micros VALUES ('', '', '', '', '', ''); --
 
 
