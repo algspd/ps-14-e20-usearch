@@ -34,7 +34,7 @@
         echo "</td>";
         echo "<td>";
         echo $fila->precio;
-        echo "<input type='hidden' value='" . $fila->ref . "' name='precio'>";
+        echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
         echo "</td>";
         echo "<td>";
         echo "<input type=\"submit\" value=\"Añadir\">";
