@@ -1,7 +1,7 @@
 ﻿			<!-- Sección de carrito -->
 			<a id="carrito" href="<?php echo base_url() . "index.php/carrito"; ?>">
                           <img src="<?php echo base_url() . "/img/carrito.jpg"; ?>" alt="Carrito" id="logoCarrito" title="Carrito de compra">
-			  0 items
+			  <?php echo $items; ?> items</a>
                         </a>
 			
 			<!-- Sección de búsqueda -->
