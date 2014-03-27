@@ -12,10 +12,19 @@
     <!-- Cabecera página web con logos -->
     <div class="cabecera">
       <div class="logos">
-        <a href="admin_home.html"><img src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web" id="logoWeb"></a>
-        <a href="admin_home.html"><img src="<?php echo base_url() . "/img/logoEmpresa.jpg"; ?>" alt="Logo Empresa" id="logoEmpresa"></a>
+        <a href="<?php echo base_url(); ?>">
+          <img src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web" id="logoWeb">
+        </a>
+        <a href="<?php echo base_url(); ?>">
+          <img src="<?php echo base_url() . "/img/logoEmpresa.jpg"; ?>" alt="Logo Empresa" id="logoEmpresa">
+        </a>
       </div>          
     </div>
     <!-- Sub-cabecera -->
     <div class="subcabecera">
 
+    <!-- Sección de carrito -->
+    <a id="carrito" href="<?php echo base_url() . "index.php/carrito"; ?>">
+      <img src="<?php echo base_url() . "/img/carrito.jpg"; ?>" alt="Carrito" id="logoCarrito" title="Carrito de compra">
+      <?php echo $items; ?> items</a> 
+    </a>
