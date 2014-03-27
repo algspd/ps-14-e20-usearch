@@ -25,10 +25,32 @@
 </tr>
 
 </table>
+  <div id="botones_carro">
+    <input type="submit" name="submit" value="Actualizar">
+    <input type="submit" name="vaciar" value="Vaciar">
+  </form>
+  <form method="post" action="<?php echo base_url() . "/index.php/carrito"?>">
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre"><br>
+    <label for="apellidos">Apellidos: </label>
+    <input type="text" name="apellidos"><br>
+    <label for="direccion">Dirección: </label>
+    <input type="text" name="direccion"><br>
+    <label for="ciudad">Ciudad: </label>
+    <input type="text" name="ciudad"><br>
+    <label for="provincia">Provincia: </label>
+    <input type="text" name="provincia"><br>
+    <label for="cp">Código postal: </label>
+    <input type="text" name="cp"><br>
+    <label for="tfn">Teléfono: </label>
+    <input type="text" name="tfn"><br>
+    <label for="email">e-mail: </label>
+    <input type="text" name="email"><br>
+    <label for="empresa">Empresa: </label>
+    <input type="text" name="empresa"><br>
+    <label for="cif">CIF: </label>
+    <input type="text" name="cif"><br>
 
-<input type="submit" name="submit" value="Actualizar">
-<input type="submit" name="vaciar" value="Vaciar">
-</form>
-<form>
-<input type="submit" name="pedir" value="Realizar pedido">
-</form>
+    <input type="submit" name="pedir" value="Realizar pedido">
+  </form>
+</div>
