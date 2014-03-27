@@ -38,6 +38,10 @@
 \definecolor{gris_cronograma}{RGB}{143,145,148}
 
 %----------------------------------------------------------------------------------------
+% LANDSCAPE
+\usepackage[landscape]{geometry}
+
+%----------------------------------------------------------------------------------------
 % METADATOS DEL PDF Y PDF CLICKEABLE
 \usepackage{hyperref}
 \usepackage{hyperxmp}
@@ -75,7 +79,7 @@
 % Configurar la cabecera: fancyhead, fancyfoot para el pie.
 \fancyhead[L]{\nouppercase\leftmark}
 \fancyhead[R]{\nouppercase\rightmark\hspace{0.5em}}
-\fancyfoot[C]{-- \thepage\ --}
+\fancyfoot[C]{}
 
 % Cabecera parte derecha: número y título de sección, subsección, etc.
 \renewcommand{\sectionmark}[1]{}
@@ -83,9 +87,9 @@
 \renewcommand{\subsubsectionmark}[1]{}
 
 % Cabecera parte izquierda: Nombre de la empresa (logo) y nombre del proyecto
-\lhead{\raisebox{-0.5\height}{\rule[-.5ex]{0pt}{2ex}\includegraphics[scale=0.125]{img/bitparty_small}}\hspace{1em}{\large\nombreDelProyecto}}
+\lhead{\raisebox{-0.5\height}{\rule[-.5ex]{0pt}{2ex}\includegraphics[scale=0.125]{img/bitparty_small}}\hspace{1em}{\large E20: BITPARTY}{ -  Proyecto $\mu Search$}}
 
-\renewcommand{\headrulewidth}{0.6pt} % Tam. separador cabecera
+\renewcommand{\headrulewidth}{0pt} % Tam. separador cabecera
 \renewcommand{\footrulewidth}{0pt}   % Tam. separador pie
 \renewcommand{\headwidth}{6in}       % Anchura cabecera (incluido separador)
 
@@ -96,13 +100,10 @@
 
 \begin{document}
 
-\thispagestyle{fancy}
-
-\begin{sidewaysfigure}
-\thisfloatpagestyle{empty} 
+\hspace{2in}
 \centering
 \scalebox{0.8}{
-  \begin{gantt}[xunitlength=0.15cm,fontsize=\small,titlefontsize=\small,drawledgerline=true]{22}{150}
+  \begin{gantt}[xunitlength=0.15cm,fontsize=\small,titlefontsize=\small,drawledgerline=true]{23}{150}
 	  
     \begin{ganttitle} % Primer título año: 2014
       \titleelement{2014}{150}
@@ -129,7 +130,9 @@
 	  \titleelement{10}{3}
 	  \titleelement{ }{11}
 	  \titleelement{24}{3}
-	  \titleelement{ }{13}
+	  \titleelement{ }{1}
+	  \titleelement{30}{3}
+	  \titleelement{ }{9}
 	  \titleelement{8}{2}
 	  \titleelement{ }{5}
 	  \titleelement{15}{3}
@@ -151,7 +154,7 @@
 	\ganttbar[color=naranja_cronograma]{Doc. técnica}{48}{23}
 	\ganttbar[color=fucsia_cronograma]{Guía de Usuario}{71}{14}
 	\ganttbar[color=gris_cronograma]{Pruebas}{55}{30}
-	\ganttbar[color=gris_cronograma]{Pruebas}{56}{3}
+	\ganttbar[color=gris_cronograma]{Auditoría interna}{86}{3}
 	
 	\ganttgroup{2\textsuperscript{a} iteración}{86}{40}
     \ganttbar[color=verde_cronograma]{Tarea 6}{85}{15}
@@ -164,6 +167,6 @@
 	
   \end{gantt}
 }
-\end{sidewaysfigure}
+
 
 \end{document}
