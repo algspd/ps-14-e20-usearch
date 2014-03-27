@@ -29,3 +29,6 @@
 <input type="submit" name="submit" value="Actualizar">
 <input type="submit" name="vaciar" value="Vaciar">
 </form>
+<form>
+<input type="submit" name="pedir" value="Realizar pedido">
+</form>
