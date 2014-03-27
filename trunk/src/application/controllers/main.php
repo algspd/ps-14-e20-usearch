@@ -6,9 +6,12 @@ class Main extends CI_Controller {
    * Controlador principal, el que se carga al Index Page for this controller.
    */
   public function index() {
+    $this->load->library('cart');
     $this->load->helper('url');       
     $this->load->helper('html');       
-    $this->load->view('head');
+    $items = $this->cart->total_items();
+    $data = array('items' => $items);
+    $this->load->view('head',$data);
     $this->load->view('home');
     $this->load->view('foot');
   }
