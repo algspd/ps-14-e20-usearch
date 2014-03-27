@@ -2,7 +2,19 @@
 
 = Estructura de directorios =
 
-
+ * /carpeta_proyecto
+  * database 
+  * latex 
+  * Logos 
+  * propuesta_de_proyecto 
+  * prototipo 
+  * recopilacion_esfuerzos 
+  * reuniones 
+  * vista_web_1
+ * /src
+  * img _- ficheros de imagen de la web_
+  * application _- aplicación web basada en codeigniter_
+  * system _- codeigniter_
 
 = Nombrado de ficheros =
 
