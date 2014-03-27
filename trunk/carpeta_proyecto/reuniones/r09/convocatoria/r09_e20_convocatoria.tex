@@ -64,10 +64,16 @@
 	\vspace{-1em}
 	\hspace{-1em}$\circ$\hspace{0.5em}}
 	{\vspace{-2em}\end{addmargin}}
+\newenvironment{lvlThreeItem}
+		{\begin{addmargin}[5.5em]{1em}
+		\vspace{-1em}
+		\hspace{-1em}\textbf{--}\hspace{0.5em}}
+		{\vspace{-2em}\end{addmargin}}
 
 	
 \newcommand{\itemNvlUno}[1]{\begin{lvlOneItem}{#1}\end{lvlOneItem}\\}
 \newcommand{\itemNvlDos}[1]{\begin{lvlTwoItem}{#1}\end{lvlTwoItem}\\}
+\newcommand{\itemNvlTres}[1]{\begin{lvlThreeItem}{#1}\end{lvlThreeItem}\\}
 \newcommand{\espacioSubtabla}{\\[0.5ex]}
 
 %----------------------------------------------------------------------------------------
@@ -76,8 +82,9 @@
 \usepackage{hyperxmp}
 
 % DATOS A CAMBIAR
-\newcommand{\numeroDeReunion}{03}
-\newcommand{\tituloReunion}{\bf Lanzamiento del proyecto (cont.)}
+\newcommand{\numeroDeReunion}{09}
+\newcommand{\tituloReunion}{\bf Prác\centerlinetica 4 \newline \centerline{Reunión de organización para}
+\newline \centerline{Aseguramiento de la Calidad del proyecto}}
 \newcommand{\nombreDelProyecto}{$\mu$Search}
 
 \hypersetup{
@@ -142,11 +149,11 @@
 \hline % ------------------------------------------------------------------------
 {\bf Proyecto} & $\mu$Search \\
 \hline % ------------------------------------------------------------------------
-{\bf Fecha y hora de reunión} & 26/02/14 - 20:00 \\
+{\bf Fecha y hora de reunión} & 27/03/14 - 12:00 \\
 \hline % ------------------------------------------------------------------------
-{\bf Lugar} & Sala Informática A1, Edif. Ada Byron. EINA. Unizar \\
+{\bf Lugar} & Seminario 21, Edif. Ada Byron. EINA. Unizar \\
 \hline % ------------------------------------------------------------------------
-{\bf Tipo de reunión} & Estándar \\
+{\bf Tipo de reunión} & Práctica \\
 \hline % ------------------------------------------------------------------------
 \end{longtable}
 
@@ -163,15 +170,15 @@
 \hline % ------------------------------------------------------------------------
 {\bf Nº} & {\bf Nombre y Apellidos} & {\bf Cargo} & {\bf Rol} \\
 \hline % ------------------------------------------------------------------------
-{\bf 1} & Alberto Berbel Aznar & Verificación y validación & --  \\
+{\bf 1} & Alberto Berbel Aznar & Verificación y validación & Planificador \\
 \hline % ------------------------------------------------------------------------
-{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & Cronometrador  \\
+{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & Observador  \\
 \hline % ------------------------------------------------------------------------
-{\bf 3} & Héctor Francia Molinero & Gestor de calidad & Observador  \\
+{\bf 3} & Héctor Francia Molinero & Gestor de calidad & Director  \\
 \hline % ----------------------------------------------------
-{\bf 4} & Daniel García Páez & Director del proyecto & Director \\
+{\bf 4} & Daniel García Páez & Director del proyecto & Cronometrador \\
 \hline % ------------------------------------------------------------------------
-{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & Planificador  \\
+{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & --  \\
 \hline % ------------------------------------------------------------------------
 {\bf 6} & Simón Ortego Parra & Gestor de desarrollo & Secretario  \\
 \hline % ------------------------------------------------------------------------
@@ -191,38 +198,44 @@
 \hline % ------------------------------------------------------------------------
 \endfoot
 
-\itemNvlUno{Revisar el prototipo realizado}
-\itemNvlUno{Revisar los logos realizados}
-\itemNvlUno{Revisar nombres de proyectos} \\
+\itemNvlUno{Tener realizado el diagrama de Gantt sobree la planificación del proyecto.}
+\itemNvlUno{El gestor de calidad se ha leído las indicaciones de la práctica para poder guiar a los miembros del equipo durante la misma.}
+\itemNvlUno{El resto de miembros del equipo también se han leído las indicaciones de la práctica.} \\
 
 \hline % ------------------------------------------------------------------------
 \rowcolor{grisCabeceraTabla}
 {\bf Agenda} \\
 \hline % ------------------------------------------------------------------------
 
-\itemNvlUno{[2 min.] - Revisar la agenda de la reunión.}
-\itemNvlUno{[4 min.] - Elección del Nombre de proyecto.}
-\itemNvlUno{[2 min.] - Elección del logo.}
-\itemNvlUno{[2 min.] - Establecer definitivamente los roles de la reunión.}
-\itemNvlUno{[10 min.] - Avance individual de cada miembro.}
- \itemNvlDos{ Daniel}
- \itemNvlDos{ Javier }
- \itemNvlDos{ Alejandro}
- \itemNvlDos{ Alberto}
- \itemNvlDos{ Daniel}
- \itemNvlDos{ Hector}
-
-\itemNvlUno{[10 min.] - Ajustar la agenda semanal.}
-\itemNvlUno{[4 min.] - Revisar documentos a entregar de la R1.}
-\itemNvlUno{[4 min.] - Revisar documentos a entregar de la R2.}
-\itemNvlUno{[5 min.] - Nuevas propuestas o ideas.}
-\itemNvlUno{[15 min.] - Requisitos}
-
-\itemNvlUno{[8 min.] - Organización del trabajo para crear el documento de propuesta de proyecto.}
-\itemNvlDos{ Desglose de tareas a realizar.}
-\itemNvlDos{ Estimación del esfuerzo.}
-\itemNvlDos{ Reparto de tareas entre el equipo.}
-
+\itemNvlUno{[2 min.] - Reparto de roles de la reunión.}
+\itemNvlUno{[2 min.] - Revisión de la agenda.}
+\itemNvlUno{[20 min.] - Completar los aspectos a revisar en la finalización del desarrollo del
+proyecto:}
+\itemNvlDos{Revisar la plantilla de la lista de chequeo de las auditorías, poniendo atención
+en la descripción de los aspectos a auditar en cada fase del proyecto.}
+\itemNvlDos{Dentro del proceso de gestión de proyectos en el contexto de la finalización
+del desarrollo del proyecto (filas 61 a las 67), proponer al menos 4 aspectos a
+considerar para que sean auditados.}
+\itemNvlTres{Completar la plantilla con sus descripciones.}
+\itemNvlUno{[70 min.] - Completar en la plantilla para las auditorías el campo de ayuda para
+cada uno de los aspectos a auditar.}
+\itemNvlDos{Revisar la columna de ayuda en los ejemplos que se dan en la sección de
+indicaciones para ver como plantear el trabajo.}
+\itemNvlDos{Rellenar entre todo el equipo la columna de ayuda de la plantilla en los
+aspectos de la fase de propuesta de proyecto.}
+\itemNvlTres{El objetivo es establecer un patrón común al equipo para rellenar el resto
+de secciones.}
+\itemNvlDos{Rellenar la columna de ayuda de la plantilla en el resto de aspectos.}
+\itemNvlTres{Puede ser más práctico repartirse el trabajo para realizarlo de forma
+individual (o en equipos de dos).}
+\itemNvlUno{[15 min.] - Planificación de las auditorías:}
+\itemNvlDos{Establecer una planificación de auditorías en función del desarrollo del proyecto
+según las indicaciones dadas en la sección correspondiente.}
+\itemNvlTres{Concretar fechas tentativas e incluir la información en el el diagrama
+Gannt del proyecto del equipo.}
+\itemNvlDos{Ponerse de acuerdo con el auditor externo2 para la auditoría del propio proceso
+de calidad (SUP1)}
+\itemNvlUno{[3 min.] - Debriefing.}
 
 \end{longtable}
 

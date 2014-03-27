@@ -63,10 +63,16 @@
 	\vspace{-1em}
 	\hspace{-1em}$\circ$\hspace{0.5em}}
 	{\vspace{-2em}\end{addmargin}}
+\newenvironment{lvlThreeItem}
+		{\begin{addmargin}[5.5em]{1em}
+		\vspace{-1em}
+		\hspace{-1em}\textbf{--}\hspace{0.5em}}
+		{\vspace{-2em}\end{addmargin}}
 
-
+	
 \newcommand{\itemNvlUno}[1]{\begin{lvlOneItem}{#1}\end{lvlOneItem}\\}
 \newcommand{\itemNvlDos}[1]{\begin{lvlTwoItem}{#1}\end{lvlTwoItem}\\}
+\newcommand{\itemNvlTres}[1]{\begin{lvlThreeItem}{#1}\end{lvlThreeItem}\\}
 \newcommand{\espacioSubtabla}{\\[0.5ex]}
 
 %----------------------------------------------------------------------------------------
@@ -75,8 +81,9 @@
 \usepackage{hyperxmp}
 
 % DATOS A CAMBIAR
-\newcommand{\numeroDeReunion}{03}
-\newcommand{\tituloReunion}{\bf Lanzamiento del proyecto (cont.)}
+\newcommand{\numeroDeReunion}{09}
+\newcommand{\tituloReunion}{\bf Práctica 4 \newline \centerline{Reunión de organización para}
+\newline \centerline{Aseguramiento de la Calidad del proyecto}}
 \newcommand{\nombreDelProyecto}{$\mu$Search}
 
 \hypersetup{
@@ -162,16 +169,16 @@
 \hline % ------------------------------------------------------------------------
 {\bf Nº} & {\bf Nombre y Apellidos} & {\bf Cargo} & {\bf Rol} \\
 \hline % ------------------------------------------------------------------------
-{\bf 1} & Alberto Berbel Aznar & Verificación y validación & --  \\
-%\hline % ------------------------------------------------------------------------
-%{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & --  \\
+{\bf 1} & Alberto Berbel Aznar & Verificación y validación & Planificador \\
 \hline % ------------------------------------------------------------------------
-{\bf 3} & Héctor Francia Molinero & Gestor de calidad & --  \\
+{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & Observador \\
+\hline % ------------------------------------------------------------------------
+{\bf 3} & Héctor Francia Molinero & Gestor de calidad & Director \\
 \hline % ----------------------------------------------------
-{\bf 4} & Daniel García Páez & Director del proyecto & -- \\
+{\bf 4} & Daniel García Páez & Director del proyecto & Cronometrador \\
 \hline % ------------------------------------------------------------------------
-{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & --  \\
-\hline % ------------------------------------------------------------------------
+%{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & --  \\
+%\hline % ------------------------------------------------------------------------
 {\bf 6} & Simón Ortego Parra & Gestor de desarrollo & Secretario  \\
 \hline % ------------------------------------------------------------------------
 \end{longtable}
@@ -190,13 +197,13 @@
 %\hline % ------------------------------------------------------------------------
 %{\bf 1} & Alberto Berbel Aznar & Verificación y validación \\
 %\hline % ------------------------------------------------------------------------
-{\bf 1} & Javier Briz Alastrué & Gestor de configuraciones \\
+%{\bf 1} & Javier Briz Alastrué & Gestor de configuraciones \\
 %\hline % ----------------------------------------------------
 %{\bf 2} & Héctor Francia Molinero & Gestor de calidad \\
 %\hline % ------------------------------------------------------------------------
 %{\bf 2} & Daniel García Páez & Director del proyecto \\
 %\hline % ------------------------------------------------------------------------
-%{\bf 3} & Alejandro Gracia Mateo & Gestor de planificación \\
+{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación \\
 %\hline % ------------------------------------------------------------------------
 %{\bf 4} & Simón Ortego Parra & Gestor de desarrollo \\
 \hline % ------------------------------------------------------------------------
@@ -207,8 +214,7 @@
 % CUARTA TABLA - OBJETIVOS, CUERPO DE LA REUNIÓN, DECISIONES TOMADAS, ...
 \begin{longtable}{ | C{\dimexpr\linewidth-2\tabcolsep} | }
 \hline % ------------------------------------------------------------------------
-\rowcolor{grisCabeceraTabla}
-{\bf Cuerpo de la reunión} \\
+\rowcolor{grisCabeceraTabla}\textbf{Objetivo de la reunión} \\
 \hline % ------------------------------------------------------------------------
 \endfirsthead
 \hline % ------------------------------------------------------------------------
@@ -218,84 +224,49 @@
 \endfoot
 \hline % ------------------------------------------------------------------------
 \endlastfoot
+
+\itemNvlUno{Reunión de todo el equipo para completar las infraestructuras para las auditorías y planificar su realización. (El propósito NO es realizar una auditoría de calidad).} \\
+
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}\textbf{Cuerpo de la reunión} \\
+\hline % ------------------------------------------------------------------------
+
 \itemNvlUno{Cada uno de los asistentes se presentó a la hora.}
-
-
-- Q: En el reparto de tareas, ¿hay alguno que piensa que
-  ha trabajado más? o, ¿alguna estimación de las tareas ha sido
-  mal calculada?
-- A: Sí, vamos bien. En principio. Se ha fijado la fecha de entrega
-  de la primera iteración.
-
-  Falta de realizar la estimación de las pruebas. Tener en cuenta
-  en la segunda iteración también que :
-   1. Hay menos tiempo (exámenes,etc.)
-   2. Hay que volver ha realizar las pruebas realizadas durante la 
-   primera iteración.
-
-   Auditoría: Hay que negociar las horas. 
-   Para la auditoría externa además planificar con el otro equipo.
-   Calcular los costes de ambas auditorías (en horas y calendario).
-   La auditoría interna al menos una, pero se pueden hacer más.
-
-   Pruebas:
-   Se realizan en base a los requisitos. Para ello desarrollar
-   una plantilla:
-	- Requisito que se está probando
-	- Resultados esperados
-	- Resultados obtenidos
-	- Quién ha realizado la prueba.
-
-	Una vez ha sido realizada la plantilla, el resto de pruebas
-	se realizan más rápidamente. Por otro lado, que no realice
-	las pruebas la misma person que codifica esa parte del código.
-
-	Acordar cuando realizar la siguiente reunión. Mandar propuestas
-	de fechas por email.
-
-	En principio: Viernes 25 de Abril a las 12:00 (salvo que no pueda
-	alguno de los miembros).
-	 
-	Acabada la reunión a las 10:30.
-\itemNvlUno{El profesor asistente realizó una serie de preguntas
-a los integrantes del equipo}\\
-\itemNvlUno{En primer lugar, preguntó sobre el número de horas que
-habían sido dedicadas al proyecto y si se había realizado una estimación
-del porcentaje del proyecto que se llevaba desarrollado. La respuesta
-del equipo fue que no se había realizado dicha estimación, pero que
-aparecía en las hojas de esfuerzos individuales el número de horas
-dedicadas. El profesor también aconsejo que se realizase esta
-estimación no todas las semanas, pero sí siempre antes de una
-reunión de éste carácter.}\\
-\itemNvlUno{La segunda pregunta que planteó fue si había ocurrido
-o se estaban tratando con alguna dificultad en el desarrollo. El equipo
-respondió negativamente, y así se finalizó una parte importante de la
-reunión que estaba planteada para resolver cualquier problema que 
-pudiera haber ocurrido.}\\
-
-\itemNvlUno{Los miembros del equipo le plantearon la fecha de entrega
-de la primera iteración del proyecto, a lo que el profesor añadió que
-era importante no olvidar realizar una estimación apropiada de las pruebas
-y fijarlas en el calendario, teniendo en cuenta también que en la segunda
-iteración solía ocurrir que había menos tiempo semanalmente para la 
-dedicación al proyecto. A continuación, el profesor aconsejó realizar
-una plantilla (estándar) para la realización de las pruebas y que era
-un buen consejo que no realizara las pruebas la misma persona que 
-había realizado la parte del código pertinente.}\\
-
-\itemNvlUno{Como último aspecto importante el profesor recordó
-que había que realizar las auditorías (una externa, realizada
-por otro grupo, además de otra interna, como mínimo) y realizar
-la planificación y el ajuste del calendario en base a éstas.}\\
-
-\itemNvlUno{Por último se planteó una fecha para la siguiente reunión,
-que podría cambiar si le venía mal a alguno de los convocados.}\\
+\itemNvlUno{[2min.] - Debido a la ausencia del Planificador del grupo, se realizó un pequeño ajuste sobre la marcha en los roles de la reunión.}
+\itemNvlUno{[6min.] - Se revisó la agenda individualmente antes de comenzar a abordar los diferentes puntos de la misma.}
+\itemNvlUno{[20min.] - Realización de la primera tarea:}
+\itemNvlDos{Completar los aspectos a revisar en la finalización del desarrollo del proyecto dentro de la plantilla para la realización de las auditorías.}
+\itemNvlUno{[35min.] - Realización de la segunda tarea:}
+\itemNvlDos{Completar en la plantilla para las auditorías el campo de ayuda para cada uno de los aspectos a auditar.}
+\itemNvlDos{A medida que se iban repasando cada uno de los puntos de la plantilla para auditorías, se iban apuntando todos aquellos que considerabamos no cumplimentabamos en el desarrolll de nuestro proyecto, con la intención de mejorar nuestra gestión cara a las auditorias internas y externas que se realizarán más adelante.}
+\itemNvlUno{[10min.] - Una vez terminada la plantilla para las auditorías, se precedió a establecer una fecha tentativa para la realización de una auditoría interna.}
+\itemNvlUno{[2min.] - Debiefring y fin de la reunión.}\\
 
 \hline % ------------------------------------------------------------------------
-\rowcolor{grisCabeceraTabla}
-{\bf Próxima reunión prevista} \\
+\rowcolor{grisCabeceraTabla}\textbf{Decisiones tomadas} \\
 \hline % ------------------------------------------------------------------------
-Viernes 25 de Abril del 2014 a las 12:00 \\  \\
+\itemNvlUno{Se completan los aspectos a revisar en la auditoría en el apartado de finalización del desarrollo del proyecto:}
+\itemNvlDos{''Se han cumplido todos los requisitos establecidos.''}
+\itemNvlDos{''Se han realizado las pruebas pertinentes para probar la funcionalidad del proyecto.''}
+\itemNvlDos{''Se ha completado la documentación y manuales de usuario.''}
+\itemNvlDos{''No se ha sobrepasado el plazo estimado de entrega.''}
+\itemNvlUno{Se fija el día Miércoles 30 de Abril como fecha para realizar la auditoría interna.}
+\\
+% ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}\textbf{Temas pendientes} \\
+\hline % ------------------------------------------------------------------------
+
+\itemNvlUno{Queda pendiente el añadir, o al menos considerar seriamente añadir, a nuestro proyecto los siguientes aspectos que luego serán auditados y que consideramos no cumplimentamos correctamente:}
+\itemNvlDos{Establecer un catálogo de posibles riesgos.}
+\itemNvlDos{Disponer de un repositorio de lecciones aprendidas.}
+\itemNvlDos{Disponer de una gráfica de trabajo pendiente.}
+\itemNvlDos{Llevar una contabilidad de los errores encontrados en los tests de unidades.}
+\itemNvlDos{Llevar una gestión más exhaustiva de los elementos de configuración del proyecto.}\\
+	
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}\textbf{Próxima reunión (práctica) prevista} \\
+\hline % ------------------------------------------------------------------------
+Jueves 15 de Mayo del 2014 a las 12:00 \\
 \end{longtable}
 
 
