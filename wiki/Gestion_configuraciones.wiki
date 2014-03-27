@@ -22,3 +22,11 @@ El nombrado de ficheros debe realizarse en minúsculas, sin espacios, pudiendo u
 El nombre de cada fichero debe finalizar con una extensión separada del nombre del fichero por un punto, siendo la extensión en minúsculas y apropiada al contnido del fichero (php, png,html, txt, pdf...)
 
 = Guía de codificación =
+
+Longitud máxima de línea recomendada, 80 carácteres
+Métodos/funciones de un máximo recomendado de 30 líneas
+Nombres de clase en mayúscula
+Nombres de métodos/funciones en minúscula
+Tabulado con dos espacios
+Codificación UTF-8 en todos los ficheros de texto plano
+Es importante respetar el indentado en el código fuente php/html "crudo" pero no se tratará de que el código esté correctamente indentado tras pasar por el intérprete php.
