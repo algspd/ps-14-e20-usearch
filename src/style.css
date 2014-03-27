@@ -1,10 +1,266 @@
-body {
-  background-color: #fff;
-  margin: 40px;
-  font: 13px/20px normal Helvetica, Arial, sans-serif;
-  color: #4F5155;
+/*--------------------------------------------------------- */
+/* Estilos generales*/
+/*--------------------------------------------------------- */
+body{
+	width:1365px;
 }
 
-td{
-  border:1px solid black;
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
+
+label{
+	font-weight: bold;
+	margin-left: 30px;
+}
+legend{
+	font-size: large;
+}
+
+
+/*----------------------------------------------- */
+/* Cabecera principal de la pagina */
+/*----------------------------------------------- */
+.cabecera{
+	position:absolute;
+	width: 1365px;
+	height: 100px;
+	position:absolute;
+	left: 0px;
+	top:0px;
+	background-color:#C0C0C0;
+	border:2px solid black;
+}
+/* Logos de la cabecera */
+.logos{
+	position: absolute;
+	left: 320px;
+}
+#logoWeb{
+	width: 120px;
+	height: 80px;
+	margin-top: 10px;
+	border: 1px solid black;
+}
+#logoEmpresa{
+	position: absolute;
+	left: 420px;
+	top: 10px;
+	width: 300px;
+	height: 80px;
+}
+
+
+/*--------------------------------------------------------- */
+/* Subcabecera con los elementos correspondientes */
+/*--------------------------------------------------------- */
+.subcabecera{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width:1365px;
+	height: 100px;
+	border-bottom: 2px solid black;
+}
+#logoAddProduct{
+	position: absolute;
+	left: 100px;
+	top: 25px;
+	width: 60px;
+	height: 60px;
+}
+#addProduct{
+	position: absolute;
+	left: 165px;
+	top: 40px;
+	font-weight: bold;
+	font-size: x-large;
+	vertical-align: 25px;
+}
+#selectPropiedades{
+	position: absolute;
+	left: 500px;
+	top: 40px;
+	vertical-align: 25px;
+	width: 150px;
+	height: 30px;
+}
+#textoBusq{
+	position: absolute;
+	left: 660px;
+	top: 40px;
+	vertical-align: 25px;
+	height: 30px;
+}
+#logoBusqueda{
+	position: absolute;
+	left: 820px;
+	top: 30px;
+	margin-bottom: 5px;
+	margin-left: -5px;
+	width: 50px;
+	height: 50px;
+}
+#botonListado{
+        display:block;
+	position: absolute;
+	left: 1050px;
+	top: 35px;
+	vertical-align: center;
+        text-align:center;
+        background-color:#DDD;
+        text-decoration:none;
+        color:black;
+        line-height:40px;
+	width: 200px;
+	height: 40px;
+	border: 1px solid red;
+	border-radius:20px;
+	font-weight: bold;
+	font-size: 1.01em;
+}
+#logoCarrito{
+	width: 50px;
+	height: 50px;
+}
+#itemsCarrito{
+	position: absolute;
+	left: 165px;
+	top: 40px;
+	font-weight: bold;
+	font-size: x-large;
+	vertical-align: 25px;
+}
+
+
+/*--------------------------------------------------------- */
+/* Sección principal pagina Admin_Home*/
+/*--------------------------------------------------------- */
+#canvasTitulo{
+	position: absolute;
+	top: 250px;
+	left: 182px; 
+	border: 3px solid black;
+}
+
+#descripcion{
+	position: absolute;
+	top: 350px;
+	left: 182px; 
+	border: 2px solid black;
+	padding: 10px;
+        width:975px;
+        height:200px;
+	resize: none;
+}
+
+/*---------------------------------------------------------*/
+/* Tabla de busquedas y listado  */
+/*---------------------------------------------------------*/
+/*Propiedades generales de la tabla */
+table{
+	position: absolute;
+	left: 100px;
+	top: 280px;
+	width: 1200px;
+	border-collapse: collapse;
+	background-color:#FFFF;
+	border-collapse: collapse;
+	border: none;
+}
+/* Primera fila */
+.first_row{
+	background-color: C0C0C0;
+	position: relative;
+	height: 30px;
+}
+.first_row td{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	color: #333333;
+}
+/* Siguientes filas de la tabla */
+.all_row{
+	position: relative;
+	height: 70px;
+}
+/* Primera columna */
+#firstCol{
+	background-color: white;
+	border: none;
+}
+/* Logo añadir a carrito */
+#logoTabla{
+	width: 50px;
+	height: 50px;
+}
+
+
+/*--------------------------------------------------------- */
+/* Formularios */
+/*--------------------------------------------------------- */
+#addModForm{
+	position: absolute;
+	top:350px;
+	left: 432px;
+	width: 500px;
+}
+.campoForm{
+	margin: .8em 0;
+}
+#buttonsForm{
+	margin-left: 200px;
+}
+.buttonForm{
+	font-weight:bold;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+/*--------------------------------------------------------- */
+/* Pagina del carrito */
+/*--------------------------------------------------------- */
+
+/* Fila de totales */
+#lastRow1{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:50;
+}
+
+/* Fila de botones */
+#lastRow2{
+	position:relative;
+	top: 10px;
+	background-color: white;
+	border:white;
+	height:80;
+}
+
+.precio{
+	text-align: right;
+}
+
+.unidades{
+	text-align: center;
+}
+
+#carrito{
+  display:block;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  text-decoration:none;
+}
+
+#carrito img{
+  vertical-align:middle;
+}
+
+.right {
+  text-align:right;
 }
