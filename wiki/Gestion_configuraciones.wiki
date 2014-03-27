@@ -23,10 +23,10 @@ El nombre de cada fichero debe finalizar con una extensión separada del nombre 
 
 = Guía de codificación =
 
-Longitud máxima de línea recomendada, 80 carácteres
-Métodos/funciones de un máximo recomendado de 30 líneas
-Nombres de clase en mayúscula
-Nombres de métodos/funciones en minúscula
-Tabulado con dos espacios
-Codificación UTF-8 en todos los ficheros de texto plano
-Es importante respetar el indentado en el código fuente php/html "crudo" pero no se tratará de que el código esté correctamente indentado tras pasar por el intérprete php.
+ * Longitud máxima de línea recomendada, 80 carácteres
+ * Métodos/funciones de un máximo recomendado de 30 líneas
+ * Nombres de clase en mayúscula
+ * Nombres de métodos/funciones en minúscula
+ * Tabulado con dos espacios
+ * Codificación UTF-8 en todos los ficheros de texto plano
+ * Es importante respetar el indentado en el código fuente php/html "crudo" pero no se tratará de que el código esté correctamente indentado tras pasar por el intérprete php.
