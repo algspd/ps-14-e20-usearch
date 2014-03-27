@@ -1,21 +1,4 @@
-﻿			<!-- Sección de carrito -->
-			<a id="carrito" href="<?php echo base_url() . "index.php/carrito"; ?>">
-                          <img src="<?php echo base_url() . "/img/carrito.jpg"; ?>" alt="Carrito" id="logoCarrito" title="Carrito de compra">
-			  <?php echo $items; ?> items</a>
-                        </a>
-			
-			<!-- Sección de búsqueda -->
-			<select id="selectPropiedades">
-				<option value="arquitectura">Arquitectura</option>
-				<option value="frecuencia">Frecuencia(MHz)</option>
-				<option value="flash">Flash(KB)</option>
-				<option value="ram">RAM(KB)</option>
-			</select>
-			<input type="text" id="textoBusq" placeholder="Búsqueda...">
-		<input type="image" src="<?php echo base_url() . "/img/buscar.png"; ?>" alt="Buscar productos" id="logoBusqueda">
-			<!-- Sección de listado completo -->
-			<a href="<?php echo base_url() . "index.php/listar_todo" ?>" id="botonListado">LISTADO COMPLETO</a>
-		</div>
+﻿		</div>
 		<div id="titulo">
 			<canvas id="canvasTitulo" width="1000" height="60"></canvas>
 			<script>
