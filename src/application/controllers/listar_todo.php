@@ -11,10 +11,9 @@ class Listar_todo extends CI_Controller {
     $resultado=$this->microsmodel->listar_todo();
 
     $data = array('resultado'=> $resultado);
+    $this->load->view('head');
     $this->load->view('listar_todo',$data);
-
+    $this->load->view('foot');
   }
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

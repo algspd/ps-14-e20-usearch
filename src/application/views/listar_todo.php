@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <?php
-    echo link_tag(base_url() . $this->config->item('css'));
-    echo "\n";
-  ?>
-  <meta charset="utf-8">
-  <title>Test view</title>
-</head>
-<body>
+                        <!-- Sección de carrito -->
+                        <a href="user_carrito.html"><img src="<?php echo base_url() . "/img/carrito.jpg"; ?>" alt="Carrito" id="logoCarrito" title="Carrito de compra"></a>
+                        <a href="user_carrito.html" id="itemsCarrito">0 items</a>
+
+                        <!-- Sección de búsqueda -->
+                        <select id="selectPropiedades">
+                                <option value="arquitectura">Arquitectura</option>
+                                <option value="frecuencia">Frecuencia(MHz)</option>
+                                <option value="flash">Flash(KB)</option>
+                                <option value="ram">RAM(KB)</option>
+                        </select>
+                        <!-- FIXME: FORM -->
+                        <input type="text" id="textoBusq" placeholder="Búsqueda...">
+                        <input type="image" src="<?php echo base_url() . "/img/buscar.png"; ?>" alt="Buscar productos" id="logoBusqueda" name="Buscar">
+                </div>
+<div>
+
 <table>
   <tr>
     <th>Referencia</th>
@@ -49,5 +55,3 @@
 ?>
 </table>
 
-</body>
-</html>
