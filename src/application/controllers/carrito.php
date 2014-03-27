@@ -9,6 +9,17 @@ class Carrito extends CI_Controller {
     $this->load->helper('form');
     $this->load->model('microsmodel','',TRUE);
 
+    if ( isset($_POST['pedir'])){
+      $carro=$this->cart->contents();
+      $items = $this->cart->total_items();
+      $data = array('carro' => $carro,'items' => $items);
+      $this->load->view('head',$data);
+      $this->load->view('hoja_pedido',$data);
+      $this->load->view('foot');
+      $this->cart->destroy();
+      return;
+    }
+
     if ( isset($_POST['vaciar'])){
       $this->cart->destroy();
     }
@@ -23,7 +34,6 @@ class Carrito extends CI_Controller {
         $i++;
       }
     }
-
     $carro=$this->cart->contents();
     $items = $this->cart->total_items();
     $data = array('carro' => $carro,'items' => $items);
@@ -32,4 +42,3 @@ class Carrito extends CI_Controller {
     $this->load->view('foot');
   }
 }
-

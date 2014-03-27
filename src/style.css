@@ -271,3 +271,9 @@ table{
 .right {
   text-align:right;
 }
+
+#botones_carro{
+  position:absolute;
+  top:500px;
+  right:150px;
+}
