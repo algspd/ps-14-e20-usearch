@@ -1,0 +1,49 @@
+NOTAS DE LA REUNIÓN 27/03/14 @ 10:00
+================================================================   
+
+- Q: Horas dedicadas al proyecto ?
+- A: No lo sabemos. Aparece en las hojas de esfuerzos.
+
+- Q: ¿Qué porcentaje del proyecto (en horas)
+  llevais desarrollado? 
+  No plantearlo todas las semanas pero si antes de cada reunión.
+
+- Q: ¿Algunas dificultades en el desarrollo?
+- A: En principio no, solamente nos falta integrar PHP con la vista Web.
+
+- Q: En el reparto de tareas, ¿hay alguno que piensa que
+  ha trabajado más? o, ¿alguna estimación de las tareas ha sido
+  mal calculada?
+- A: Sí, vamos bien. En principio. Se ha fijado la fecha de entrega
+  de la primera iteración.
+
+  Falta de realizar la estimación de las pruebas. Tener en cuenta
+  en la segunda iteración también que :
+   1. Hay menos tiempo (exámenes,etc.)
+   2. Hay que volver ha realizar las pruebas realizadas durante la 
+   primera iteración.
+
+   Auditoría: Hay que negociar las horas. 
+   Para la auditoría externa además planificar con el otro equipo.
+   Calcular los costes de ambas auditorías (en horas y calendario).
+   La auditoría interna al menos una, pero se pueden hacer más.
+
+   Pruebas:
+   Se realizan en base a los requisitos. Para ello desarrollar
+   una plantilla:
+	- Requisito que se está probando
+	- Resultados esperados
+	- Resultados obtenidos
+	- Quién ha realizado la prueba.
+
+	Una vez ha sido realizada la plantilla, el resto de pruebas
+	se realizan más rápidamente. Por otro lado, que no realice
+	las pruebas la misma person que codifica esa parte del código.
+
+	Acordar cuando realizar la siguiente reunión. Mandar propuestas
+	de fechas por email.
+
+	En principio: Viernes 25 de Abril a las 12:00 (salvo que no pueda
+	alguno de los miembros).
+	 
+	Acabada la reunión a las 10:30.
