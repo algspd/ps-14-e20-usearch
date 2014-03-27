@@ -3,9 +3,12 @@
 class Test extends CI_Controller {
 
   public function index() {
+    $this->load->helper('url');
+    $this->load->helper('html');
     $this->load->model('microsmodel','',TRUE);
+    $this->load->view('head');
     $this->load->view('test');
-    echo $this->microsmodel->insertar('a1234','arc1234','100Mhz','1MB','1kb');
+    $this->load->view('foot');
 
     //$fila=$this->microsmodel->listar_uno('a12345');
     //echo ($fila->ref . "," . $fila->arch . "," . $fila->freq . "," . $fila->flash . "," . $fila->ram);

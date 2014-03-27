@@ -1,6 +1,3 @@
-<?php
-  include 'header.php';
-?>
 			<!-- Sección de búsqueda -->
 			<select id="selectPropiedades">
 				<option value="arquitectura">Arquitectura</option>
@@ -9,8 +6,8 @@
 				<option value="ram">RAM(KB)</option>
 			</select>
 			<input type="text" id="textoBusq" placeholder="Búsqueda...">
-			<a href="admin_busqueda.html"><input type="image" img src="buscar.png" alt="Buscar productos" id="logoBusqueda"></a>
-			
+			<a href="admin_busqueda.html"><input type="image" src="<?php echo base_url() . "/img/buscar.png"; ?>" alt="Buscar productos" id="logoBusqueda"></a>
+
 			<!-- Sección de listado completo -->
 			<a href="admin_listado.html"><button type="submit" value="LISTADO COMPLETO" id="botonListado">LISTADO COMPLETO</button></a>
 		</div>
@@ -59,12 +56,8 @@
 			<div class="campoForm">
 				<div id="buttonsForm">
 					<input type="reset" value="RESET" name="Resetear valores" class="buttonForm">
-					<input type="submit" value="AÑADIR PRODUCTO" name="Add product" class="buttonForm"><br>
+					<input type="submit" value="A&Ntilde;ADIR PRODUCTO" name="Add product" class="buttonForm"><br>
 				</div>
 			</div>
 		</form>
 		</fieldset>
-
-<?php
-  include 'footer.php';
-?>

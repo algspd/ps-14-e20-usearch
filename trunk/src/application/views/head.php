@@ -12,8 +12,8 @@
     <!-- Cabecera página web con logos -->
     <div class="cabecera">
       <div class="logos">
-        <a href="admin_home.html"><img src="logoWeb.png" alt="Logo Web" id="logoWeb"></a>
-        <a href="admin_home.html"><img src="logoEmpresa.jpg" alt="Logo Empresa" id="logoEmpresa"></a>
+        <a href="admin_home.html"><img src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web" id="logoWeb"></a>
+        <a href="admin_home.html"><img src="<?php echo base_url() . "/img/logoEmpresa.jpg"; ?>" alt="Logo Empresa" id="logoEmpresa"></a>
       </div>          
     </div>
     <!-- Sub-cabecera -->
