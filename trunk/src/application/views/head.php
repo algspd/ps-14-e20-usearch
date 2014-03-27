@@ -28,3 +28,4 @@
       <img src="<?php echo base_url() . "/img/carrito.jpg"; ?>" alt="Carrito" id="logoCarrito" title="Carrito de compra">
       <?php echo $items; ?> items</a> 
     </a>
+    <a href="<?php echo base_url() . "index.php/listar_todo" ?>" id="botonListado">LISTADO COMPLETO</a>
