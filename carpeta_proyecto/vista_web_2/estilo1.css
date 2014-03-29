@@ -6,21 +6,6 @@
 
 */
 
-/*-------------------------------------------------------*/
-/*----------------- FONTS -------------------------------*/
-/*-------------------------------------------------------*/
-
-@font-face {
-    font-family: 'LogoFont';
-    src: url('../fonts/Banksia/banksb20-webfont.eot');
-    src: url('../fonts/Banksia/banksb20-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Banksia/banksb20-webfont.woff') format('woff'),
-         url('../fonts/Banksia/banksb20-webfont.ttf') format('truetype'),
-         url('../fonts/Banksia/banksb20-webfont.svg#banksia_bold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 /*--------------------------------------------------------- */
 /* Estilos generales*/
@@ -56,18 +41,17 @@ legend{
 	border-radius: 5px;
 	width: 80%;
 	min-width: 740px;
-	max-width: 1000px;
+	max-width: 900px;
 	height: 100px;
 	margin:0;
 	padding: 0;
-	padding-left: 2%;
-	padding-right: 2%;
 	margin-left: 10%;
 	background-color: /* greenishBlue  */ #5A8FA8;
 	border:2px solid #666;
 }
 
 #logoWeb{
+    margin-left: 2%;
     height: 80px;
     width: 120px;
     float: left;
@@ -88,6 +72,7 @@ legend{
 }
 
 #logoEmpresa{
+    margin-right: 2%;
     height: 80px;
     float: right;
     margin-left: 5%;
