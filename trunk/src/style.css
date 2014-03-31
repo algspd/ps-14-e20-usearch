@@ -1,13 +1,51 @@
-/*--------------------------------------------------------- */
-/* Estilos generales*/
-/*--------------------------------------------------------- */
+/*------------------------------------------------------*
+ *-------------- COLOR REFERENCE CHART -----------------*
+ *--- used in ------------ comment -------- colour -----* 
+
+   Theme main color      greenishBlue      #5A8FA8
+   Border color          darkGray_1        #888
+   Header color          darkGray_2        #555
+*/
+
+
+/*------------------------------------------------------*
+ *---------------------- FONTS -------------------------*
+ *------------------------------------------------------*/
+
+@font-face {
+    font-family: 'pt_sans';
+    src: url('fonts/PT_Sans/PT_Sans.eot');
+    src: url('fonts/PT_Sans/PT_Sans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans/PT_Sans.woff') format('woff'),
+         url('fonts/PT_Sans/PT_Sans.ttf') format('truetype'),
+         url('fonts/PT_Sans/PT_Sans.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*------------------------------------------------------*
+ *---------------- SITE PROPERTIES ---------------------*
+ *------------------------------------------------------*/
 body{
-	width:1365px;
+	height: 100%;
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 a, button, input[type="submit"] {
     cursor: pointer;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 
 label{
 	font-weight: bold;
@@ -18,50 +56,64 @@ legend{
 }
 
 
-/*----------------------------------------------- */
-/* Cabecera principal de la pagina */
-/*----------------------------------------------- */
-.cabecera{
-	position:absolute;
-	width: 1365px;
-	height: 100px;
-	position:absolute;
-	left: 0px;
-	top:0px;
-	background-color:#C0C0C0;
-	border:2px solid black;
-}
-/* Logos de la cabecera */
-.logos{
-	position: absolute;
-	left: 320px;
-}
-#logoWeb{
-	width: 120px;
-	height: 80px;
-	margin-top: 10px;
-	border: 1px solid black;
-}
-#logoEmpresa{
-	position: absolute;
-	left: 420px;
-	top: 10px;
-	width: 300px;
-	height: 80px;
+/*------------------------------------------------------*
+ *-- Cabecera principal de la página                  --*
+ *------------------------------------------------------*/
+#cabecera{
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    min-width: 300px;
+	height: 100px;	
+	background-color: /* greenishBlue  */ #5A8FA8;
+	border:2px solid /* darkGray_1  */ #888;
 }
 
+#logoWeb {
+    margin-left: 1%;
+    height: 90px;
+    width: 120px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
-/*--------------------------------------------------------- */
-/* Subcabecera con los elementos correspondientes */
-/*--------------------------------------------------------- */
-.subcabecera{
-	position: absolute;
-	left: 0px;
-	top: 100px;
-	width:1365px;
-	height: 100px;
+#logoWeb img{ 
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 100%;
+}
+
+#tituloWeb{
+    font-family: 'pt_sans';
+    font-size: 5em;
+    height: 80px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.1em;
+    margin-bottom: 10px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*------------------------------------------------------*
+ *-- Subcabecera con los elementos correspondientes   --*
+ *------------------------------------------------------*/
+ 
+#subcabecera{
+    margin-top: 0.2em;
+	width: 100%;
+	height: 60px;
 	border-bottom: 2px solid black;
 }
+
+
 #logoAddProduct{
 	position: absolute;
 	left: 100px;
@@ -92,6 +144,7 @@ legend{
 	vertical-align: 25px;
 	height: 30px;
 }
+
 #logoBusqueda{
 	position: absolute;
 	left: 820px;
@@ -101,6 +154,7 @@ legend{
 	width: 50px;
 	height: 50px;
 }
+
 #botonListado{
         display:block;
 	position: absolute;
@@ -119,19 +173,41 @@ legend{
 	font-weight: bold;
 	font-size: 1.01em;
 }
-#logoCarrito{
-	width: 50px;
-	height: 50px;
-}
-#itemsCarrito{
-	position: absolute;
-	left: 165px;
-	top: 40px;
-	font-weight: bold;
-	font-size: x-large;
-	vertical-align: 25px;
+
+/* Item de la subcabecera 'carrito' */
+#carritoWrapper  {
+    display: inline-block;
+    margin-left: 1%;
+    height: 100%;
+    line-height: 60px;
+    min-width: 120px;
+    float: left;
 }
 
+#carrito {
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#carrito img {
+    vertical-align: middle;
+    width: 100%;
+    max-height: 100%;
+}
+
+#itemsCarrito{
+    vertical-align: middle;
+    font-size: 1.5em;
+    color: /* darkGray_2  */ #555;
+    float: right;
+    margin-left: 5%;
+     -webkit-align-self: center;
+    align-self: center;
+    text-align: left;
+}
+/* ------------------------- */
 
 /*--------------------------------------------------------- */
 /* Sección principal pagina Admin_Home*/
