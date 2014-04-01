@@ -16,11 +16,9 @@
         <div id="tituloWeb">
             &#181;Search
         </div>
-        <!--
         <div id="subtituloWeb">
             BUSCA. ENCUENTRA. COMPRA MICROS.
         </div>	
-        -->
 		</a>
 	</div> 
 	 
