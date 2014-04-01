@@ -12,28 +12,32 @@
     <!-- Cabecera página web con logos -->
 	<div id="cabecera">
 	    <a href="<?php echo base_url(); ?>">
-        <div id="logoWeb">
-            <img src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web">
-        </div>
+        <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web">
         <div id="tituloWeb">
             &#181;Search
+        </div>
+        <!--
+        <div id="subtituloWeb">
+            BUSCA. ENCUENTRA. COMPRA MICROS.
         </div>	
+        -->
 		</a>
 	</div> 
-	    
-    <!-- Sub-cabecera -->
-    <div id="subcabecera">
-
-        <!-- Sección de carrito -->
-        <div id="carritoWrapper" >
-            <a href="<?php echo base_url() . "index.php/carrito"; ?>">
-                <div id="carrito" >
-                    <img src="<?php echo base_url() . "/img/carrito.png"; ?>" alt="Carrito" 
-                        title="Carrito de compra">
-            	</div>
-            	<div id="itemsCarrito">
-            	    <?php echo $items; ?> items
-            	</div>
-            </a>
-        </div>
-        <a href="<?php echo base_url() . "index.php/listar_todo" ?>" id="botonListado">LISTADO COMPLETO</a>
+	 
+    <div id="contenido">
+        <!-- Sub-cabecera -->
+        <div id="menu_navegacion">
+            
+            <ul class="nav">
+                <!-- Sección de carrito -->
+                <li id="carritoWrapper" >
+                    <a href="<?php echo base_url() . "index.php/carrito"; ?>">
+                        <img id="carrito" src="<?php echo base_url() . "/img/carrito.png"; ?>" 
+                            alt="Carrito" title="Carrito de compra">
+                    	<div id="itemsCarrito">
+                    	    <?php echo $items; ?> items
+                    	</div>
+                    </a>
+                </li>
+                <a href="<?php echo base_url() . "index.php/listar_todo" ?>" id="botonListado">LISTADO COMPLETO</a>
+            </ul>
