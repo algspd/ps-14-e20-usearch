@@ -12,10 +12,10 @@
     <!-- Cabecera página web con logos -->
 	<div id="cabecera">
 	    <a href="<?php echo base_url(); ?>">
-        <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web">
-        <div id="tituloWeb">
-            <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
-        </div>
+            <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logotipo">
+            <div id="tituloWeb">
+                <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
+            </div>
 		</a>
 	</div> 
 	 
@@ -26,26 +26,36 @@
             <ul class="nav">
                  <!-- Item: carrito -->
                 <li>
-                    <a href="<?php echo base_url() . "index.php/carrito"; ?>">
-                        <img id="carrito" src="<?php echo base_url() . "/img/carrito.png"; ?>" 
-                            alt="Carrito" title="Carrito de compra">
-                    	<div id="itemsCarrito">
-                    	    <?php echo $items; ?> items
-                    	</div>
-                    </a>
+                    <div id="carrito">
+                        <a href="<?php echo base_url() . "index.php/carrito"; ?>">
+                            <img id="carrito_img" src="<?php echo base_url() . "/img/carrito.png"; ?>" 
+                                alt="Carrito" title="Carrito de compra">
+                        	<div id="icarrito_items"><?php echo $items; ?> items</div>
+                        </a>
+                    </div>
                 </li>
                 
-                <!-- Item: Buscador 
+                <!-- Item: Buscador -->
                 <li>
                     <div id="buscador">
-                        <input id="buscador_texto" type="text" name="q" value="" placeholder="Introduzca su búsqueda.." autocomplete="off">
+                        <div id="buscador_selector">
+                            <select>
+                				<option value="arquitectura">Arquitectura</option>
+                				<option value="frecuencia">Frecuencia (MHz)</option>
+                				<option value="flash">Flash (KB)</option>
+                				<option value="ram">RAM (KB)</option>
+                            </select>
+                        </div>
+                        <input id="buscador_texto" type="text" name="q" value="" placeholder="Introduzca su búsqueda..." autocomplete="off">
                         <input id="buscador_boton" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
                     </div>
                 </li>
-                -->
+                
                 
                 <!-- Item: Listado -->
                 <li>
                     <a href="<?php echo base_url() . "index.php/listar_todo" ?>">LISTADO COMPLETO</a>
                 </li>
             </ul>
+        </div> <!-- Menu navegacion -->
+    <div id="contenido_ppal">

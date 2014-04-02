@@ -114,7 +114,8 @@ legend{
  *------------------------------------------------------*/
 #cabecera{
     margin-top: 50px;
-	height: 120px;
+	height: 110px;
+	min-width: 850px;
 	font-family: 'pt_sans_caption';
 	text-align: left;
     color: /* greenishBlue  */ #5A8FA8;
@@ -158,16 +159,15 @@ legend{
     -webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	min-width: 650px;
+	min-width: 850px;
     background-color: /* lightGray_2  */ #CCC;
     margin: 0;
     padding: 5px;
-    height: 80%;
+    height: 100%;
 }
 
 #contenido_ppal {
     height: 100%;
-overflow: auto; 
 }
 
 /*------------------------------------------------------*
@@ -220,12 +220,17 @@ overflow: auto;
 /* Item del menu 'carrito' */
 
 #carrito {
-    margin-top: 5px;
-    height: 50px;
+    width: 170px;
 }
 
-#itemsCarrito{
-    margin-left: 5px;
+#carrito_img {
+    margin-top: 5px;
+    height: 50px;
+    float: left;
+}
+
+#carrito_items {
+    margin-left: 10px;
     float: right;
 }
 
@@ -233,28 +238,49 @@ overflow: auto;
 /* Item del menu 'buscador' */
 
 #buscador {
-    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
 	height: 40px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	margin-top: 10px;
 }
 
-#buscador_texto {
+#buscador_selector {
     float: left;
-    padding: 0;
-	border: 0;
-	width: 200px;
-	height: 100%;
-	text-indent: 10px;
-	font-size: 0.6em;
-	-webkit-border-top-left-radius: 5px;
+    width: 140px;
+    line-height: 40px;
+    height: 100%;
+    background: url('img/menu_desplegable.png') no-repeat right /* greenishBlue  */ #5A8FA8;
+    -webkit-border-top-left-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	-moz-border-radius-bottomleft: 5px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
+}
+
+#buscador_selector select {
+    color: white;
+    background: transparent;
+    font-size: 0.6em;
+    float: left;
+    line-height: 40px;
+    text-indent: 10px;
+    width: 140px;
+    outline-width: 0;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+
+#buscador_texto {
+    float: left;
+    padding: 0;
+	border: 0;
+	width: 220px;
+	height: 100%;
+	text-indent: 10px;
+	font-size: 0.6em;
 }
 
 #buscador_texto:focus {
@@ -265,6 +291,7 @@ overflow: auto;
 #buscador_boton {
     border: none;
     float: right;
+    background: /* greenishBlue  */ #5A8FA8;
 	border-bottom-right-radius: 5px;
 	-moz-border-radius-bottomright: 5px;
 	-webkit-border-bottom-right-radius: 5px;
@@ -272,7 +299,9 @@ overflow: auto;
 	-moz-border-radius-topright: 5px;
 	-webkit-border-top-right-radius: 5px;
 	height: 100%;
-	width: 40px;
+	width: 10%;
+	min-width: 40px;
+	max-width: 40px;
 }
 
 /* ------------------------- */
