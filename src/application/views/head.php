@@ -14,11 +14,8 @@
 	    <a href="<?php echo base_url(); ?>">
         <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logo Web">
         <div id="tituloWeb">
-            &#181;Search
+            <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
         </div>
-        <div id="subtituloWeb">
-            BUSCA. ENCUENTRA. COMPRA MICROS.
-        </div>	
 		</a>
 	</div> 
 	 
@@ -27,8 +24,8 @@
         <div id="menu_navegacion">
             
             <ul class="nav">
-                <!-- Sección de carrito -->
-                <li id="carritoWrapper" >
+                 <!-- Item: carrito -->
+                <li>
                     <a href="<?php echo base_url() . "index.php/carrito"; ?>">
                         <img id="carrito" src="<?php echo base_url() . "/img/carrito.png"; ?>" 
                             alt="Carrito" title="Carrito de compra">
@@ -37,5 +34,18 @@
                     	</div>
                     </a>
                 </li>
-                <a href="<?php echo base_url() . "index.php/listar_todo" ?>" id="botonListado">LISTADO COMPLETO</a>
+                
+                <!-- Item: Buscador 
+                <li>
+                    <div id="buscador">
+                        <input id="buscador_texto" type="text" name="q" value="" placeholder="Introduzca su búsqueda.." autocomplete="off">
+                        <input id="buscador_boton" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
+                    </div>
+                </li>
+                -->
+                
+                <!-- Item: Listado -->
+                <li>
+                    <a href="<?php echo base_url() . "index.php/listar_todo" ?>">LISTADO COMPLETO</a>
+                </li>
             </ul>

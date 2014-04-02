@@ -3,8 +3,12 @@
  *--- used in ------------ comment -------- colour -----* 
 
    Theme main color      greenishBlue      #5A8FA8
-   Border color          darkGray_1        #888
+   Nav background        darkGray_0        #0E0E0E
+   Nav background        darkGray_1        #222
    Header color          darkGray_2        #555
+   Text foreground       lightGray_0       #F0F0F0
+   Content bckgrnd       lightGray_1       #CCC
+   Content bckgrnd hover lightGray_2       #333
 */
 
 
@@ -22,15 +26,68 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'pt_sans';
+    src: url('fonts/PT_Sans/PT_Sans_bold.eot');
+    src: url('fonts/PT_Sans/PT_Sans_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans/PT_Sans_bold.woff') format('woff'),
+         url('fonts/PT_Sans/PT_Sans_bold.ttf') format('truetype'),
+         url('fonts/PT_Sans/PT_Sans_bold.svg#pt_sansregular') format('svg');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'pt_sans';
+    src: url('fonts/PT_Sans/PT_Sans_it.eot');
+    src: url('fonts/PT_Sans/PT_Sans_it.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans/PT_Sans_it.woff') format('woff'),
+         url('fonts/PT_Sans/PT_Sans_it.ttf') format('truetype'),
+         url('fonts/PT_Sans/PT_Sans_it.svg#pt_sansregular') format('svg');
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: 'pt_sans';
+    src: url('fonts/PT_Sans/PT_Sans_bold_it.eot');
+    src: url('fonts/PT_Sans/PT_Sans_bold_it.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans/PT_Sans_bold_it.woff') format('woff'),
+         url('fonts/PT_Sans/PT_Sans_bold_it.ttf') format('truetype'),
+         url('fonts/PT_Sans/PT_Sans_bold_it.svg#pt_sansregular') format('svg');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
 
+@font-face {
+    font-family: 'pt_sans_caption';
+    src: url('fonts/PT_Sans_Caption/PT_Sans_Caption.eot');
+    src: url('fonts/PT_Sans_Caption/PT_Sans_Caption.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption.woff') format('woff'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption.ttf') format('truetype'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sans_caption';
+    src: url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.eot');
+    src: url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.woff') format('woff'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.ttf') format('truetype'),
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.svg#pt_sansregular') format('svg');
+    font-weight: bold;
+}
 
 /*------------------------------------------------------*
  *---------------- SITE PROPERTIES ---------------------*
  *------------------------------------------------------*/
-body{
+html,body {
 	height: 100%;
-	width: 80%;
-	max-width: 800px;
+}
+
+body{
+    font: 'pt_sans';
+    font-size: 100%;
+    background: /* darkGray_0  */ #0E0E0E url("img/background.jpg") repeat-x 0 0;
+	width: 90%;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -42,77 +99,199 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
-
 label{
 	font-weight: bold;
 	margin-left: 30px;
 }
+
 legend{
 	font-size: large;
 }
 
 
 /*------------------------------------------------------*
- *-- Cabecera principal de la página                  --*
+ *   Cabecera principal de la página                    *
  *------------------------------------------------------*/
 #cabecera{
-    -webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-    min-width: 300px;
-	height: 100px;	
-	background-color: /* greenishBlue  */ #5A8FA8;
-	border:2px solid /* darkGray_1  */ #888;
+    margin-top: 50px;
+	height: 120px;
+	font-family: 'pt_sans_caption';
+	text-align: left;
+    color: /* greenishBlue  */ #5A8FA8;
+}
+
+#cabecera a {
+    color: /* greenishBlue  */ #5A8FA8;
 }
 
 #logoWeb {
-    margin-left: 1%;
     height: 90px;
     width: 120px;
     float: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#logoWeb img{ 
+    line-height: 120px;
     -webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-height: 100%;
 }
 
-#tituloWeb{
-    font-family: 'pt_sans';
+
+#tituloWeb {
     font-size: 5em;
-    height: 80px;
+    line-height: 90px;
     float: left;
-    margin-left: 5%;
-    margin-top: 0.1em;
-    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#subtituloWeb{
+    font-family: 'pt_sans_caption';
+    font-size: 0.8em;
     color: white;
-    vertical-align: middle;
-    text-align: center;
+    float: left;
+    margin-left: 20px;
+    line-height: 140px;
 }
 
 /*------------------------------------------------------*
- *-- Subcabecera con los elementos correspondientes   --*
+ *   Contenido de la página (lo que no es cabecera)     *
  *------------------------------------------------------*/
- 
-#subcabecera{
-    margin-top: 0.2em;
-	width: 100%;
-	height: 60px;
-	border-bottom: 2px solid black;
+#contenido {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-width: 650px;
+    background-color: /* lightGray_2  */ #CCC;
+    margin: 0;
+    padding: 5px;
+    height: 80%;
 }
 
+#contenido_ppal {
+    height: 100%;
+overflow: auto; 
+}
+
+/*------------------------------------------------------*
+ *   Subcabecera con los items correspondientes         *
+ *------------------------------------------------------*/
+ 
+/* Menu de navegacion -*/
+#menu_navegacion {
+	background-color: /* darkGray_1  */ #222;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#menu_navegacion a {
+   padding: 0 20px;
+   height: 60px;
+   text-decoration: none;
+   color: white;
+   outline: none;
+   display: block; 
+}
+
+#menu_navegacion a:hover {
+    background-color: /* lightGray_2  */ #333; 
+}
+
+#menu_navegacion .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#menu_navegacion .nav li {
+    color: white;
+    line-height:60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/* ------------------------- */
+/* Item del menu 'carrito' */
+
+#carrito {
+    margin-top: 5px;
+    height: 50px;
+}
+
+#itemsCarrito{
+    margin-left: 5px;
+    float: right;
+}
+
+/* ------------------------- */
+/* Item del menu 'buscador' */
+
+#buscador {
+    width: 240px;
+	height: 40px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#buscador_texto {
+    float: left;
+    padding: 0;
+	border: 0;
+	width: 200px;
+	height: 100%;
+	text-indent: 10px;
+	font-size: 0.6em;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#buscador_texto:focus {
+    /*outline-width: ; /* Disable colored outline */ 
+    outline-color: /* greenishBlue  */ #5A8FA8;
+}
+
+#buscador_boton {
+    border: none;
+    float: right;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	height: 100%;
+	width: 40px;
+}
+
+/* ------------------------- */
+/* Item del menu 'listado completo' */
+
+#botonListado{
+    color: white;
+    line-height:60px;
+	text-align: center;
+	height: 100%;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#botonListado a{
+    color: white;
+}
+
+/* ------------------------- */
 
 #logoAddProduct{
 	position: absolute;
@@ -155,86 +334,34 @@ legend{
 	height: 50px;
 }
 
-#botonListado{
-        display:block;
-	position: absolute;
-	left: 1050px;
-	top: 35px;
-	vertical-align: center;
-        text-align:center;
-        background-color:#DDD;
-        text-decoration:none;
-        color:black;
-        line-height:40px;
-	width: 200px;
-	height: 40px;
-	border: 1px solid red;
-	border-radius:20px;
-	font-weight: bold;
-	font-size: 1.01em;
-}
 
-/* Item de la subcabecera 'carrito' */
-#carritoWrapper  {
-    display: inline-block;
-    margin-left: 1%;
-    height: 100%;
-    line-height: 60px;
-    min-width: 120px;
-    float: left;
-}
-
-#carrito {
-    vertical-align: middle;
-    height: 50px;
-    width: 50px;
-    float: left;
-}
-
-#carrito img {
-    vertical-align: middle;
-    width: 100%;
-    max-height: 100%;
-}
-
-#itemsCarrito{
-    vertical-align: middle;
-    font-size: 1.5em;
-    color: /* darkGray_2  */ #555;
-    float: right;
-    margin-left: 5%;
-     -webkit-align-self: center;
-    align-self: center;
-    text-align: left;
-}
-/* ------------------------- */
 
 /*--------------------------------------------------------- */
-/* Sección principal pagina Admin_Home*/
+/* Sección principal pagina Home */
 /*--------------------------------------------------------- */
 #titulo{
-	position: absolute;
-	top: 250px;
-	left: 182px; 
-	border: 3px solid black;
-        text-align:center;
-        line-height:60px;
-        color:blue;
-        font-size:18pt;
-        width:1000px;
-        height:60px;
-        
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: /* greenishBlue  */ #5A8FA8;
+    border-bottom: 0px;
+    color: white;
+	text-align:center;
+	font-size: 2em;
+    line-height:50px;
 }
 
-#descripcion{
-	position: absolute;
-	top: 350px;
-	left: 182px; 
-	border: 2px solid black;
-	padding: 10px;
-        width:975px;
-        height:200px;
-	resize: none;
+#descripcion {
+    text-indent: 1%;
+	width: 100%;
+	height: 80%;
+	background-color: /* lightGray_0  */ #F0F0F0;
 }
 
 /*---------------------------------------------------------*/
@@ -333,15 +460,11 @@ table{
 }
 
 #carrito{
-  display:block;
-  position: absolute;
-  left: 100px;
-  top: 30px;
-  text-decoration:none;
+  
 }
 
 #carrito img{
-  vertical-align:middle;
+  
 }
 
 .right {
