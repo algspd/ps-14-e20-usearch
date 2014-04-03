@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <?php
-    echo link_tag(base_url() . $this->config->item('css'));
-    echo "\n";
-  ?>
-  <meta charset="utf-8">
-  <title>Test view</title>
-</head>
-<body>
 <form method="post" action="/ps-14-e20-usearch/src/index.php/editar">
 <table>
   <tr>
@@ -44,11 +33,9 @@
         echo "</td>";
         echo "<td>";
         echo "<button name='ref' value='" . $fila->ref . "' type='submit'>Editar</button>";
+        echo "<button name='eliminar' value='" . $fila->ref . "' type='submit'>Eliminar</button>";
         echo "</td>";
         echo "</tr>\n";
     }
 ?>
 </table>
-
-</body>
-</html>

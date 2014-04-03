@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <?php
-    echo link_tag(base_url() . $this->config->item('css'));
-    echo "\n";
-  ?>
-  <meta charset="utf-8">
-  <title>Test view</title>
-</head>
-<body>
 <form method='post' action='/ps-14-e20-usearch/src/index.php/editar'>
  <table>
  <tr>
@@ -55,9 +44,6 @@
  </tr>
  </table>
  <br>
- <button type='submit'>Modificar</button>
+ <button type='submit' name='modificar'>Modificar</button>
 </form>
 
-
-</body>
-</html>
