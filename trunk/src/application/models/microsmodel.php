@@ -14,10 +14,10 @@ class Microsmodel extends CI_Model {
   }
 
   function insertar ($ref,$arch,$freq,$flash,$ram,$precio) {
-    $this->db->where('ref', $ref);
-    $query=$this->db->get('micros');
+    //$this->db->where('ref', $ref);
+    //$query=$this->db->get('micros');
     // Comprobamos si la fila existe
-    if ($query->num_rows() == 0){
+    //if ($query->num_rows() == 0){
       $this->ref    = $ref;
       $this->arch   = $arch;
       $this->freq   = $freq;
@@ -25,8 +25,9 @@ class Microsmodel extends CI_Model {
       $this->ram    = $ram;
       $this->precio = $precio;
       $this->db->insert('micros', $this);
+      echo "Se ha llamado a insertar";
       return TRUE;
-    }
+    //}
     return FALSE;
   }
 

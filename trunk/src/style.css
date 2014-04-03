@@ -163,7 +163,8 @@ legend{
     background-color: /* lightGray_2  */ #CCC;
     margin: 0;
     padding: 5px;
-    height: 100%;
+    /*height: 100%;*/
+    padding-bottom:100px;
 }
 
 #contenido_ppal {
@@ -393,20 +394,61 @@ legend{
 	background-color: /* lightGray_0  */ #F0F0F0;
 }
 
+div#formulario {
+  margin-top:50px;
+  text-align:center;
+  width:100%;
+}
+div#formulario_2 {
+  width:35%;
+  text-align:right;
+  margin:auto;
+}
+div#formulario_3 {
+  width:35%;
+  text-align:left;
+  margin:auto;
+}
+
+
 /*---------------------------------------------------------*/
 /* Tabla de busquedas y listado  */
 /*---------------------------------------------------------*/
 /*Propiedades generales de la tabla */
 table{
-	position: absolute;
-	left: 100px;
-	top: 280px;
-	width: 1200px;
+	width: 100%;
 	border-collapse: collapse;
-	background-color:#FFF;
-	border-collapse: collapse;
-	border: none;
+        border:2px solid #CCC;
+        margin-top:20px;
+        margin-right:auto;
+        margin-left:auto;
 }
+th {
+  background-color:#222;
+  color: #CCC;
+}
+
+td {
+  background-color:#888;
+  color: #000;
+  width:90px;
+  border:2px solid #CCC;
+}
+
+.boton_anadir{
+  background-color:transparent;
+  text-align:center;
+}
+
+.invisible{
+  background-color:transparent;
+   
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
 /* Primera fila */
 .first_row{
 	background-color: #C0C0C0;
@@ -501,7 +543,6 @@ table{
 }
 
 #botones_carro{
-  position:absolute;
-  top:500px;
-  right:150px;
+  text-align:right;
+  margin-right:100px;
 }

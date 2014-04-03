@@ -29,6 +29,9 @@
     <input type="submit" name="submit" value="Actualizar">
     <input type="submit" name="vaciar" value="Vaciar">
   </form>
+</div>
+<div id="formulario">
+  <div id="formulario_2">
   <form method="post" action="<?php echo base_url() . "/index.php/carrito"?>">
     <label for="nombre">Nombre: </label>
     <input type="text" name="nombre"><br>
@@ -53,4 +56,5 @@
 
     <input type="submit" name="pedir" value="Realizar pedido">
   </form>
+  </div>
 </div>

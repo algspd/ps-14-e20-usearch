@@ -1,5 +1,3 @@
-
-                </div>
 <div>
 <table>
   <tr>
@@ -9,7 +7,7 @@
     <th>Flash (kb)</th>
     <th>Ram (kb)</th>
     <th>Precio (€)</th>
-    <th></th>
+    <th class="invisible"></th>
 
 </tr>
 <?php
@@ -36,7 +34,7 @@
         echo $fila->precio;
         echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
         echo "</td>";
-        echo "<td>";
+        echo "<td class=\"boton_anadir\">";
         echo "<input type=\"submit\" value=\"Añadir\">";
         echo "</form>";
         echo "</td>";
@@ -45,3 +43,4 @@
 ?>
 </table>
 </form>
+</div>

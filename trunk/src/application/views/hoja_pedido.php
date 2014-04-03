@@ -1,19 +1,3 @@
-<div style="position:absolute;top:120px;left:150px;">
-    <?php
-      echo "Nombre: " . $_POST['nombre'] . "<br>";
-      echo "Apellidos: " . $_POST['apellidos'] . "<br>";
-      echo "Dirección: " . $_POST['direccion'] . "<br>";
-      echo "Ciudad: " . $_POST['ciudad'] . "<br>";
-      echo "Provincia: " . $_POST['provincia'] . "<br>";
-      echo "Código postal: " . $_POST['cp'] . "<br>";
-      echo "Teléfono: " . $_POST['tfn'] . "<br>";
-      echo "E-mail: " . $_POST['email'] . "<br>";
-      if ($_POST['cif']!="" and $_POST['empresa']!=""){
-        echo "Empresa: " . $_POST['empresa'] . "<br>";
-        echo "CIF: " . $_POST['cif'] . "<br>";
-      }
-    ?>
-</div>
 <table cellpadding="2" cellspacing="1" style="width:80%" border="1">
 <tr>
   <th>Cantidad</th>
@@ -37,3 +21,32 @@
   <td class="right"><?php echo $this->cart->format_number($this->cart->total()); ?>€</td>
 </tr>
 </table>
+<div id="formulario">
+<div id="formulario_3">
+    <?php
+      echo "<strong>Nombre:</strong> " . $_POST['nombre'] . "<br>";
+      echo "<strong>Apellidos:</strong> " . $_POST['apellidos'] . "<br>";
+      echo "<strong>Dirección:</strong> " . $_POST['direccion'] . "<br>";
+      echo "<strong>Ciudad:</strong> " . $_POST['ciudad'] . "<br>";
+      echo "<strong>Provincia:</strong> " . $_POST['provincia'] . "<br>";
+      echo "<strong>Código postal:</strong> " . $_POST['cp'] . "<br>";
+      echo "<strong>Teléfono:</strong> " . $_POST['tfn'] . "<br>";
+      echo "<strong>E-mail:</strong> " . $_POST['email'] . "<br>";
+      if ($_POST['cif']!="" and $_POST['empresa']!=""){
+        echo "<strong>Empresa:</strong> " . $_POST['empresa'] . "<br>";
+        echo "<strong>CIF:</strong> " . $_POST['cif'] . "<br>";
+      }
+    ?>
+</div>
+</div>
+<script>
+  /*window.print();
+  window.onmouseover=function() {
+  document.getElementById('contenido_ppal').innerHTML='Gracias por su pedido!';
+  }*/
+</script>
+
+
+
+
+
