@@ -7,10 +7,24 @@
 = Contenidos =
  * [Modelo]
  * [Controladores]
+  * [Controlador_agregar]
+  * [Controlador_carro]
   * [Controlador_editar]
   * [Controlador_lista]
-  * [Controlador_carro]
+  * [Controlador_main]
+ * Vistas
+  * [Adminhead]
+  * [Agregar]
+  * [Carrito]
+  * [Editar]
+  * [Foot]
+  * [Head]
+  * [Hoja_pedido]
+  * [Home]
+  * [Listar_todo_editar]
+  * [Listar_todo]
  * Pruebas
   * [Pruebas_de_unidades]
+  * [Pruebas_de_sistema]
  * Tutoriales
   * [Instalar_Paquete_LaTeX]
