@@ -1,5 +1,5 @@
 #summary Elementos de la barra lateral
 
-* Prueba 1
-** Sub categoría 1
-* Prueba 2
+ * Prueba 1
+   * Sub categoría 1
+ * Prueba 2
