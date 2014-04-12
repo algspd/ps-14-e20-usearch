@@ -1,9 +1,5 @@
 #summary Lista de contenidos
 
-= Introducción =
-
-Add your content here.
-
 = Gestión =
  * [Gestion_configuraciones]
  * [Ficheros]
