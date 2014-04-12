@@ -8,8 +8,6 @@ class Agregar extends CI_Controller {
     $this->load->helper('html');
     $this->load->model('microsmodel','',TRUE);
 
-
-
     if (isset($_POST['ref']) && isset($_POST['arch']) &&
         isset($_POST['freq']) && isset($_POST['flash']) &&
         isset($_POST['ram']) && isset($_POST['precio']) &&
