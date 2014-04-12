@@ -1,5 +1,16 @@
 #summary Elementos de la barra lateral
 
- * Prueba 1
-   * Sub categoría 1
- * Prueba 2
+= Gestión =
+ * [Gestion_configuraciones]
+ * [Ficheros]
+
+= Contenidos =
+ * [Modelo]
+ * [Controladores]
+  * [Controlador_editar]
+  * [Controlador_lista]
+  * [Controlador_carro]
+ * Pruebas
+  * [Pruebas_de_unidades]
+ * Tutoriales
+  * [Instalar_Paquete_LaTeX]
