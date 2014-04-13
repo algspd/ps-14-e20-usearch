@@ -1,2 +1,46 @@
 NOTAS DE LA REUNIÓN 09/04/14 @ 20:00
 ================================================================   
+
+- En primer lugar, hemos revisado las horas que llevamos individualmente
+  y nos hemos puesto al día con las últimas modificaciones y tareas realizadas.
+
+
+A continuación hemos revisado las tareas que quedan pendientes:
+
+Realización del documento para el repositorio de lecciones aprendidas
+
+Realización de la gráfica o documento de horas y trabajo realizado/pendiente que se ha decidido
+que la va a realizar Alejandro.
+
+Finalización de la documentación técnica de la primera iteración.
+
+Realización de la guía de usuario.
+
+Realización de las pruebas para la primera iteración.
+
+Finalización de la población de la base de datos, cada componente del grupo insertará 
+cinco microcontroladores.
+
+Pasar el w3c validator para revisar el código html.
+
+
+
+Para el documento de riesgos encontrados:
+
+- De los integrantes del grupo, sólo Javier sabe trabajar bien con PHP y codeigniter. En caso de que
+tuviera que ausentarse implicaría un aumento de los esfuerzos necesarios para la realización de las 
+tareas ya planificadas.
+
+- De los integrantes del grupo, sólo Simón y Alejandro saben realizar bien la documentación utilizando Latex.
+Dependemos de ellos para realizar las tareas que impliquen su uso.
+
+- Héctor Francia, se ha encargado de realizar los logos para el proyecto y por lo tanto, en el caso de que fuese 
+necesario modificar los logos y él se ausentara del grupo, supondría un aumento de los esfuerzos para la realización
+de estas tareas.
+
+- Tenemos sólo un servidor para realizar las pruebas, en el caso de que nos falle este servidor nos supondría un aumento
+de los esfuerzos para solucionarlo.
+
+
+
+Los fallos de los tests de unidades los vamos a registrar en la wiki.
