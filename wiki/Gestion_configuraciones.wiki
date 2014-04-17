@@ -6,7 +6,7 @@
   * database _- ficheros para la creación y población de la db_
   * latex  _- paquetes, fuentes, manuales de latex_
   * logos _- logo final de la aplicación y la empresa_
-  * propuesta_de_proyecto _- documentos generados durante la elaboración de la prupuesta_
+  * propuesta_de_proyecto _- documentos generados durante la elaboración de la propuesta_
   * prototipo _- propuesta inicial del aspecto estético de la web_
   * recopilacion_esfuerzos _- hojas de recopilación de esfuerzos individuales_
   * reuniones _- convocatorias y actas de las reuniones_
