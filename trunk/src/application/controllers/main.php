@@ -11,8 +11,8 @@ class Main extends CI_Controller {
     $this->load->helper('html');       
     $items = $this->cart->total_items();
     $data = array('items' => $items);
-    $this->load->view('head',$data);
-    $this->load->view('home');
+    $this->load->view('adminhead',$data);
+    $this->load->view('adminhome');
     $this->load->view('foot');
   }
 }
