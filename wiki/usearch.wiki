@@ -6,7 +6,7 @@
 
 = Contenidos =
  * [Modelo]
- * [Controladores]
+ * Controladores
   * [Controlador_agregar]
   * [Controlador_carro]
   * [Controlador_editar]
