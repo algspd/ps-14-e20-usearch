@@ -1,13 +1,13 @@
 REPARTO DE TAREAS PARA LA DOCUMENTACIÓN DEL MANUAL O GUÍA DE USUARIO (1ª ITERACIÓN)
 
 	- USUARIO
-		- Página Principal			--> Dani
-		- Página Listado Completo	--> Héctor
-		- Página Carrito			--> Alberto
-		- Página Generación Pedido	--> Alberto
+		- Página Principal			--> Dani		DONE!!
+		- Página Listado Completo	--> Héctor		
+		- Página Carrito			--> Alberto		DONE!!
+		- Página Generación Pedido	--> Alberto		DONE!!
 	
 	- ADMINISTRADOR
-		- Página Principal 			--> Dani
+		- Página Principal 			--> Dani		DONE!!
 		- Página Listado Completo	--> Héctor
 		- Página Añadir Micro		--> Alejandro
 		- Página Editar Micro		--> Alejandro
