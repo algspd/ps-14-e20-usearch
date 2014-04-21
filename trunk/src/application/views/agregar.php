@@ -44,6 +44,6 @@
  </tr>
  </table>
  <br>
- <button type='submit'>Modificar</button>
+ <button type='submit'>Insertar</button>
 </form>
 
