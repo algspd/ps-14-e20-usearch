@@ -44,6 +44,19 @@
  </tr>
  </table>
  <br>
+<?php
+if(isset($_POST['ref'])  || isset($_POST['arch'])   ||  
+    isset($_POST['freq']) || isset($_POST['flash'])  ||  
+    isset($_POST['ram'])  || isset($_POST['precio']) 
+){
+if (isset($error)){
+?>
+<div>
+Todos los campos son obligatorios
+</div>
+<br>
+<?php
+}}
+?>
  <button type='submit' name='modificar'>Modificar</button>
 </form>
-
