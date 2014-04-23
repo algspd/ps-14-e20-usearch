@@ -24,14 +24,13 @@
         <div id="menu_navegacion">
             
             <ul class="nav">
-                
-                <!-- Item: Listado -->
-                <li>
-                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/editar" ?>">EDITAR</a>
-                </li>
-                <!-- Item: Listado -->
+                <!-- Item: Añadir Micro -->
                 <li>
                     <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/agregar" ?>">CREAR NUEVO</a>
+                </li>
+				<!-- Item: Listado Completo-->
+                <li>
+                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/editar" ?>">LISTADO COMPLETO</a>
                 </li>
             </ul>
         </div> <!-- Menu navegacion -->
