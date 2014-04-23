@@ -9,7 +9,11 @@ class Carrito extends CI_Controller {
     $this->load->helper('form');
     $this->load->model('microsmodel','',TRUE);
 
-    if ( isset($_POST['pedir'])){
+    // Comprobar que se han rellenado los campos obligatorios
+    if (isset($_POST['pedir']) &&
+       ($_POST['nombre']!='' && $_POST['apellidos']!='' && $_POST['direccion']!='' && $_POST['ciudad']!='' && $_POST['provincia']!='' && $_POST['cp']!='' && $_POST['tfn']!='' && $_POST['email']!='' )
+    ){
+
       $carro=$this->cart->contents();
       $items = $this->cart->total_items();
       $data = array('carro' => $carro,'items' => $items);
@@ -34,9 +38,14 @@ class Carrito extends CI_Controller {
         $i++;
       }
     }
+
     $carro=$this->cart->contents();
     $items = $this->cart->total_items();
     $data = array('carro' => $carro,'items' => $items);
+    if(isset($_POST['nombre'])){
+      $error="";
+      $data = array('carro' => $carro,'items' => $items,'error'=>$error);
+    }
     $this->load->view('head',$data);
     $this->load->view('carrito',$data);
     $this->load->view('foot');
