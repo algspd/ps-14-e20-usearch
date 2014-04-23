@@ -11,7 +11,10 @@ class Agregar extends CI_Controller {
     if (isset($_POST['ref']) && isset($_POST['arch']) &&
         isset($_POST['freq']) && isset($_POST['flash']) &&
         isset($_POST['ram']) && isset($_POST['precio']) &&
-        $_POST['ref']!='' ){
+        $_POST['ref']!='' && $_POST['arch']!='' &&
+        $_POST['freq']!='' && $_POST['flash']!='' &&
+        $_POST['ram']!='' && $_POST['precio']!=''
+    ){
       // Se ha enviado un micro completo para ser insertado
       if($this->microsmodel->insertar(
         $_POST['ref'],$_POST['arch'],

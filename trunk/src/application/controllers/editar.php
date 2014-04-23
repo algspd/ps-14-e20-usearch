@@ -17,7 +17,12 @@ class Editar extends CI_Controller {
 
     if (isset($_POST['ref']) && isset($_POST['arch']) &&
         isset($_POST['freq']) && isset($_POST['flash']) &&
-        isset($_POST['ram']) && isset($_POST['precio']) ){
+        isset($_POST['ram']) && isset($_POST['precio']) &&
+        $_POST['ref']!='' && $_POST['arch']!='' &&
+        $_POST['freq']!='' && $_POST['flash']!='' &&
+        $_POST['ram']!='' && $_POST['precio']!=''
+
+    ){
       // Se ha enviado un micro completo para ser modificado
       $this->microsmodel->modificar(
         $_POST['ref'],$_POST['arch'],
@@ -28,9 +33,22 @@ class Editar extends CI_Controller {
     }
 
     if (isset($_POST['ref'])) {
-      // Se ha enviado solo la referencia, procedemos a hacer la modificación
+      // Se ha enviado solo la referencia, procedemos a hacer el listado de sus specs
       $def=$this->microsmodel->listar_uno($_POST['ref']);
       $data = array('def'=> $def);
+
+      if((isset($_POST['freq']) && $_POST['freq']=='')  ||
+         (isset($_POST['precio']) && $_POST['precio']=='')  ||
+         (isset($_POST['arch']) && $_POST['arch']=='')  ||
+         (isset($_POST['flash']) && $_POST['flash']=='')  ||
+         (isset($_POST['ram']) && $_POST['ram']=='') 
+      ){
+
+        
+        $error="";
+        $data = array('def'=> $def,'error'=>$error);
+      }
+
       $this->load->view('adminhead',$data);
       $this->load->view('editar',$data);
       $this->load->view('foot');
