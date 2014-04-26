@@ -13,25 +13,25 @@
 <?php
       foreach($resultado as $fila){
         echo "<tr>";
-        echo "<td>";
+        echo "<td class='ref'>";
         echo $fila->ref;
         echo "</td>";
-        echo "<td>";
+        echo "<td class='arq'>";
         echo $fila->arch;
         echo "</td>";
-        echo "<td>"  ;   
+        echo "<td class='freq'>"  ;   
         echo $fila->freq;
         echo "</td>";
-        echo "<td>";
+        echo "<td class='flash'>";
         echo $fila->flash;
         echo "</td>";
-        echo "<td>";
+        echo "<td class='ram'>";
         echo $fila->ram;
         echo "</td>";
-        echo "<td>";
+        echo "<td class='precio'>";
         echo $fila->precio;
         echo "</td>";
-        echo "<td>";
+        echo "<td class='buttonsEditDelete'>";
         echo "<button name='ref' value='" . $fila->ref . "' type='submit'>Editar</button>";
         echo "<button name='eliminar' value='" . $fila->ref . "' type='submit'>Eliminar</button>";
         echo "</td>";
