@@ -412,7 +412,7 @@ div#formulario_3 {
 
 
 /*---------------------------------------------------------*/
-/* Tabla de busquedas y listado  */
+/* Tablas de busquedas y listado  */
 /*---------------------------------------------------------*/
 /*Propiedades generales de la tabla */
 table{
@@ -433,18 +433,29 @@ td {
   color: #000;
   width:90px;
   border:2px solid #CCC;
+  text-align: center;
 }
 
-.boton_anadir{
-  background-color:transparent;
-  text-align:center;
+td.ref{
+	width: 20%;
+	text-align: left;
 }
 
-.invisible{
-  background-color:transparent;
-   
+td.arq{
+	width: 20%;
 }
 
+td.freq{}
+
+td.flash{}
+
+td.ram{}
+
+td.precio{}
+
+td.buttonAdd{}
+
+td.buttonsEditDelete{}
 
 
 /*//////////////////////////////////////////////////////////////////////////*/
