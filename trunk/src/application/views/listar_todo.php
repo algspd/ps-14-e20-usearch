@@ -1,42 +1,44 @@
 <div>
-    <div class='block'>
-    <div class='celdah' style="width:180px;">Referencia</div>
-    <div class='celdah' style="width:180px;">Arquitectura</div>
-    <div class='celdah' style="width:80px;">Frecuencia (MHz)</div>
-    <div class='celdah' style="width:80px;">Flash (kb)</div>
-    <div class='celdah' style="width:80px;">Ram (kb)</div>
-    <div class='celdah' style="width:80px;">Precio (€)</div>
-    <div class="invisible"></div>
-    </div>
+  <table>
+  <tr>
+    <th>Referencia</th>
+    <th>Arquitectura</th>
+    <th>Frecuencia (MHz)</th>
+    <th>Flash (kb)</th>
+    <th>Ram (kb)</th>
+    <th>Precio (€)</th>
+    <th></th>
+
+</tr>
 
 <?php
       foreach($resultado as $fila){
         echo "<form method='post' action='" . base_url() . "/index.php/listar_todo" . "'>";
-        echo "<div class='block'>";
-          echo "<div class='celda'>";
+        echo "<tr>";
+		  echo "<td>";
             echo $fila->ref;
             echo "<input type='hidden' value='" . $fila->ref . "' name='ref'>";
-          echo "</div>";
-          echo "<div class='celda'>";
+          echo "</td>";
+          echo "<td>";
             echo $fila->arch;
-          echo "</div>";
-          echo "<div class='celda2'>"  ;   
+          echo "</td>";
+          echo "<td>"  ;   
             echo $fila->freq;
-          echo "</div>";
-          echo "<div class='celda2'>";
+          echo "</td>";
+          echo "<td>";
             echo $fila->flash;
-          echo "</div>";
-          echo "<div class='celda2'>";
+          echo "</td>";
+          echo "<td>";
             echo $fila->ram;
-          echo "</div>";
-          echo "<div class='celda2'>";
+          echo "</td>";
+          echo "<td>";
             echo $fila->precio;
             echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
-          echo "</div>";
-          echo "<div class='celda2 boton_anadir'>";
+          echo "</td>";
+          echo "<td>";
             echo "<input type=\"submit\" value=\"Añadir\">";
-          echo "</div>";
-        echo "</div>";
+          echo "</td>";
+        echo "</tr>\n";
         echo "</form>";
     }
 ?>
