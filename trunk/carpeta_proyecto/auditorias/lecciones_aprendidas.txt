@@ -1,1 +1,0 @@
-La utilización de frameworks ahorra mucho trabajo a la hora de realizar la implementación de la aplicación y evita cometer errores que ya están reueltos.
