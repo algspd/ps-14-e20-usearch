@@ -3,12 +3,17 @@
 = Estructura de directorios =
 
  * /carpeta_proyecto
+  * auditorias _- ficheros pertenecientes a las auditorias internas y externas del proyecto_
   * database _- ficheros para la creación y población de la db_
+  * guia_usuario _- documentos generados durante la elaboración de la guía de usuario para la aplicación_
+  * integrantes_del_equipo _- información relevante de los miembros del equipo que realizan el proyecto_
   * latex  _- paquetes, fuentes, manuales de latex_
   * logos _- logo final de la aplicación y la empresa_
-  * propuesta_de_proyecto _- documentos generados durante la elaboración de la propuesta_
+  * propuesta_de_proyecto _- documentos generados durante la elaboración de la propuesta de proyecto_
   * prototipo _- propuesta inicial del aspecto estético de la web_
+  * pruebas_de_sistema _- ficheros que contienen toda la información sobre las pruebas de sistema realizadas en el proyecto_
   * recopilacion_esfuerzos _- hojas de recopilación de esfuerzos individuales_
+  * riesgos_y_lecciones _- ficheros que contienen los riesgos detectados y las lecciones aprendidas durante el desarrollo del proyecto_
   * reuniones _- convocatorias y actas de las reuniones_
   * vista_web_1 _- propuesta del aspecto de la web, preparado para integrar en codeigniter_
  * /src _- código fuente de la aplicación web_
