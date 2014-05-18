@@ -1,0 +1,672 @@
+\documentclass[10pt,spanish]{article}
+
+%----------------------------------------------------------------------------------------
+% Codificación, y usar una fuente similar a la Palatino (y no Latin Modern Roman)
+\usepackage[utf8]{inputenc} % Acentos, etc.
+\usepackage[spanish]{babel} % Castellano
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{phv} % Arial (se parece lo suficiente)
+\renewcommand{\sfdefault}{phv} % Arial (se parece lo suficiente)
+
+%----------------------------------------------------------------------------------------
+% Margenes
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    total={210mm,297mm},
+    left=30mm,
+    right=30mm,
+    top=25mm,
+    bottom=25mm,
+}
+	
+%----------------------------------------------------------------------------------------
+% Indentar primera línea párrafos
+\usepackage{indentfirst}
+
+%----------------------------------------------------------------------------------------
+% MODIFICAR EL ESTILO DE LAS SECCIONES (TAMBIEN EN INDICE)
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries\Large\uppercase}{\thesection .}{0.8em}{}
+\titleformat{\subsection}{\bfseries\large}{\thesubsection .}{0.8em}{}
+\titleformat{\subsubsection}{\bfseries}{\thesubsubsection .}{0.8em}{}
+\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
+
+
+%----------------------------------------------------------------------------------------
+% Imagenes: Que se pongan donde yo quiero
+\usepackage{graphicx}
+%\usepackage{float}
+\usepackage[linecolor=colComment,linewidth=0.65pt]{mdframed}
+
+\usepackage{floatpag} % Pagina en blanco cuando aparece figuras.
+
+\DeclareGraphicsExtensions{.svg,.eps,.ps,.pdf,.png,.jpg,.jpeg}
+\addto{\captionsspanish}{\renewcommand{\listfigurename}{\bfseries\Large Figuras}}
+
+
+%----------------------------------------------------------------------------------------
+% Comenzar con numeracion romana (I,II,III,IV,...)
+\renewcommand{\thepage}{}
+
+%----------------------------------------------------------------------------------------
+% Definir el titulo
+
+% logotipos transparencia
+\usepackage{transparent}
+
+\newcommand{\nombreDelProyecto}{$\mu Search$}
+
+% Comando para multiples saltos de linea
+\newcommand{\singlelinebreak}{\\[\baselineskip]}
+\newcommand{\multiplelinebreak}[1]{\\[#1\baselineskip]}
+\newlength{\drop}
+
+\newcommand*{\titulo}{\begingroup
+\thispagestyle{empty}
+\drop = 0.13\textheight
+\centering
+\vfill
+\vspace*{\drop}
+\includegraphics[scale=0.25]{img/bitparty_big}\singlelinebreak
+{\Huge\bf BITPARTY}\multiplelinebreak{2}
+{\huge Proyecto \nombreDelProyecto}\multiplelinebreak{2}
+{\Large Versión  1.0}\multiplelinebreak{1}
+{\Large 06/2014}\multiplelinebreak{1}
+{\em Alberto Berbel Aznar}\\
+{\em Javier Briz Alastrué}\\
+{\em Héctor Francia Molinero}\\
+{\em Daniel García Páez}\\
+{\em Alejandro Gracia Mateo}\\
+{\em Simón Ortego Parra}\multiplelinebreak{6}
+\includegraphics[scale=0.09]{img/diis_uz_big}\singlelinebreak
+\vfill
+\vspace*{\drop}
+\endgroup}
+
+
+%----------------------------------------------------------------------------------------
+% METADATOS DEL PDF Y PDF CLICKEABLE
+\usepackage{hyperref}
+\usepackage{hyperxmp}
+
+\hypersetup{
+	pdfauthor={Alberto Berbel Aznar, 
+				Javier Briz Alastrué, 
+				Héctor Francia Molinero, 
+				Daniel García Páez,
+				Alejandro Gracia Mateo,
+				Simón Ortego Parra},
+	pdftitle={E20 - Propuesta del proyecto},
+	pdfsubject={Proyecto Software. Grado Ing. Informática. EINA. Unizar},
+	pdfkeywords={},
+	pdfcopyright={Copyright (C) 2014 by Alberto Berbel Aznar, 
+				Javier Briz Alastrué, 
+				Héctor Francia Molinero, 
+				Daniel García Páez,
+				Alejandro Gracia Mateo,
+				Simón Ortego Parra. All rights reserved.},
+	pdfproducer={PDFLatex},
+	pdfcreator={ps2pdf},
+	colorlinks=false
+}
+
+\usepackage[capitalise]{cleveref} % load after hyperref package
+\crefdefaultlabelformat{\textbf{#2#1#3}} % boldface only the number
+
+\crefname{figure}{figura}{figuras}
+\Crefname{figure}{Figura}{Figuras}
+
+\crefname{listing}{algoritmo}{algoritmos}
+\Crefname{listing}{Algoritmo}{Algoritmos}
+
+\crefname{section}{sección}{secciones}
+\Crefname{section}{Sección}{Secciones}
+
+%----------------------------------------------------------------------------------------
+% FANCY HEADER
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % borrar todos los ajustes
+
+% Configurar la cabecera: fancyhead, fancyfoot para el pie.
+\fancyhead[R]{\nouppercase 30243-Proyecto Software 13/14 – Equipo {\bf 20}}
+\renewcommand{\headrulewidth}{0pt} % Tam. separador cabecera
+\renewcommand{\footrulewidth}{0pt}   % Tam. separador pie
+\renewcommand{\headwidth}{6in}       % Anchura cabecera (incluido separador)
+
+
+%=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=%
+%           I  N  I  C  I  O           D  E  L           D  O  C  U  M  E  N  T  O            %
+%=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=%
+
+
+\usepackage{blindtext} % TEXTO DE RELLENO PARA PLANTILLA
+
+%==============================================================================================
+% PORTADA
+%===========================================================================================
+
+\begin{document}
+\titulo
+\clearpage
+
+%==============================================================================================
+% ÍNDICE
+%==============================================================================================	
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\tableofcontents
+
+% Continuar con numeracion romana (1,2,3...) 
+\renewcommand{\thepage}{\arabic{page}}
+
+%==============================================================================================
+% 01.   INTRODUCCIÓN
+% 01.1. IDENTIFICACIÓN DEL PROYECTO
+% 01.2. OBJETIVO Y ALCANCE DEL PROYECTO
+% 01.3. IDENTIFICACIÓN DEL EQUIPO QUE REALIZA EL PROYECTO
+% 01.4. BREVE DESCRIPCION DEL CONTENIDO DEL RESTO DE SECCIONES DE LA MEMORIA, INCLUYENDO ANEXOS
+%==============================================================================================
+
+% 01
+\fancyfoot[C]{\thepage}
+\section{Introducción}
+\input{tex/01_0_introduccion}
+\blindtext
+% 01.1
+\subsection{Identificación del proyecto}
+\input{tex/01_1_identificacion_del_proyecto.tex}
+\blindtext
+% 01.1
+\subsection{Objetivo y alcanze}
+\input{tex/01_2_objetivo_y_alcanze_del_proyecto.tex}
+\blindtext
+% 01.1
+\subsection{Identificación del equipo}
+\input{tex/01_3_identificacion_del_equipo.tex}
+\blindtext
+% 01.4
+\subsection{Descripción del contenido}
+\input{tex/01_4_descripcion_del_contenido.tex}
+\blindtext
+%==============================================================================================
+% 02. REQUISITOS DEL SISTEMA
+%==============================================================================================
+
+% 02
+\section{Requisitos del sistema}
+\input{tex/02_0_requisitos_del_sistema.tex}
+\blindtext
+%==============================================================================================
+% 03.   DESCRIPCIÓN TÉCNICA
+% 03.1. ASPECTOS ARQUITECTURALES Y TECNOLOGICOS
+% 03.2. MODELOS DE DATOS
+% 03.3. INFORMACIÓN DE DISEÑO DE COMPONENTES RELEVANTES DEL SISTEMA
+%==============================================================================================
+
+% 03
+\section{Descripción técnica}
+\input{tex/03_0_descripcion_tecnica.tex}
+\blindtext
+% 03.1
+\subsection{Aspectos arquitecturales y tecnológicos}
+\input{tex/03_1_aspectos_arquitecturales_y_tecnologicos.tex}
+\blindtext
+% 03.2
+\subsection{Modelos de datos}
+\input{tex/03_2_modelos_de_datos.tex}
+\blindtext
+% 03.3
+\subsection{Diseño de los componentes}
+\input{tex/03_3_diseno_de_componentes_del_sistema.tex}
+\blindtext
+%==============================================================================================
+% 04.   VERIFICACIÓN Y VALIDACIÓN DEL SISTEMA
+% 04.1. DESCRIPCIÓN DE LA METODOLOGÍA SEGUIDA PARA LA REALIZACIÓN DE LAS PRUEBAS DEL SISTEMA
+% 04.2. PRUEBAS REALIZADAS, DEFECTOS ENCONTRADOS Y CAMBIOS Y CORRECCIONES QUE HA HABIDO
+%       QUE REALIZAR. EN ESTA SECCIÓN O EN ANEXO LOS INFORMES DE TODAS LAS PRUEBAS.
+%==============================================================================================
+
+% 04
+\section{Verificación y validación}
+\input{tex/04_0_verificacion_y_validacion.tex}
+\blindtext
+% 04.1
+\subsection{Metodología de pruebas}
+\input{tex/04_1_descripcion_de_metodologia_de_pruebas.tex}
+\blindtext
+% 04.2
+\subsection{Pruebas. Defectos. Correcciones}
+\input{tex/04_2_pruebas_realizadas_cambios_correcciones.tex}
+\blindtext
+%==============================================================================================
+% 05.   MANUALES
+% 05.1. MANUAL DE USUARIO
+% 05.1. MANUAL DE INSTALACIÓN
+%==============================================================================================
+
+% 05
+\section{Manuales}
+\input{tex/05_0_manuales.tex}
+\blindtext
+% 05.1
+\subsection{Manual de usuario}
+\input{tex/05_1_manual_de_usuario.tex}
+\blindtext
+% 05.2
+\subsection{Manual de instalación}
+\input{tex/05_2_manual_de_instalacion.tex}
+\blindtext
+%==============================================================================================
+% 06.     GESTIÓN DEL PROYECTO
+% 06.1.   FASES Y ACTIVIDADES DEL PROYECTO
+% 06.1.1. RIESGOS
+% 06.1.2. ESTIMACIONES GLOBALES DE TAMAÑOS Y ESFUERZOS INICIALES
+% 06.1.3. CRONOGRAMAS GLOBAL INICIAL Y FINAL
+% 06.1.4. TAREAS Y ESTIMACIONES DE ESFUERZOS POR ITERACIÓN 
+% 06.1.5. FICHEROS DE ESFUERZOS INDIVIDUALES 
+% 06.1.6. ESFUERZOS REALES DE LAS TAREAS POR ITERACIÓN 
+% 06.1.7. ESFUERZOS REALES DE LAS PERSONAS Y ROLES 
+% 06.2.   PROCESOS DE SEGUIMIENTO Y CONTROL
+% 06.2.1. CALENDARIO DE LAS DISTINTAS REUNIONES CELEBRADAS
+% 06.2.2. ACTAS DE LAS DISTINTAS REUNIONES CELEBRADAS
+% 06.3.   COSTE REAL DEL PROYECTO
+%==============================================================================================
+
+% 06
+\section{Gestión del proyecto}
+\input{tex/06_0_0_gestion_del_proyecto.tex}
+\blindtext
+% 06.1
+\subsection{Fases y actividades}
+\input{tex/06_1_0_fases_y_actividades_del_proyecto.tex}
+\blindtext
+% 06.1.1
+\subsubsection{Riesgos}
+\input{tex/06_1_1_riesgos.tex}
+\blindtext
+% 06.1.2
+\subsubsection{Estimaciones iniciales}
+\input{tex/06_1_2_estimaciones_globales_de_tamanos_y_esfuerzos_iniciales.tex}
+\blindtext
+% 06.1.3
+\subsubsection{Cronogramas}
+\input{tex/06_1_3_cronogramas_global_inicial_y_final.tex}
+\blindtext
+% 06.1.4
+\subsubsection{Tareas y estimación de esfuerzos}
+\input{tex/06_1_4_tareas_y_estimaciones_de_esfuerzos_por_iteracion.tex}
+\blindtext
+% 06.1.5
+\subsubsection{Ficheros de esfuerzos individuales}
+\input{tex/06_1_5_ficheros_de_esfuerzos_individuales.tex}
+\blindtext
+% 06.1.6
+\subsubsection{Esfuerzos reales de las tareas}
+\input{tex/06_1_6_esfuerzos_reales_de_las_tareas_por_iteracion.tex}
+\blindtext
+% 06.1.7
+\subsubsection{Esfuerzos reales de las personas}
+\input{tex/06_1_7_esfuerzos_reales_de_las_personas_y_roles.tex}
+\blindtext
+% 06.2
+\subsection{Procesos de seguimiento y control}
+\input{tex/06_2_0_procesos_de_seguimiento_y_control.tex}
+\blindtext
+% 06.2.1
+\subsubsection{Calendario de reuniones}
+\input{tex/06_2_1_calendario_de_las_distintas_reuniones_celebradas.tex}
+\blindtext
+% 06.2.2
+\subsubsection{Actas de reuniones}
+\input{tex/06_2_3_actas_de_las_distintas_reuniones_celebradas.tex}
+\blindtext
+% 06.3
+\subsection{Coste}
+\input{tex/06_3_0_coste_real_del_proyecto.tex}
+\blindtext
+%==============================================================================================
+% 07.   GESTIÓN DE CONFIGURACIONES DEL PROYECTO
+% 07.1. POLÍTICAS DE NOMBRADO
+% 07.2. CONTROL DE VERSIONES
+% 07.3. COPIAS DE SEGURIDAD
+% 07.4. ELEMENTOS DE CONFIGURACIÓN Y LINEA BASE
+%==============================================================================================
+
+% 07
+\section{Gestión de configuraciones}
+\input{tex/07_0_gestion_de_configuraciones_del_proyecto.tex}
+\blindtext
+% 07.1
+\subsection{Políticas de nombrado}
+\input{tex/07_1_politicas_de_nombrado.tex}
+\blindtext
+% 07.2
+\subsection{Control de versiones}
+\input{tex/07_2_control_de_versiones.tex}
+\blindtext
+% 07.3
+\subsection{Copias de seguridad}
+\input{tex/07_3_copias_de_seguridad.tex}
+\blindtext
+% 07.4
+\subsection{Elementos de configuración y línea base}
+\input{tex/07_4_elementos_de_configuracion_y_linea_base.tex}
+\blindtext
+%==============================================================================================
+% 08.   ASEGURAMIENTO DE LA CALIDAD DEL PROYECTO
+% 08.1. ESTÁNDARES UTILIZADOS
+% 08.2. PLANIFICACIÓN DE LAS AUDITORÍAS
+% 08.3. AUDITORÍAS
+% 08.4. AUDITORÍA EXTERNA
+%==============================================================================================
+
+% 08
+\section{Aseguramiento de la calidad}
+\input{tex/08_0_aseguramiento_de_la_calidad_del_proyecto.tex}
+\blindtext
+% 08.1
+\subsection{Estándares utilizados}
+\input{tex/08_1_estandares_utilizados.tex}
+\blindtext
+% 08.2
+\subsection{Planificación de las auditorías}
+\input{tex/08_2_planificacion_de_las_auditorias.tex}
+\blindtext
+% 08.3
+\subsection{Auditorías}
+\input{tex/08_3_auditorias.tex}
+\blindtext
+% 08.4
+\subsection{Auditoría externa}
+\input{tex/08_4_auditoria_externa.tex}
+\blindtext
+% 08.5
+\subsection{No conformidades}
+\input{tex/08_5_no_conformidades.tex}
+\blindtext
+%==============================================================================================
+% 09.   POSTMORTEM DEL PROYECTO
+% 09.1. LECCIONES APRENDIDAS
+% 09.2. PROBLEMAS ENCONTRADOS
+% 09.3. CATÁLOGO DE RIESGOS
+% 09.4. ANÁLISIS DIFERENCIAS ESFUERZOS Y TAMAÑOS REALES DEL PROYECTO VS LOS ESTIMADOS
+% 09.5. PLAN REAL VS PLANIFICACIÓN INCIAL
+% 09.6. ANÁLISIS DIFERENCIAS COSTE REAL DEL PROYECTO VS PRESUPUESTO
+%==============================================================================================
+
+% 09
+\section{Postmortem}
+\input{tex/09_0_postmortem_del_proyecto.tex}
+\blindtext
+% 09.1
+\subsection{Lecciones aprendidas}
+\input{tex/09_1_lecciones_aprendidas.tex}
+\blindtext
+% 09.2
+\subsection{Problemas encontrados}
+\input{tex/09_2_problemas_encontrados.tex}
+\blindtext
+% 09.3
+\subsection{Catálogo de riesgos}
+\input{tex/09_3_catalogo_de_riesgos.tex}
+\blindtext
+% 09.4
+\subsection{Diferencias entre los esfuerzos y tamaños reales y los estimados}
+\input{tex/09_4_analisis_esfuerzos_y_tamano_estimados_vs_reales.tex}
+\blindtext
+% 09.5
+\subsection{Plan real vs planificación inicial}
+\input{tex/09_5_plan_real_vs_planificacion_inicial.tex}
+\blindtext
+% 09.6
+\subsection{Diferencias entre el coste real y el presupuesto}
+\input{tex/09_6_analisis_coste_real_vs_presupuesto.tex}
+\blindtext
+%==============================================================================================
+% 10. CONCLUSIONES
+% 10.1. CONCLUSIONES DEL PROYECTO
+% 10.2. IDEAS DE MEJORA DEL PROCESO
+% 10.3. IDEAS DE MEJORA DEL DESARROLLO DEL PROYECTO DENTRO DE LA ASIGNATURA
+% 10.4. VALORACIONES SUBJETIVAS PERO ARGUMENTADAS
+%==============================================================================================
+
+% 10
+\section{Conclusiones}
+\input{tex/10_0_conclusiones.tex}
+\blindtext
+% 10.1
+\subsection{Conclusiones del proyecto}
+\input{tex/10_1_conclusiones_del_proyecto.tex}
+\blindtext
+% 10.2
+\subsection{Ideas de mejora del proceso}
+\input{tex/10_2_ideas_de_mejora_de_proceso.tex}
+\blindtext
+% 10.3
+\subsection{Ideas de mejora del desarrollo del proyecto dentro de la asignatura}
+\input{tex/10_3_ideas_de_mejora_del_desarrollo_del_proyecto_dentro_de_asignatura.tex}
+\blindtext
+% 10.4
+\subsection{Valoraciones subjetivas}
+\input{tex/10_4_valoraciones_subjetivas_argumentadas.tex}
+\blindtext
+%==============================================================================================
+% ANEXOS
+\appendix
+%\addcontentsline{toc}{section}{ANEXOS}
+
+%==============================================================================================
+% A. CURRICULUMS VITAE
+% A.1. CURRICULUM VITAE: DANIEL
+% A.2. CURRICULUM VITAE: JAVIER
+% A.3. CURRICULUM VITAE: JAVIER
+% A.4. CURRICULUM VITAE: ALEJANDRO
+% A.5. CURRICULUM VITAE: ALBERTO
+% A.6. CURRICULUM VITAE: HÉCTOR
+%==============================================================================================
+
+% A
+\section{Currículums Vitae}
+\input{tex/a_0_curriculums_vitae.tex}
+\blindtext
+% A.1
+\subsection{CV: Daniel García Páez}
+\input{tex/a_1_cv_daniel.tex}
+\blindtext
+% A.2
+\subsection{CV: Javier Briz Alastrué}
+\input{tex/a_2_cv_javier.tex}
+\blindtext
+% A.3
+\subsection{CV: Simón Ortego Parra}
+\input{tex/a_3_cv_simon.tex}
+\blindtext
+% A.4
+\subsection{CV: Alejandro Gracia Mateo}
+\input{tex/a_4_cv_alejandro.tex}
+\blindtext
+% A.5
+\subsection{CV: Alberto Berbel Aznar}
+\input{tex/a_5_cv_alberto.tex}
+\blindtext
+% A.6
+\subsection{CV: Héctor Francia Molinero}
+\input{tex/a_6_cv_hector.tex}
+\blindtext
+%==============================================================================================
+% B. HOJAS DE ESFUERZOS
+% B.1. HOJA DE ESFUERZOS: DANIEL
+% B.1. HOJA DE ESFUERZOS: DANIEL
+% B.2. HOJA DE ESFUERZOS: JAVIER
+% B.3. HOJA DE ESFUERZOS: SIMÓN
+% B.4. HOJA DE ESFUERZOS: ALEJANDRO
+% B.5. HOJA DE ESFUERZOS: ALBERTO
+% B.6. HOJA DE ESFUERZOS: HÉCTOR
+%==============================================================================================
+
+% B
+\section{Hojas de esfuerzos}
+\input{tex/b_0_hojas_de_esfuerzos.tex}
+\blindtext
+% B.1
+\subsection{Hoja de esfuerzos: Daniel García Páez}
+\input{tex/b_1_hoja_de_esfuerzos_daniel.tex}
+\blindtext
+% B.2
+\subsection{Hoja de esfuerzos: Javier Briz Alastrué}
+\input{tex/b_2_hoja_de_esfuerzos_javier.tex}
+\blindtext
+% B.3
+\subsection{Hoja de esfuerzos: Simón Ortego Parra}
+\input{tex/b_3_hoja_de_esfuerzos_simon.tex}
+\blindtext
+% B.4
+\subsection{Hoja de esfuerzos: Alejandro Gracia Mateo}
+\input{tex/b_4_hoja_de_esfuerzos_alejandro.tex}
+\blindtext
+% B.5
+\subsection{Hoja de esfuerzos: Alberto Berbel Aznar}
+\input{tex/b_5_hoja_de_esfuerzos_alberto.tex}
+\blindtext
+% B.6
+\subsection{Hoja de esfuerzos: Héctor Francia Molinero}
+\input{tex/b_6_hoja_de_esfuerzos_hector.tex}
+\blindtext
+%==============================================================================================
+% C. CRONOGRAMAS
+% C.1. CRONOGRAMA INICIAL
+% C.2. CRONOGRAMA FINAL
+%==============================================================================================
+
+% C
+\section{Cronogramas}
+\input{tex/c_0_cronogramas.tex}
+\blindtext
+% C.1
+\subsection{Cronograma inicial}
+\input{tex/c_1_cronograma_inicial.tex}
+\blindtext
+% C.2
+\subsection{Cronograma final}
+\input{tex/c_2_cronograma_final.tex}
+\blindtext
+%==============================================================================================
+% D.    ACTAS DE REUNIONES
+% D.01. ACTA DE REUNION #01
+% D.02. ACTA DE REUNION #02
+% D.03. ACTA DE REUNION #03
+% D.04. ACTA DE REUNION #04
+% D.05. ACTA DE REUNION #05
+% D.06. ACTA DE REUNION #06
+% D.07. ACTA DE REUNION #07
+% D.08. ACTA DE REUNION #08
+% D.10. ACTA DE REUNION #10
+% D.11. ACTA DE REUNION #11
+% D.12. ACTA DE REUNION #12
+%==============================================================================================
+
+% D
+\section{Actas de reuniones}
+\input{tex/d_00_actas_reuniones.tex}
+\blindtext
+% D.1
+\subsection{Reunión núm.01}
+\input{tex/d_01_acta_reunion_01.tex}
+\blindtext
+% D.2
+\subsection{Reunión núm.02}
+\input{tex/d_02_acta_reunion_02.tex}
+\blindtext
+% D.3
+\subsection{Reunión núm.03}
+\input{tex/d_03_acta_reunion_03.tex}
+\blindtext
+% D.4
+\subsection{Reunión núm.04}
+\input{tex/d_04_acta_reunion_04.tex}
+\blindtext
+% D.5
+\subsection{Reunión núm.05}
+\input{tex/d_05_acta_reunion_05.tex}
+\blindtext
+% D.6
+\subsection{Reunión núm.06}
+\input{tex/d_06_acta_reunion_06.tex}
+\blindtext
+% D.7
+\subsection{Reunión núm.07}
+\input{tex/d_07_acta_reunion_07.tex}
+\blindtext
+% D.8
+\subsection{Reunión núm.08}
+\input{tex/d_08_acta_reunion_08.tex}
+\blindtext
+% D.9
+\subsection{Reunión núm.09}
+\input{tex/d_09_acta_reunion_09.tex}
+\blindtext
+% D.10
+\subsection{Reunión núm.10}
+\input{tex/d_10_acta_reunion_10.tex}
+\blindtext
+% D.11
+\subsection{Reunión núm.11}
+\input{tex/d_11_acta_reunion_11.tex}
+\blindtext
+% D.12
+\subsection{Reunión núm.12}
+\input{tex/d_12_acta_reunion_12.tex}
+\blindtext
+%==============================================================================================
+% E. PRESUPUESTO
+%==============================================================================================
+
+% E
+\section{Presupuesto}
+\input{tex/e_0_presupuesto.tex}
+\blindtext
+%==============================================================================================
+% F. AUDITORÍAS
+%==============================================================================================
+
+% F
+\section{Auditorías}
+\input{tex/f_0_auditorias.tex}
+\blindtext
+%==============================================================================================
+% G. MANUALES
+% G.1. MANUAL DE USUARIO
+% G.2. MANUAL DE INSTALACIÓN
+%==============================================================================================
+
+% G
+\section{Manuales}
+\input{tex/g_0_manuales.tex}
+\blindtext
+% G.1
+\subsection{Manual de usuario}
+\input{tex/g_1_manual_de_usuario.tex}
+\blindtext
+% G.2
+\subsection{Manual de instalación}
+\input{tex/g_2_manual_de_instalacion.tex}
+\blindtext
+%==============================================================================================
+% H. INFORMES DE PRUEBAS
+%----------------------------------------------------------------------------------------------
+
+% H
+\section{Informes de pruebas}
+\input{tex/h_0_informes_pruebas.tex}
+\blindtext
+
+\end{document}
+%=-=-=-=-=-=-==-=-=-=-=-=-=%
+%     F   I   N            %
+%=-=-=-=-=-=-==-=-=-=-=-=-=%
+
