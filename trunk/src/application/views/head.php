@@ -37,18 +37,20 @@
                 
                 <!-- Item: Buscador -->
                 <li>
-                    <div id="buscador">
-                        <div id="buscador_selector">
-                            <select>
-                				<option value="arquitectura">Arquitectura</option>
-                				<option value="frecuencia">Frecuencia (MHz)</option>
-                				<option value="flash">Flash (KB)</option>
-                				<option value="ram">RAM (KB)</option>
-                            </select>
-                        </div>
-                        <input id="buscador_texto" type="text" name="q" value="" placeholder="Introduzca su búsqueda..." autocomplete="off">
-                        <input id="buscador_boton" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
-                    </div>
+					<?php echo "<form method='post' action='" . base_url() . "index.php/buscar" . "'>";?>
+	                    <div id="buscador">
+	                        <div id="buscador_selector" name="campo">
+	                            <select>
+	                				<option value="arquitectura">Arquitectura</option>
+	                				<option value="frecuencia">Frecuencia (MHz)</option>
+	                				<option value="flash">Flash (KB)</option>
+	                				<option value="ram">RAM (KB)</option>
+	                            </select>
+	                        </div>
+	                        <input id="buscador_texto" type="text" name="busqueda" value="" placeholder="Introduzca su búsqueda..." autocomplete="off">
+	                        <input id="buscador_boton" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
+	                    </div>
+					</form>
                 </li>
                 
                 <!-- Item: Listado -->

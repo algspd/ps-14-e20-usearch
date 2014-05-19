@@ -13,7 +13,7 @@
 
 <?php
       foreach($resultado as $fila){
-        echo "<form method='post' action='" . base_url() . "/index.php/listar_todo" . "'>";
+        echo "<form method='post' action='" . base_url() . "index.php/listar_todo" . "'>";
         echo "<tr>";
 		  echo "<td class='ref'>";
             echo $fila->ref;
