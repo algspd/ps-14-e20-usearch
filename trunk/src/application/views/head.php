@@ -36,7 +36,7 @@
                 </li>
                 
                 <!-- Item: Buscador -->
-                <!-- <li>
+                <li>
                     <div id="buscador">
                         <div id="buscador_selector">
                             <select>
@@ -50,7 +50,6 @@
                         <input id="buscador_boton" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
                     </div>
                 </li>
-                -->
                 
                 <!-- Item: Listado -->
                 <li>
