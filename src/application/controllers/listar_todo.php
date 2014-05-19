@@ -17,10 +17,12 @@ class Listar_todo extends CI_Controller {
         'name'  => $_POST['ref']);
       $this->cart->insert($elemento);
     }
-
-    $resultado=$this->microsmodel->listar_todo();
-    $items = $this->cart->total_items();
-    $data = array('resultado'=> $resultado,'items' => $items);
+    $data = array(
+		      'resultado'       => $this->microsmodel->listar_todo(),
+			  'items'           => $this->cart->total_items(),
+			  'campo_busqueda'  => 'arquitectura',
+			  'string_busqueda' => ''
+			);
     $this->load->view('head',$data);
     $this->load->view('listar_todo',$data);
     $this->load->view('foot');

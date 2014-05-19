@@ -1,4 +1,5 @@
 <div>
+<?php if (!empty($resultado)) { ?>
   <table>
   <tr>
     <th>Referencia</th>
@@ -42,5 +43,11 @@
         echo "</form>";
     }
 ?>
+</table>
+<?php } else { ?>
+	<p style="text-align: center;">
+		No hay resultados para '<?php echo $string_busqueda;?>' en el campo '<?php echo $campo_busqueda;?>'
+	</p>
+<?php } ?>
 </div>
 </div>
