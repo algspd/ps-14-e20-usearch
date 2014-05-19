@@ -11,11 +11,11 @@ class Buscar extends CI_Controller {
 	   
       if (!empty($_POST['string_busqueda'])){	
 	    $data = array(
-	    		  'resultado'=> $this->microsmodel->buscar($_POST['campo_busqueda'],$_POST['string_busqueda']),
-	    		  'items' => $this->cart->total_items(),
-	    		  'campo_busqueda' => $_POST['campo_busqueda'],
-	    		  'string_busqueda' => $_POST['string_busqueda']
-	    		);
+	      'resultado'       => $this->microsmodel->buscar($_POST['campo_busqueda'],$_POST['string_busqueda']),
+	      'items'           => $this->cart->total_items(),
+	      'campo_busqueda'  => $_POST['campo_busqueda'],
+	      'string_busqueda' => $_POST['string_busqueda']
+	    );
 	    $this->load->view('head',$data);
 	    $this->load->view('listar_todo',$data);
 	    $this->load->view('foot');

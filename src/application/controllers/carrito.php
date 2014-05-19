@@ -11,12 +11,13 @@ class Carrito extends CI_Controller {
 
     // Comprobar que se han rellenado los campos obligatorios
     if (isset($_POST['pedir']) &&
-       ($_POST['nombre']!='' && $_POST['apellidos']!='' && $_POST['direccion']!='' && $_POST['ciudad']!='' && $_POST['provincia']!='' && $_POST['cp']!='' && $_POST['tfn']!='' && $_POST['email']!='' )
-    ){
-
-      $carro=$this->cart->contents();
-      $items = $this->cart->total_items();
-      $data = array('carro' => $carro,'items' => $items);
+       ($_POST['nombre']!='' && $_POST['apellidos']!='' && $_POST['direccion']!='' && $_POST['ciudad']!='' && $_POST['provincia']!='' && $_POST['cp']!='' && $_POST['tfn']!='' && $_POST['email']!='' )) {
+      $data = array(
+        'carro'           => $this->cart->contents(),
+  	    'items'           => $this->cart->total_items(),
+  	    'campo_busqueda'  => 'arquitectura',
+        'string_busqueda' => ''
+      );
       $this->load->view('head',$data);
       $this->load->view('hoja_pedido',$data);
       $this->load->view('foot');
@@ -24,7 +25,7 @@ class Carrito extends CI_Controller {
       return;
     }
 
-    if ( isset($_POST['vaciar'])){
+    if ( isset($_POST['vaciar'])) {
       $this->cart->destroy();
     }
     if ( isset($_POST['submit'])){
@@ -38,13 +39,21 @@ class Carrito extends CI_Controller {
         $i++;
       }
     }
-
-    $carro=$this->cart->contents();
-    $items = $this->cart->total_items();
-    $data = array('carro' => $carro,'items' => $items);
     if(isset($_POST['nombre'])){
-      $error="";
-      $data = array('carro' => $carro,'items' => $items,'error'=>$error);
+      $data = array(
+	    'carro'           => $this->cart->contents(),
+		'items'           => $this->cart->total_items(),
+  	    'campo_busqueda'  => 'arquitectura',
+  	    'string_busqueda' => '',
+		'error'           => ''
+	  );
+    } else {
+	    $data = array(
+	      'carro'           => $this->cart->contents(),
+		  'items'           => $this->cart->total_items(),
+		  'campo_busqueda'  => 'arquitectura',
+	      'string_busqueda' => ''
+	    );	
     }
     $this->load->view('head',$data);
     $this->load->view('carrito',$data);

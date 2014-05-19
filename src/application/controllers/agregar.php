@@ -20,7 +20,7 @@ class Agregar extends CI_Controller {
         $_POST['ref'],$_POST['arch'],
         $_POST['freq'],$_POST['flash'],
         $_POST['ram'],$_POST['precio'])){
-        header( 'Location: ' . base_url() . '/index.php/editar ') ;
+        header( 'Location: ' . base_url() . 'index.php/editar') ;
       }
       else{
         echo "Error";

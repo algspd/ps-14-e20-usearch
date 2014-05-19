@@ -10,10 +10,10 @@ class Main extends CI_Controller {
     $this->load->helper('url');       
     $this->load->helper('html');     
     $data = array(
-			  'items'           => $this->cart->total_items(),
-			  'campo_busqueda'  => 'arquitectura',
-			  'string_busqueda' => ''
-			);	
+	  'items'           => $this->cart->total_items(),
+	  'campo_busqueda'  => 'arquitectura',
+	  'string_busqueda' => ''
+	);	
     $this->load->view('head',$data);
     $this->load->view('home');
     $this->load->view('foot');

@@ -45,8 +45,8 @@
 ?>
 </table>
 <?php } else { ?>
-	<p style="text-align: center;">
-		No hay resultados para '<?php echo $string_busqueda;?>' en el campo '<?php echo $campo_busqueda;?>'
+	<p class="texto_centrado">
+		No hay resultados para <strong>'<?php echo $string_busqueda;?>'</strong> en el campo <strong>'<?php echo $campo_busqueda;?></strong>'
 	</p>
 <?php } ?>
 </div>
