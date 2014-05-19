@@ -77,7 +77,21 @@ class Microsmodel extends CI_Model {
     }
     return $resultado;
   }
-
+  
+  function buscar () {
+      $query=$this->db->get('micros');
+      $lista=[];
+      foreach($query->result() as $row){
+		$lista[]=new Microsmodel();
+		end($lista)->ref=$row->ref;
+        end($lista)->arch=$row->arch;
+        end($lista)->freq=$row->freq;
+        end($lista)->flash=$row->flash;
+        end($lista)->ram=$row->ram;
+        end($lista)->precio=$row->precio;
+      }
+      return $lista;
+    }
 }
 
 ?>
