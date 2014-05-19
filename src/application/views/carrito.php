@@ -1,4 +1,4 @@
-<form method="post" action="<?php echo base_url() . "/index.php/carrito"?>">
+<form method="post" action="<?php echo base_url() . "index.php/carrito"?>">
 <table style="border-spacing:10px;width:80%;border:1px;">
 
 <tr>
@@ -32,7 +32,7 @@
   </form>
 <div id="formulario">
   <div id="formulario_2">
-  <form method="post" action="<?php echo base_url() . "/index.php/carrito"?>">
+  <form method="post" action="<?php echo base_url() . "index.php/carrito"?>">
     <label for="nombre">Nombre: </label>
     <input id="nombre" type="text" name="nombre" value="<?php if(isset($_POST['nombre'])) echo $_POST['nombre'] ?>" ><br>
     <label for="apellidos">Apellidos: </label>

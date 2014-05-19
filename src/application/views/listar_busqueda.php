@@ -11,7 +11,7 @@
 
 <?php
       foreach($resultado as $fila){
-        echo "<form method='post' action='" . base_url() . "/index.php/listar_busqueda" . "'>";
+        echo "<form method='post' action='" . base_url() . "index.php/buscar" . "'>";
         echo "<tr>";
 		  echo "<td class='ref'>";
             echo $fila->ref;
