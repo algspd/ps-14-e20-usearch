@@ -78,8 +78,24 @@ class Microsmodel extends CI_Model {
     return $resultado;
   }
   
-  function buscar () {
-      $query=$this->db->get('micros');
+  function buscar ($campo,$busqueda) {
+    // NOTA: Seria mas facil en el formulario llamar a los campos = que en DB
+    // Asi no haria falta ese switch, directamente:
+	// $this->db->like($campo,$busqueda);	
+    switch($campo) {
+      case 'arquitectura':
+	    $this->db->like('arch', $busqueda);	
+  	    break;	
+      case 'frecuencia':
+        $this->db->like('freq', $busqueda);	
+        break;
+	  case 'flash':
+        $this->db->like('flash', $busqueda);	
+        break;
+	  case 'ram':
+        $this->db->like('ram', $busqueda);	
+	  }
+      $query = $this->db->get('micros');
       $lista=[];
       foreach($query->result() as $row){
 		$lista[]=new Microsmodel();

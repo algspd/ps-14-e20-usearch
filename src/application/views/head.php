@@ -39,8 +39,8 @@
                 <li>
 					<?php echo "<form method='post' action='" . base_url() . "index.php/buscar" . "'>";?>
 	                    <div id="buscador">
-	                        <div id="buscador_selector" name="campo">
-	                            <select>
+	                        <div id="buscador_selector">
+	                            <select name="campo">
 	                				<option value="arquitectura">Arquitectura</option>
 	                				<option value="frecuencia">Frecuencia (MHz)</option>
 	                				<option value="flash">Flash (KB)</option>
