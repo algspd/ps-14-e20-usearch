@@ -1,2 +1,139 @@
 % D.02. ACTA DE REUNION #02
 %----------------------------------------------------------------------------------------------
+\begin{center}	
+\Large{Acta de Reunión Nº \numeroDeReunion\hspace{0.25em}-\hspace{0.25em}\tituloReunion}
+\end{center}
+\vspace{1.5em}
+
+% PRIMERA TABLA: INFORMACIÓN BÁSICA
+\begin{longtable}{ | L{\dimexpr 0.420\linewidth-2\tabcolsep} |
+				     L{\dimexpr 0.570\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+\mc{2}{\bf Información básica}  \\
+%\hline % ------------------------------------------------------------------------
+%{\bf Cliente} & Nombre del cliente (por definir o no es necesario ?)  \\
+\hline % ------------------------------------------------------------------------
+{\bf Proyecto} & $\mu$Search \\ 
+\hline % ------------------------------------------------------------------------
+{\bf Fecha y hora de comienzo} & 20/02/14 - 12:00 \\
+\hline % ------------------------------------------------------------------------
+{\bf Lugar} & Seminario 21, Edif. Ada Byron. EINA. Unizar \\
+\hline % ------------------------------------------------------------------------
+{\bf Tipo de reunión} & Estándar \\
+\hline % ------------------------------------------------------------------------
+\end{longtable}
+
+
+%----------------------------------------------------------------------------------------
+% SEGUNDA TABLA - ASISTENTES
+\begin{longtable}{ | C{\dimexpr 0.070\linewidth-2\tabcolsep} |
+                     L{\dimexpr 0.350\linewidth-2\tabcolsep} |
+                     C{\dimexpr 0.370\linewidth-2\tabcolsep} |
+                     C{\dimexpr 0.200\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+\mc{4}{\bf Asistentes} \\
+\hline % ------------------------------------------------------------------------
+{\bf Nº} & {\bf Nombre y Apellidos} & {\bf Cargo} & {\bf Rol} \\
+\hline % ------------------------------------------------------------------------
+{\bf 1} & Alberto Berbel Aznar & Verificación y validación & --  \\
+\hline % ------------------------------------------------------------------------
+{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & --  \\
+\hline % ------------------------------------------------------------------------
+{\bf 3} & Héctor Francia Molinero & Gestor de calidad & --  \\
+\hline % ----------------------------------------------------
+{\bf 4} & Daniel García Páez & Director del proyecto & -- \\
+\hline % ------------------------------------------------------------------------
+{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & --  \\
+\hline % ------------------------------------------------------------------------
+{\bf 6} & Simón Ortego Parra & Gestor de desarrollo & Secretario  \\
+\hline % ------------------------------------------------------------------------
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+% CUARTA TABLA - OBJETIVOS, CUERPO DE LA REUNIÓN, DECISIONES TOMADAS, ...
+\begin{longtable}{ | C{\dimexpr\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\cabeceraTabla{Objetivos} \\
+\hline % ------------------------------------------------------------------------
+\endfirsthead
+\hline % ------------------------------------------------------------------------
+\endhead
+\espacioSubtabla
+\hline % ------------------------------------------------------------------------
+\endfoot
+\hline % ------------------------------------------------------------------------
+\endlastfoot
+
+\itemNvlUno{Organizar de forma consensuada el comienzo del proyecto y algunos
+aspectos generales.} \\
+
+\hline % ------------------------------------------------------------------------
+\cabeceraTabla{Cuerpo de la reunión} \\
+\hline % ------------------------------------------------------------------------
+
+\itemNvlUno{Cada uno de los asistentes se presentó a la hora.}
+\itemNvlUno{Se analizaron los requisitos de la aplicación de nuevo y
+se fijaron perfectamente todos los parámetros.}
+\itemNvlUno{Se pasó a hablar de la arquitectura en alto nivel del sistema
+a desarrollar y de realizar los diagramas explicativos apropiados (diagramas
+de componentes y de despliegue).}
+\itemNvlUno{Se establecieron las tecnologías y estándares de codificación del
+proyecto software.}
+\itemNvlUno{Se decidieron las herramientas usadas para la documentación durante 
+el desarrrollo del proyecto.}
+\itemNvlUno{Se establecieron los mecanismos de comunicación entre los componentes
+del equipo.}
+\itemNvlUno{Se realizó una planificación de las tareas ha realizar inmediatamente
+para el desarrollo del documento de ``Propuesta de Proyecto''.}\\
+
+\hline % ------------------------------------------------------------------------
+\cabeceraTabla{Decisiones tomadas}  \\
+\hline % ------------------------------------------------------------------------
+
+\itemNvlUno{Se establecieron como tecnologías y estándares de codificación (los
+establecidos por los desarrolladores de éstas) las siguientes:}
+	\itemNvlDos{HTML 5.}
+	\itemNvlDos{CSS 3.}
+	\itemNvlDos{PHP 5 y CodeIgniter (la versión apropiada).}
+	\itemNvlDos{MySQL.}
+	\itemNvlDos{LaTex: para la generación de la órden de pedido automática.}
+\itemNvlUno{Para la documentación durante el desarrrollo del proyecto
+se van a utilizar las siguientes herramientas:}
+	\itemNvlDos{LaTex: para todo tipo de documentación (Actas, Convocatorias,
+	documentos formales,etc.)}
+	\itemNvlDos{Excel o similar (.xls): para la anotación de los esfuerzos
+	de cada uno de los miembros del equipo.}
+	\itemNvlDos{Modelio: para realizar diferentes diagramas relacionados
+	con la Ingeniería del Software.}
+	\itemNvlDos{Subversion: para el almacenamiento de todos los documentos.}
+\itemNvlUno{Para la comunicación entre los miembros se van a utilizar:}
+	\itemNvlDos{Google Groups: para todo tipo de comunicación.}
+	\itemNvlDos{Whatsapp: para la comunicación informal (problemas, retrasos, citas,...)}
+\itemNvlUno{Se realizó la siguiente planificación de cara a la presentación de la
+``Propuesta de Proyecto'' que incluye una aproximación del número de horas y
+los miembros a los que se les asigna cada una de las tareas:}
+	\itemNvlDos{[2 h.] - Diagrama E/R de la BD + prototipo inicial de la 
+	aplicación en papel: Daniel y Javier.}
+	\itemNvlDos{[1 h.] - Diseño arquitectural del sistema (diag. componentes 
+	y despliegue): Alberto.}
+	\itemNvlDos{[1 h.] - Plantillas de documentación en LaTeX para las actas,
+	convocatorias y propuesta de proyecto: Simón.}
+	\itemNvlDos{[1 h.] - Hojas de esfuerzos: Códigos de categorías (incluyendo un 
+	documento de texto explicativo con código + nombre + descr.): Alejandro}
+	\itemNvlDos{[2 h.] - Logotipo + Nombre de la empresa: Héctor.}\\
+
+\hline % ------------------------------------------------------------------------
+\cabeceraTabla{Temas pendientes} \\
+\hline % ------------------------------------------------------------------------
+
+\itemNvlUno{Elección del responsable de la propuesta de proyecto.}
+\itemNvlUno{Calendario de trabajo.}
+\itemNvlUno{Iniciar el uso de la Wiki + Subversion.} \\
+	
+\hline % ------------------------------------------------------------------------
+\cabeceraTabla{Próxima reunión prevista} \\
+\hline % ------------------------------------------------------------------------
+Miércoles 26 de Febrero del 2014 a las 20:00 \\
+\end{longtable}

@@ -1,2 +1,115 @@
 % D.03. ACTA DE REUNION #03
 %----------------------------------------------------------------------------------------------
+\begin{center}	
+\Large{Acta de Reunión Nº \numeroDeReunion\hspace{0.25em}-\hspace{0.25em}\tituloReunion}
+\end{center}
+\vspace{1.5em}
+
+% PRIMERA TABLA: INFORMACIÓN BÁSICA
+\begin{longtable}{ | L{\dimexpr 0.420\linewidth-2\tabcolsep} |
+				     L{\dimexpr 0.570\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+\mc{2}{\bf Información básica}  \\
+%\hline % ------------------------------------------------------------------------
+%{\bf Cliente} & Nombre del cliente (por definir o no es necesario ?)  \\
+\hline % ------------------------------------------------------------------------
+{\bf Proyecto} & $\mu$Search \\ 
+\hline % ------------------------------------------------------------------------
+{\bf Fecha y hora de comienzo} & 26/02/14 - 20:00 \\
+\hline % ------------------------------------------------------------------------
+{\bf Lugar} & Seminario 21, Edif. Ada Byron. EINA. Unizar \\
+\hline % ------------------------------------------------------------------------
+{\bf Tipo de reunión} & Estándar \\
+\hline % ------------------------------------------------------------------------
+\end{longtable}
+
+
+%----------------------------------------------------------------------------------------
+% SEGUNDA TABLA - ASISTENTES
+\begin{longtable}{ | C{\dimexpr 0.070\linewidth-2\tabcolsep} |
+                     L{\dimexpr 0.350\linewidth-2\tabcolsep} |
+                     C{\dimexpr 0.370\linewidth-2\tabcolsep} |
+                     C{\dimexpr 0.200\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+\mc{4}{\bf Asistentes} \\
+\hline % ------------------------------------------------------------------------
+{\bf Nº} & {\bf Nombre y Apellidos} & {\bf Cargo} & {\bf Rol} \\
+\hline % ------------------------------------------------------------------------
+{\bf 1} & Alberto Berbel Aznar & Verificación y validación & --  \\
+\hline % ------------------------------------------------------------------------
+{\bf 2} & Javier Briz Alastrué & Gestor de configuraciones & Cronometrador  \\
+\hline % ------------------------------------------------------------------------
+{\bf 3} & Héctor Francia Molinero & Gestor de calidad & Observador  \\
+\hline % ----------------------------------------------------
+{\bf 4} & Daniel García Páez & Director del proyecto & Director \\
+\hline % ------------------------------------------------------------------------
+{\bf 5} & Alejandro Gracia Mateo & Gestor de planificación & Planificador  \\
+\hline % ------------------------------------------------------------------------
+{\bf 6} & Simón Ortego Parra & Gestor de desarrollo & Secretario  \\
+\hline % ------------------------------------------------------------------------
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+% CUARTA TABLA - OBJETIVOS, CUERPO DE LA REUNIÓN, DECISIONES TOMADAS, ...
+\begin{longtable}{ | C{\dimexpr\linewidth-2\tabcolsep} | }
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+{\bf Objetivos} \\
+\hline % ------------------------------------------------------------------------
+\itemNvlUno{Fijar el nombre del proyecto y el logotipo.}
+\itemNvlUno{Ajustar la agenda semanal y los roles de cada miembro para 
+las reuniones de manera definitiva.}
+\itemNvlUno{Establecer los requisitos de la aplicación.}
+\itemNvlUno{Repartición de tareas para la propuesta de proyecto.} \\
+\endfirsthead
+\hline % ------------------------------------------------------------------------
+\endhead
+\espacioSubtabla
+\hline % ------------------------------------------------------------------------
+\endfoot
+\hline % ------------------------------------------------------------------------
+\endlastfoot
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+{\bf Cuerpo de la reunión} \\
+\hline % ------------------------------------------------------------------------
+\itemNvlUno{Se asignaron los roles de las reuniones de la siguiente manera. Los
+roles de secretario, director y planificador serán fijos para todas las reuniones,
+el resto de roles se rotarán.}
+\itemNvlUno{Por otro lado, se decidió que el nombre del proyecto y el logotipo
+se decidirían a través de una encuesta online.}
+\itemNvlUno{A continuación, se examinó el avance individual de cada uno de 
+los miembros del equipo. También, se revisó lo que faltaba por realizar de
+las dos últimas reuniones.}
+\itemNvlUno{Luego, se plantearon a muy alto nivel los requisitos para la 
+aplicación.}
+\itemNvlUno{Además, se anotó un requisito importante de la aplicación.}\\
+\rowcolor{grisCabeceraTabla}
+{\bf Decisiones tomadas}\\
+\hline % ------------------------------------------------------------------------
+\itemNvlUno{Se plantearon los siguientes requisitos de aplicación:}
+    \itemNvlDos{Insertar un elemento en el catálogo.}
+    \itemNvlDos{Eliminar un elemento del catálogo.}
+    \itemNvlDos{Modificar un elemento del catálogo.}
+    \itemNvlDos{Insertar un elemento en el carrito de compra.}
+    \itemNvlDos{Eliminar un elemento del carrito de compra.}
+    \itemNvlDos{Modificar un elemento del carrito de compra.}
+    \itemNvlDos{Actualizar varios elementos del carro de manera simultánea.}
+    \itemNvlDos{Búsqueda de productos atendiendo a un único campo de búsqueda
+    en cada caso.}
+\itemNvlUno{La restricción para la aplicación que se propuso es el siguiente:
+``Se permitirá realizar pedidos que incluirán los datos del cliente cada vez. 
+Es decir, no existirá persistencia de los datos del cliente tras la realización 
+de los pedidos. Los pedidos contendrán la suficiente información para identificar 
+a los clientes. Además, no permitirán la reserva de los productos solicitados, 
+únicamente se generará un presupuesto del coste de los productos elegidos''.}\\
+\hline % ------------------------------------------------------------------------
+\rowcolor{grisCabeceraTabla}
+{\bf Próxima reunión prevista} \\
+\hline % ------------------------------------------------------------------------
+\itemNvlUno{Se decidirá tras realizarse la cuarta reunión, que tiene como fin el seguimiento
+del lanzamiento de la primera iteración del proyecto.}\\
+\end{longtable}
+
