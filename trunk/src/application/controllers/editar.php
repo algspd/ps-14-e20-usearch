@@ -11,7 +11,7 @@ class Editar extends CI_Controller {
     
     if (isset($_POST['eliminar'])) {
       $this->microsmodel->eliminar($_POST['eliminar']);
-      header( 'Location: ' . base_url() . '/index.php/editar ') ;
+      header( 'Location: ' . base_url() . 'index.php/editar ') ;
       return;
     }
 
@@ -28,7 +28,7 @@ class Editar extends CI_Controller {
         $_POST['ref'],$_POST['arch'],
         $_POST['freq'],$_POST['flash'],
         $_POST['ram'],$_POST['precio']);
-      header( 'Location: ' . base_url() . '/index.php/editar ') ;
+      header( 'Location: ' . base_url() . 'index.php/editar ') ;
       return;
     }
 
