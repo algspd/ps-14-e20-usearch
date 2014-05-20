@@ -11,7 +11,7 @@
   <body>
     <!-- Cabecera página web con logos -->
 	<div id="cabecera">
-	    <a href="<?php echo base_url(); ?>">
+	    <a href="<?php echo base_url() . "index.php/admin"; ?>">
             <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logotipo">
             <div id="tituloWeb">
                 <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
@@ -26,11 +26,11 @@
             <ul class="nav">
                 <!-- Item: Añadir Micro -->
                 <li>
-                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/agregar" ?>">CREAR NUEVO</a>
+                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/agregar"; ?>">CREAR NUEVO</a>
                 </li>
 				<!-- Item: Buscador -->
                 <li>
-					<?php echo "<form method='post' action='" . base_url() . "index.php/buscar" . "'>";?>
+					<?php echo "<form method='post' action='" . base_url() . "index.php/buscar_admin" . "'>";?>
 	                    <div id="buscador">
 	                        <div id="buscador_selector">
 	                            <select name="campo_busqueda">
@@ -51,7 +51,7 @@
                 </li>
 				<!-- Item: Listado Completo-->
                 <li>
-                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/editar" ?>">LISTADO COMPLETO</a>
+                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/listar_todo_admin" ?>">LISTADO COMPLETO</a>
                 </li>
             </ul>
         </div> <!-- Menu navegacion -->

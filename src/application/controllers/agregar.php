@@ -3,7 +3,8 @@
 class Agregar extends CI_Controller {
 
   public function index() {
-
+  
+	$this->load->library('cart');
     $this->load->helper('url');
     $this->load->helper('html');
     $this->load->model('microsmodel','',TRUE);
@@ -30,7 +31,10 @@ class Agregar extends CI_Controller {
 
     else {
       // No hay datos en el post, cargamos la lista para que el usuario elija qué editar
-      $data = array();
+      $data = array(
+			'campo_busqueda'  => 'arquitectura',
+			'string_busqueda' => ''
+		);
       $this->load->view('adminhead',$data);
       $this->load->view('agregar',$data);
       $this->load->view('foot');

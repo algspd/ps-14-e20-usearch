@@ -35,7 +35,10 @@ class Editar extends CI_Controller {
     if (isset($_POST['ref'])) {
       // Se ha enviado solo la referencia, procedemos a hacer el listado de sus specs
       $def=$this->microsmodel->listar_uno($_POST['ref']);
-      $data = array('def'=> $def);
+      $data = array('def'=> $def,
+			'campo_busqueda'  => 'arquitectura',
+			'string_busqueda' => ''
+		);
 
       if((isset($_POST['freq']) && $_POST['freq']=='')  ||
          (isset($_POST['precio']) && $_POST['precio']=='')  ||
@@ -46,7 +49,10 @@ class Editar extends CI_Controller {
 
         
         $error="";
-        $data = array('def'=> $def,'error'=>$error);
+        $data = array('def'=> $def,'error'=>$error,
+			'campo_busqueda'  => 'arquitectura',
+			'string_busqueda' => ''
+		);
       }
 
       $this->load->view('adminhead',$data);
@@ -57,7 +63,11 @@ class Editar extends CI_Controller {
     if (! isset($_POST['ref'])) {
       // No hay datos en el post, cargamos la lista para que el usuario elija qué editar
       $resultado=$this->microsmodel->listar_todo();
-      $data = array('resultado'=> $resultado);
+	  $data = array(
+			'resultado'=> $resultado,
+			'campo_busqueda'  => 'arquitectura',
+			'string_busqueda' => ''
+		);
       $this->load->view('adminhead',$data);
       $this->load->view('listar_todo_editar',$data);
       $this->load->view('foot');
