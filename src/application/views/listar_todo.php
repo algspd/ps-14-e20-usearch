@@ -37,7 +37,9 @@
             echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
           echo "</td>";
           echo "<td class='buttonAdd'>";
-            echo "<input type=\"image\" src=\"<?php echo base_url() . '/img/logoWeb.png'; ?>\">";
+		  ?>
+            <input type="image" src="<?php echo base_url() . '/img/carritoPlus.png'; ?>" class="addButton">
+		  <?php
           echo "</td>";
         echo "</tr>\n";
         echo "</form>";
