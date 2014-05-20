@@ -1,5 +1,6 @@
-<?php echo "<form method='post' action='" . base_url() . "index.php/editar" . "'>";?>
-<table>
+<div>
+<?php if (!empty($resultado)) { ?>
+  <table>
   <tr>
     <th>Referencia</th>
     <th>Arquitectura</th>
@@ -10,34 +11,44 @@
     <th></th>
 
 </tr>
+
 <?php
       foreach($resultado as $fila){
+        echo "<form method='post' action='" . base_url() . "index.php/editar" . "'>";
         echo "<tr>";
-        echo "<td class='ref'>";
-        echo $fila->ref;
-        echo "</td>";
-        echo "<td class='arq'>";
-        echo $fila->arch;
-        echo "</td>";
-        echo "<td class='freq'>"  ;   
-        echo $fila->freq;
-        echo "</td>";
-        echo "<td class='flash'>";
-        echo $fila->flash;
-        echo "</td>";
-        echo "<td class='ram'>";
-        echo $fila->ram;
-        echo "</td>";
-        echo "<td class='precio'>";
-        echo $fila->precio;
-        echo "</td>";
+		  echo "<td class='ref'>";
+            echo $fila->ref;
+            echo "<input type='hidden' value='" . $fila->ref . "' name='ref'>";
+          echo "</td>";
+          echo "<td class='arq'>";
+            echo $fila->arch;
+          echo "</td>";
+          echo "<td class='freq'>"  ;   
+            echo $fila->freq;
+          echo "</td>";
+          echo "<td class='flash'>";
+            echo $fila->flash;
+          echo "</td>";
+          echo "<td class='ram'>";
+            echo $fila->ram;
+          echo "</td>";
+          echo "<td class='precio'>";
+            echo $fila->precio;
+            echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
+          echo "</td>";
         echo "<td class='buttonsEditDelete'>";
         echo "<button name='ref' value='" . $fila->ref . "' type='submit'>Editar</button>";
         echo "<button name='eliminar' value='" . $fila->ref . "' type='submit'>Eliminar</button>";
         echo "</td>";
         echo "</tr>\n";
+        echo "</form>";
     }
 ?>
 </table>
-</form>
+<?php } else { ?>
+	<p class="texto_centrado">
+		No hay resultados para <strong>'<?php echo $string_busqueda;?>'</strong> en el campo <strong>'<?php echo $campo_busqueda;?></strong>'
+	</p>
+<?php } ?>
+</div>
 </div>
