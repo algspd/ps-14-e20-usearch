@@ -459,13 +459,15 @@ td.precio{}
 }
 
 .insertButton{
-	height: 35px;
-	width: 35px;
+	height: 80px;
+	width: 80px;
+	margin-left: 50%;
 }
 
 .modifyButton{
-	height: 35px;
-	width: 35px;
+	height: 80px;
+	width: 80px;
+	margin-left: 50%;
 }
 
 .editar_boton {
@@ -476,6 +478,7 @@ td.precio{}
 .eliminar_boton {
 	height : 35px;
 	width : auto;
+	margin-left: 15px;
 }
 
 .updateButton {
