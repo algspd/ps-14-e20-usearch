@@ -40,10 +40,10 @@
 </div>
 </div>
 <script>
-  /*window.print();
+  window.print();
   window.onmouseover=function() {
   document.getElementById('contenido_ppal').innerHTML='Gracias por su pedido!';
-  }*/
+  }
 </script>
 
 

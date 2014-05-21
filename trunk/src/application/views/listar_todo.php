@@ -38,7 +38,7 @@
           echo "</td>";
           echo "<td class='buttonAdd'>";
 		  ?>
-            <input type="image" src="<?php echo base_url() . '/img/carritoPlus.png'; ?>" class="addButton">
+            <input type="image" src="<?php echo base_url() . 'img/carritoPlus.png'; ?>" class="addButton">
 		  <?php
           echo "</td>";
         echo "</tr>\n";
