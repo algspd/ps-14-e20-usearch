@@ -7,8 +7,13 @@ class Admin extends CI_Controller {
     $this->load->helper('url');
     $this->load->helper('html');
 
-      $this->load->view('adminhead');
-      $this->load->view('adminhome');
+	$data = array(
+  	    'campo_busqueda'  => 'arquitectura',
+        'string_busqueda' => ''
+      );
+	
+      $this->load->view('adminhead', $data);
+      $this->load->view('adminhome', $data);
       $this->load->view('foot');
     }
 
