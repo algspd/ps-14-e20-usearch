@@ -26,10 +26,15 @@
 
 </table>
   <div id="botones_carro">
-	<input type="image" name="submit" src="<?php echo base_url() . '/img/update.png'; ?>" class="updateButton">
-	<input type="image" name="vaciar" src="<?php echo base_url() . '/img/vaciar.png'; ?>" class="emptyButton">
+	<input type="hidden" name="submit">
+	<input type="image" name="submit" src="<?php echo base_url() . 'img/update.png'; ?>" class="updateButton" style="float:right;>
 </div>
   </form>
+
+<form method="post" action="<?php echo base_url() . "index.php/carrito"?>" style="float:left;">
+	<input type="hidden" name="vaciar">
+	<input type="image" src="<?php echo base_url() . 'img/vaciar.png'; ?>" class="emptyButton">
+</form>
 <div id="formulario">
   <div id="formulario_2">
   <form method="post" action="<?php echo base_url() . "index.php/carrito"?>">
