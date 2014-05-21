@@ -58,5 +58,5 @@ Todos los campos son obligatorios
 <?php
 }}
 ?>
- <button type='submit' name='modificar'>Modificar</button>
+ <input type="image" src="<?php echo base_url() . '/img/aceptar.png'; ?>" class="modifyButton">
 </form>

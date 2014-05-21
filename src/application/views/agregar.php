@@ -57,6 +57,6 @@ Todos los campos son obligatorios
 <?php
 }
 ?>
- <button type='submit'>Insertar</button>
+ <input type="image" src="<?php echo base_url() . '/img/add.png'; ?>" class="insertButton">
 </form>
 </div>
