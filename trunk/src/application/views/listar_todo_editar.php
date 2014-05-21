@@ -37,8 +37,8 @@
             echo "<input type='hidden' value='" . $fila->precio . "' name='precio'>";
           echo "</td>";
         echo "<td class='buttonsEditDelete'>";
-        echo "<button name='ref' value='" . $fila->ref . "' type='submit'>Editar</button>";
-        echo "<button name='eliminar' value='" . $fila->ref . "' type='submit'>Eliminar</button>";
+		echo '<input class="editar_boton" type="image" value="' . $fila->ref . '" src="' . base_url() . 'img/modificar.png">';
+		echo '<input class="eliminar_boton" type="image" value="' . $fila->ref . '" src="' . base_url() . 'img/eliminar.png">';
         echo "</td>";
         echo "</tr>\n";
         echo "</form>";

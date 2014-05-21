@@ -464,6 +464,36 @@ td.precio{}
 	width: 35px;
 }
 
+.insertButton{
+	height: 35px;
+	width: 35px;
+}
+
+.modifyButton{
+	height: 35px;
+	width: 35px;
+}
+
+.editar_boton {
+	height : 35px;
+	width : auto;
+}
+
+.eliminar_boton {
+	height : 35px;
+	width : auto;
+}
+
+.updateButton {
+	height : 35px;
+	width : auto;
+}
+
+.emptyButton {
+	height : 35px;
+	width : auto;
+}
+
 td.buttonsEditDelete{}
 
 
