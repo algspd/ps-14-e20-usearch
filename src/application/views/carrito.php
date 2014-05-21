@@ -26,8 +26,8 @@
 
 </table>
   <div id="botones_carro">
-    <input type="submit" name="submit" value="Actualizar">
-    <input type="submit" name="vaciar" value="Vaciar">
+	<input type="image" name="submit" src="<?php echo base_url() . '/img/update.png'; ?>" class="updateButton">
+	<input type="image" name="vaciar" src="<?php echo base_url() . '/img/vaciar.png'; ?>" class="emptyButton">
 </div>
   </form>
 <div id="formulario">
