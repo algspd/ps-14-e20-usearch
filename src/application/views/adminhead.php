@@ -45,7 +45,7 @@
 	                            </select>
 	                        </div>
 	                        <input id="buscador_texto" type="text" name="string_busqueda" value="<?php echo $string_busqueda;?>" placeholder="Introduzca su búsqueda..." autocomplete="off">
-	                        <input id="buscador_boton" title="BUSCAR" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
+	                        <input id="buscador_boton" title="BUSCAR" type="image" src="<?php echo base_url() . "img/search.svg"; ?>">
 	                    </div>
 					</form>
                 </li>
