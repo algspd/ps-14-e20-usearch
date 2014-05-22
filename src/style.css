@@ -176,7 +176,6 @@ td {
     background-color: /* lightGray_2  */ #CCC;
     margin: 0;
     padding: 5px;
-	margin-bottom: 100px;
     /*height: 100%;*/
 }
 
@@ -379,6 +378,7 @@ li#botonListado {
 /* Footer */
 /*--------------------------------------------------------- */
 #pie {
+	color: white;
 	margin-top: 5px;
 	width: 100%;
 	height: 30px;
