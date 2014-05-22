@@ -27,17 +27,17 @@
 </table>
   <div id="botones_carro">
 	<input type="hidden" name="submit">
-	<input type="image" title="ACTUALIZAR" name="submit" src="<?php echo base_url() . 'img/update.png'; ?>" class="updateButton" style="float:right; margin-top: 10px;">
+	<input type="image" title="ACTUALIZAR" name="submit" src="<?php echo base_url() . 'img/update.svg'; ?>" class="updateButton" style="float:right; margin-top: 10px;">
 </div>
   </form>
 
   
 <form method="post" action="<?php echo base_url() . "index.php/carrito"?>" style="float:right; margin-right: 20px; margin-top: 10px;">
 	<input type="hidden" name="vaciar">
-	<input type="image" title="VACIAR" src="<?php echo base_url() . 'img/vaciar.png'; ?>" class="emptyButton">
+	<input type="image" title="VACIAR" src="<?php echo base_url() . 'img/trash.svg'; ?>" class="emptyButton">
 </form>
 
-
+<br>
 <div id="formulario">
   <div id="formulario_2">
   <form method="post" action="<?php echo base_url() . "index.php/carrito"?>">
@@ -61,7 +61,8 @@
     <input id="empresa" type="text" name="empresa" value="<?php if(isset($_POST['empresa'])) echo $_POST['empresa'] ?>"><br>
     <label for="cif">CIF: </label>
     <input id="cif" type="text" name="cif" value="<?php if(isset($_POST['cif'])) echo $_POST['cif'] ?>"><br>
-    <input type="submit" name="pedir" value="Realizar pedido"> 
+	<br>
+    <input id="realizar_pedido" type="submit" name="pedir" value="Realizar pedido"> 
   </form>
   <?php if(isset($error)){echo "Todos los campos son obligatorios";} ?>
   </div>

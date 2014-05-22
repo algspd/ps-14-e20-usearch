@@ -14,7 +14,7 @@
 	    <a href="<?php echo base_url(); ?>">
             <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logotipo">
             <div id="tituloWeb">
-                <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
+                <img src="<?php echo base_url() . "/img/usearch_logo.png"; ?>" alt="&mu;Search:  BUSCA. ENCUENTRA. COMPRA MICROS.">
             </div>
 		</a>
 	</div> 
@@ -28,7 +28,7 @@
                 <li>
                     <div id="carrito">
                         <a href="<?php echo base_url() . "index.php/carrito"; ?>">
-                            <img id="carrito_img" title="CARRITO" src="<?php echo base_url() . "/img/carrito.png"; ?>" alt="Carrito" title="Carrito de compra">
+                            <img id="carrito_img" title="CARRITO" src="<?php echo base_url() . "/img/cart.svg"; ?>" alt="Carrito" title="Carrito de compra">
                         	<div id="icarrito_items"><?php echo $items; ?> items</div>
                         </a>
                     </div>
@@ -51,14 +51,14 @@
 	                            </select>
 	                        </div>
 	                        <input id="buscador_texto" type="text" name="string_busqueda" value="<?php echo $string_busqueda;?>" placeholder="Introduzca su búsqueda..." autocomplete="off">
-	                        <input id="buscador_boton" title="BUSCAR" type="image" src="<?php echo base_url() . "img/buscador_boton.png"; ?>">
+	                        <input id="buscador_boton" title="BUSCAR" type="image" src="<?php echo base_url() . "img/search.svg"; ?>">
 	                    </div>
 					</form>
                 </li>
                 
                 <!-- Item: Listado -->
-                <li>
-                    <a style="text-decoration:underline;" href="<?php echo base_url() . "index.php/listar_todo" ?>">LISTADO COMPLETO</a>
+                <li id="botonListado">
+                    <a href="<?php echo base_url() . "index.php/listar_todo" ?>">LISTADO COMPLETO</a>
                 </li>
             </ul>
         </div> <!-- Menu navegacion -->

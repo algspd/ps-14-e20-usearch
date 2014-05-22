@@ -5,6 +5,9 @@
  <label for="ref">Referencia</label>
  </td><td>
  <input id="ref" name="ref" type="text" value="<?php if(isset($_POST['ref']))echo $_POST['ref']; ?>" autofocus>
+ <td id="agregar_boton" rowspan="6">
+ 	 <input type="image" title="AÑADIR" src="<?php echo base_url() . '/img/add.svg'; ?>" class="insertButton">
+ </td>
  </td>
  </tr>
  <tr>
@@ -57,6 +60,5 @@ Todos los campos son obligatorios
 <?php
 }
 ?>
- <input type="image" title="AÑADIR" src="<?php echo base_url() . '/img/add.png'; ?>" class="insertButton">
 </form>
 </div>

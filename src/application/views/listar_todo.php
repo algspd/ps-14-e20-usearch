@@ -38,7 +38,7 @@
           echo "</td>";
           echo "<td class='buttonAdd'>";
 		  ?>
-            <input type="image" title="AÑADIR" src="<?php echo base_url() . 'img/carritoPlus.png'; ?>" class="addButton">
+            <input type="image" title="AÑADIR" src="<?php echo base_url() . 'img/cart_add.svg'; ?>" class="addButton">
 		  <?php
           echo "</td>";
         echo "</tr>\n";
@@ -47,7 +47,7 @@
 ?>
 </table>
 <?php } else { ?>
-	<p class="texto_centrado">
+	<p id="no_results" class="centered">
 		No hay resultados para <strong>'<?php echo $string_busqueda;?>'</strong> en el campo <strong>'<?php echo $campo_busqueda;?></strong>'
 	</p>
 <?php } ?>
