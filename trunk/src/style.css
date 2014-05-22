@@ -16,64 +16,65 @@
  *---------------------- FONTS -------------------------*
  *------------------------------------------------------*/
 
-/* Fuente PT SANS: Logotipo de la empresa */
+/* Fuente PT SANS: Usado en toda la web */
 @font-face {
     font-family: 'pt_sans';
+    font-weight: normal;
+    font-style: normal;
     src: url('fonts/PT_Sans/PT_Sans.eot');
     src: url('fonts/PT_Sans/PT_Sans.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans/PT_Sans.woff') format('woff'),
          url('fonts/PT_Sans/PT_Sans.ttf') format('truetype'),
          url('fonts/PT_Sans/PT_Sans.svg#pt_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 @font-face {
-    font-family: 'pt_sans';
+    font-family: 'pt_sans_bold';
+	font-weight: bold;
     src: url('fonts/PT_Sans/PT_Sans_bold.eot');
     src: url('fonts/PT_Sans/PT_Sans_bold.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans/PT_Sans_bold.woff') format('woff'),
          url('fonts/PT_Sans/PT_Sans_bold.ttf') format('truetype'),
-         url('fonts/PT_Sans/PT_Sans_bold.svg#pt_sansregular') format('svg');
-    font-weight: bold;
+         url('fonts/PT_Sans/PT_Sans_bold.svg#pt_sansbold') format('svg');
 }
 @font-face {
-    font-family: 'pt_sans';
+    font-family: 'pt_sans_italic';
+	font-style: italic, oblique;
     src: url('fonts/PT_Sans/PT_Sans_it.eot');
     src: url('fonts/PT_Sans/PT_Sans_it.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans/PT_Sans_it.woff') format('woff'),
          url('fonts/PT_Sans/PT_Sans_it.ttf') format('truetype'),
-         url('fonts/PT_Sans/PT_Sans_it.svg#pt_sansregular') format('svg');
-    font-style: italic, oblique;
+         url('fonts/PT_Sans/PT_Sans_it.svg#pt_sansitalic') format('svg');
 }
 @font-face {
-    font-family: 'pt_sans';
+    font-family: 'pt_sans_bold_italic';
+    font-weight: bold;
+    font-style: italic, oblique;
     src: url('fonts/PT_Sans/PT_Sans_bold_it.eot');
     src: url('fonts/PT_Sans/PT_Sans_bold_it.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans/PT_Sans_bold_it.woff') format('woff'),
          url('fonts/PT_Sans/PT_Sans_bold_it.ttf') format('truetype'),
-         url('fonts/PT_Sans/PT_Sans_bold_it.svg#pt_sansregular') format('svg');
-    font-weight: bold;
-    font-style: italic, oblique;
+         url('fonts/PT_Sans/PT_Sans_bold_it.svg#pt_sansbold_italic ') format('svg');
 }
-
+/* Fuente PT SANS CAPTION: Logotipo de la empresa */
 @font-face {
     font-family: 'pt_sans_caption';
+    font-weight: normal;
+    font-style: normal;
     src: url('fonts/PT_Sans_Caption/PT_Sans_Caption.eot');
     src: url('fonts/PT_Sans_Caption/PT_Sans_Caption.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans_Caption/PT_Sans_Caption.woff') format('woff'),
          url('fonts/PT_Sans_Caption/PT_Sans_Caption.ttf') format('truetype'),
-         url('fonts/PT_Sans_Caption/PT_Sans_Caption.svg#pt_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption.svg#pt_sans_captionregular') format('svg');
 }
 @font-face {
-    font-family: 'pt_sans_caption';
+    font-family: 'pt_sans_caption_bold';
+	font-weight: bold;
     src: url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.eot');
     src: url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.eot?#iefix') format('embedded-opentype'),
          url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.woff') format('woff'),
          url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.ttf') format('truetype'),
-         url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.svg#pt_sansregular') format('svg');
-    font-weight: bold;
+         url('fonts/PT_Sans_Caption/PT_Sans_Caption_bold.svg#pt_sans_captionbold') format('svg');
+    
 }
 
 /*------------------------------------------------------*
@@ -84,7 +85,7 @@ html,body {
 }
 
 body{
-    font: 'pt_sans';
+    font-family: 'pt_sans';
     font-size: 100%;
     background: /* darkGray_0  */ #0E0E0E url("img/background.jpg") repeat-x 0 0;
 	width: 90%;
@@ -97,6 +98,7 @@ a, button, input[type="submit"] {
 }
 
 a {
+	font-style: normal;
 	text-decoration: none;
 }
 
@@ -107,6 +109,11 @@ label{
 
 legend{
 	font-size: large;
+}
+
+td {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 /*------------------------------------------------------*
  *   Cabecera principal de la página                    *
@@ -137,11 +144,18 @@ legend{
 
 #tituloWeb {
     font-size: 5em;
-    line-height: 90px;
+    line-height: 120px;
+	height: 90px;
+	width: auto;
     float: left;
     margin-left: 20px;
 }
 
+
+#tituloWeb img {
+	height: 100px;
+	width: auto;
+}
 #subtituloWeb{
     font-family: 'pt_sans_caption';
     font-size: 0.8em;
@@ -162,12 +176,14 @@ legend{
     background-color: /* lightGray_2  */ #CCC;
     margin: 0;
     padding: 5px;
+	margin-bottom: 100px;
     /*height: 100%;*/
-    padding-bottom:100px;
 }
 
 #contenido_ppal {
     height: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 /*------------------------------------------------------*
@@ -186,7 +202,7 @@ legend{
 }
 
 #menu_navegacion a {
-   padding: 0 20px;
+   padding: 0 15px;
    height: 60px;
    text-decoration: none;
    color: white;
@@ -194,12 +210,8 @@ legend{
    display: block; 
 }
 
-#menu_navegacion a:hover {
-    background-color: /* lightGray_2  */ #333; 
-}
-
 #menu_navegacion .nav {
-    list-style-type: none;
+	text-align: center;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -208,7 +220,9 @@ legend{
 #menu_navegacion .nav li {
     color: white;
     line-height:60px;
-	text-align: center;
+	list-style-type: none;
+	display:inline;
+	text-align: right;
 	font-weight: bold;
 	font-size: 1.25em;
     margin: 0;
@@ -225,13 +239,15 @@ legend{
 
 #carrito_img {
     margin-top: 5px;
-    height: 50px;
+	height: 50px;
+	width: auto;
     float: left;
 }
 
 #carrito_items {
     margin-left: 10px;
     float: right;
+	font-size: 0.8em !important;
 }
 
 /* ------------------------- */
@@ -250,7 +266,8 @@ legend{
     width: 140px;
     line-height: 40px;
     height: 100%;
-    background: url('img/menu_desplegable.png') no-repeat right /* greenishBlue  */ #5A8FA8;
+    background: url('img/select.svg') no-repeat 115px /* greenishBlue  */ #5A8FA8;
+	background-size: 15px auto;
     -webkit-border-top-left-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
@@ -303,21 +320,16 @@ legend{
 	min-width: 40px;
 	max-width: 40px;
 }
-
+#buscador_boton input img {
+	height: 30px;
+	width: auto;
+}
 /* ------------------------- */
 /* Item del menu 'listado completo' */
 
-#botonListado{
-    color: white;
-    line-height:60px;
-	text-align: center;
-	height: 100%;
-	font-weight: bold;
-	font-size: 1.25em;
-}
-
-#botonListado a{
-    color: white;
+li#botonListado {
+	text-decoration: underline;
+	
 }
 
 /* ------------------------- */
@@ -363,7 +375,20 @@ legend{
 	height: 50px;
 }
 
-
+/*--------------------------------------------------------- */
+/* Footer */
+/*--------------------------------------------------------- */
+#pie {
+	margin-top: 5px;
+	width: 100%;
+	height: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	line-height: 30px;
+	font-size: 0.75em;
+	text-align: center;
+}
 
 /*--------------------------------------------------------- */
 /* Sección principal pagina Home */
@@ -371,6 +396,7 @@ legend{
 #titulo{
     width: 100%;
     height: 50px;
+
     -webkit-border-top-left-radius: 3px;
     -webkit-border-top-right-radius: 3px;
     -moz-border-radius-topleft: 3px;
@@ -388,10 +414,14 @@ legend{
 #descripcion {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 100%;
-	height: 80%;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 	background-color: /* lightGray_0  */ #F0F0F0;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 div#formulario {
@@ -453,14 +483,16 @@ td.ram{}
 
 td.precio{}
 
-.addButton{
-	height: 35px;
-	width: 35px;
+.addButton {
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: auto;
 }
 
-.insertButton{
+.insertButton {
 	height: 80px;
-	width: 80px;
+	width: auto;
 	margin-left: 50%;
 }
 
@@ -471,14 +503,26 @@ td.precio{}
 }
 
 .editar_boton {
-	height : 35px;
+	height : 25px;
 	width : auto;
 }
 
 .eliminar_boton {
-	height : 35px;
+	height : 30px;
 	width : auto;
 	margin-left: 15px;
+}
+
+td#agregar_boton {
+	width: 10%;
+	text-align: center;
+	background-color: transparent;
+}
+
+td#agregar_boton input {
+	height : 50px;
+	width : auto;
+	margin: 0;
 }
 
 .updateButton {
@@ -491,8 +535,9 @@ td.precio{}
 	width : auto;
 }
 
-td.buttonsEditDelete{}
-
+td.buttonsEditDelete{
+	
+}
 
 /*//////////////////////////////////////////////////////////////////////////*/
 
@@ -577,16 +622,12 @@ td.buttonsEditDelete{}
 	text-align: center;
 }
 
-#carrito{
-  
-}
-
-#carrito img{
-  
-}
-
 .right {
   text-align:right;
+}
+
+.centered {
+	text-align: center;
 }
 
 #botones_carro{
@@ -630,3 +671,22 @@ div.block .input{
   margin-left:4px;
   float:left;
 }
+
+#realizar_pedido {
+    width: 145px;
+	margin-right: 3px;
+    height: 30px;
+	font-size: 0.9em !important;
+	background-color: /* darkGray_1  */ #222;
+	text-shadow: 1px 1px /* darkGray_1  */ #222;
+	color: white;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0 1px 0 /* darkGray_1  */ #222 inset;
+	-moz-box-shadow: 0 1px 0 /* darkGray_1  */ #222 inset;
+	-webkit-box-shadow: 0 1px 0 /* darkGray_1  */ #222 inset;
+}
+
