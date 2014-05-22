@@ -6,6 +6,8 @@
  </td><td>
  <input id="ref" name="ref" type="text" value="<?php echo $def->ref; ?>" readonly>
  </td>
+ <td id="agregar_boton" rowspan="6">
+ 	 <input type="image" title="MODIFICAR" src="<?php echo base_url() . '/img/ok.svg'; ?>" class="modifyButton">
  </tr>
  <tr>
  <td>
@@ -58,5 +60,4 @@ Todos los campos son obligatorios
 <?php
 }}
 ?>
- <input type="image" title="MODIFICAR" src="<?php echo base_url() . '/img/aceptar.png'; ?>" class="modifyButton">
 </form>

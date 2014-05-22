@@ -14,7 +14,7 @@
 	    <a href="<?php echo base_url() . "index.php/admin"; ?>">
             <img id="logoWeb" src="<?php echo base_url() . "/img/logoWeb.png"; ?>" alt="Logotipo">
             <div id="tituloWeb">
-                <img src="<?php echo base_url() . "/img/logoWeb_texto.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
+                <img src="<?php echo base_url() . "/img/usearch_logo.png"; ?>" alt="uSearch: BUSCA. ENCUENTRA. COMPRA MICROS.">
             </div>
 		</a>
 	</div> 
