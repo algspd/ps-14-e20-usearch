@@ -1,4 +1,4 @@
-<form method='post' action='/ps-14-e20-usearch/src/index.php/agregar'>
+<?php echo "<form method='post' action='" . base_url() . "index.php/agregar" . "'>";?>
  <table>
  <tr>
  <td>
