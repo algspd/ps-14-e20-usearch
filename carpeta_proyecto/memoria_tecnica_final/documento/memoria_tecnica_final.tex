@@ -30,6 +30,7 @@
 
 \let\stdsection\section
 \renewcommand\section{\newpage\stdsection}
+
 %----------------------------------------------------------------------------------------
 % Indentar primera línea párrafos
 \usepackage{indentfirst}
@@ -41,15 +42,29 @@
 \definecolor{grisHeader}{RGB}{180,180,180}
 
 %----------------------------------------------------------------------------------------
-% Imagenes: Que se pongan donde yo quiero
+% Imagenes
 \usepackage{graphicx}
-%\usepackage{float}
-\usepackage[linecolor=colComment,linewidth=0.65pt]{mdframed}
-
-\usepackage{floatpag} % Pagina en blanco cuando aparece figuras.
-
 \DeclareGraphicsExtensions{.svg,.eps,.ps,.pdf,.png,.jpg,.jpeg}
 \addto{\captionsspanish}{\renewcommand{\listfigurename}{\bfseries\Large Figuras}}
+
+% COMO MOSTRAR Y REFERENCIAR IMAGENES
+% \begin{figure}[h!]
+%    \centering
+%    \includegraphics[width=0.95\textwidth]{img/nombreImg} % Expecificar tam y que imagen mostrar
+%    \caption{Texto explicativo que aparece debajo de la imagen}
+%    \label{fig:nombreRefFigura} % nombre con el que referenciar luego, asi \cref{fig:nombreRefFigura}.
+% \end{figure}
+
+% QUE OPCIONES USAR EN IMAGENES
+% \usepackage{float}
+% h	 Place the float here, i.e., approximately at the same point it occurs in the source 
+%    text (however, not exactly at the spot)
+% t	 Position at the top of the page.
+% b  Position at the bottom of the page.
+% p	 Put on a special page for floats only.
+% !	 Override internal parameters LaTeX uses for determining "good" float positions.
+% H	 Places the float at precisely the location in the LaTeX code. Requires the float package
+%    [1] e.g., \usepackage{float}. This is somewhat equivalent to h!.
 
 %----------------------------------------------------------------------------------------
 % FANCY HEADER
