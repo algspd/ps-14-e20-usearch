@@ -26,7 +26,7 @@
 \titleformat{\section}{\bfseries\Large\uppercase}{\thesection .}{0.8em}{}
 \titleformat{\subsection}{\bfseries\large}{\thesubsection .}{0.8em}{}
 \titleformat{\subsubsection}{\bfseries}{\thesubsubsection .}{0.8em}{}
-\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
+%\newcommand{\sectionbreak}{\clearpage} % Empezar secciones en nueva página
 
 %----------------------------------------------------------------------------------------
 % Indentar primera línea párrafos
@@ -177,7 +177,7 @@
 				Simón Ortego Parra. All rights reserved.},
 	pdfproducer={PDFLatex},
 	pdfcreator={ps2pdf},
-	colorlinks=false
+	colorlinks=true
 }
 
 % Redefinir el nombre de referencias a lo largo del documento
@@ -191,6 +191,8 @@
 \crefname{section}{sección}{secciones}
 \Crefname{section}{Sección}{Secciones}
 
+% Varios comandos a links relativos a otros ficheros (xls, pdf's, etc.)
+\newcommand{\hojaesfuerzos}[2]{\href{run:xls/#1.xls}{#2}}%
 
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=%
 %           I  N  I  C  I  O           D  E  L           D  O  C  U  M  E  N  T  O            %
@@ -568,32 +570,44 @@
 
 % B
 \section{Hojas de esfuerzos}
-\input{tex/b_0_hojas_de_esfuerzos.tex}
-\blindtext
+%\input{tex/b_0_hojas_de_esfuerzos.tex}
+%\blindtext
 % B.1
 \subsection{Hoja de esfuerzos: Daniel García Páez}
-\input{tex/b_1_hoja_de_esfuerzos_daniel.tex}
-\blindtext
+%\input{tex/b_1_hoja_de_esfuerzos_daniel.tex}
+En el \hojaesfuerzos{b_1_hoja_de_esfuerzos_daniel}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Daniel.
+
 % B.2
 \subsection{Hoja de esfuerzos: Javier Briz Alastrué}
-\input{tex/b_2_hoja_de_esfuerzos_javier.tex}
-\blindtext
+%\input{tex/b_2_hoja_de_esfuerzos_javier.tex}
+En el \hojaesfuerzos{b_2_hoja_de_esfuerzos_javier}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Javier.
+
 % B.3
 \subsection{Hoja de esfuerzos: Simón Ortego Parra}
-\input{tex/b_3_hoja_de_esfuerzos_simon.tex}
-\blindtext
+%\input{tex/b_3_hoja_de_esfuerzos_simon.tex}
+En el \hojaesfuerzos{b_3_hoja_de_esfuerzos_simon}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Simón.
+
 % B.4
 \subsection{Hoja de esfuerzos: Alejandro Gracia Mateo}
-\input{tex/b_4_hoja_de_esfuerzos_alejandro.tex}
-\blindtext
+%\input{tex/b_4_hoja_de_esfuerzos_alejandro.tex}
+En el \hojaesfuerzos{b_4_hoja_de_esfuerzos_alejandro}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Alejandro.
+
 % B.5
 \subsection{Hoja de esfuerzos: Alberto Berbel Aznar}
-\input{tex/b_5_hoja_de_esfuerzos_alberto.tex}
-\blindtext
+%\input{tex/b_5_hoja_de_esfuerzos_alberto.tex}
+En el \hojaesfuerzos{b_5_hoja_de_esfuerzos_alberto}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Alberto.
+
 % B.6
 \subsection{Hoja de esfuerzos: Héctor Francia Molinero}
-\input{tex/b_6_hoja_de_esfuerzos_hector.tex}
-\blindtext
+%\input{tex/b_6_hoja_de_esfuerzos_hector.tex}
+En el \hojaesfuerzos{b_6_hoja_de_esfuerzos_hector}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Héctor.
+
 %==============================================================================================
 % C. CRONOGRAMAS
 % C.1. CRONOGRAMA INICIAL
@@ -652,7 +666,7 @@
 \input{tex/d_05_acta_reunion_05.tex}
 
 % D.6
-\subsection{Reunión núm.06}
+%\subsection{Reunión núm.06}
 %\input{tex/d_06_acta_reunion_06.tex}
 
 % D.7
@@ -669,7 +683,7 @@
 
 % D.10
 \subsection{Reunión núm.10}
-%\input{tex/d_10_acta_reunion_10.tex}
+\input{tex/d_10_acta_reunion_10.tex}
 
 % D.11
 \subsection{Reunión núm.11}

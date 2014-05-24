@@ -1,0 +1,88 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Identificaci\IeC {\'o}n del proyecto}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Objetivo y alcanze}{6}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Identificaci\IeC {\'o}n del equipo}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Descripci\IeC {\'o}n del contenido}{6}{subsection.1.4}
+\contentsline {section}{\numberline {2}Requisitos del sistema}{6}{section.2}
+\contentsline {section}{\numberline {3}Descripci\IeC {\'o}n t\IeC {\'e}cnica}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Aspectos arquitecturales y tecnol\IeC {\'o}gicos}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Modelos de datos}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Dise\IeC {\~n}o de los componentes}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Verificaci\IeC {\'o}n y validaci\IeC {\'o}n}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Metodolog\IeC {\'\i }a de pruebas}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Pruebas. Defectos. Correcciones}{8}{subsection.4.2}
+\contentsline {section}{\numberline {5}Manuales}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Manual de usuario}{9}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Manual de instalaci\IeC {\'o}n}{9}{subsection.5.2}
+\contentsline {section}{\numberline {6}Gesti\IeC {\'o}n del proyecto}{9}{section.6}
+\contentsline {subsection}{\numberline {6.1}Fases y actividades}{9}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Riesgos}{10}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Estimaciones iniciales}{10}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Cronogramas}{10}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Tareas y estimaci\IeC {\'o}n de esfuerzos}{10}{subsubsection.6.1.4}
+\contentsline {subsubsection}{\numberline {6.1.5}Ficheros de esfuerzos individuales}{11}{subsubsection.6.1.5}
+\contentsline {subsubsection}{\numberline {6.1.6}Esfuerzos reales de las tareas}{11}{subsubsection.6.1.6}
+\contentsline {subsubsection}{\numberline {6.1.7}Esfuerzos reales de las personas}{11}{subsubsection.6.1.7}
+\contentsline {subsection}{\numberline {6.2}Procesos de seguimiento y control}{11}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Calendario de reuniones}{12}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Actas de reuniones}{12}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}Coste}{12}{subsection.6.3}
+\contentsline {section}{\numberline {7}Gesti\IeC {\'o}n de configuraciones}{12}{section.7}
+\contentsline {subsection}{\numberline {7.1}Pol\IeC {\'\i }ticas de nombrado}{13}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Control de versiones}{13}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Copias de seguridad}{13}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Elementos de configuraci\IeC {\'o}n y l\IeC {\'\i }nea base}{13}{subsection.7.4}
+\contentsline {section}{\numberline {8}Aseguramiento de la calidad}{14}{section.8}
+\contentsline {subsection}{\numberline {8.1}Est\IeC {\'a}ndares utilizados}{14}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Planificaci\IeC {\'o}n de las auditor\IeC {\'\i }as}{14}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Auditor\IeC {\'\i }as}{14}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Auditor\IeC {\'\i }a externa}{15}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}No conformidades}{15}{subsection.8.5}
+\contentsline {section}{\numberline {9}Postmortem}{15}{section.9}
+\contentsline {subsection}{\numberline {9.1}Lecciones aprendidas}{15}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Problemas encontrados}{16}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Cat\IeC {\'a}logo de riesgos}{16}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Diferencias entre los esfuerzos y tama\IeC {\~n}os reales y los estimados}{16}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Plan real vs planificaci\IeC {\'o}n inicial}{16}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Diferencias entre el coste real y el presupuesto}{17}{subsection.9.6}
+\contentsline {section}{\numberline {10}Conclusiones}{17}{section.10}
+\contentsline {subsection}{\numberline {10.1}Conclusiones del proyecto}{17}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Ideas de mejora del proceso}{17}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Ideas de mejora del desarrollo del proyecto dentro de la asignatura}{18}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Valoraciones subjetivas}{18}{subsection.10.4}
+\contentsline {section}{\numberline {A}Curr\IeC {\'\i }culums Vitae}{18}{appendix.Alph1}
+\contentsline {subsection}{\numberline {A.1}CV: Daniel Garc\IeC {\'\i }a P\IeC {\'a}ez}{18}{subsection.Alph1.1}
+\contentsline {subsection}{\numberline {A.2}CV: Javier Briz Alastru\IeC {\'e}}{19}{subsection.Alph1.2}
+\contentsline {subsection}{\numberline {A.3}CV: Sim\IeC {\'o}n Ortego Parra}{20}{subsection.Alph1.3}
+\contentsline {subsection}{\numberline {A.4}CV: Alejandro Gracia Mateo}{21}{subsection.Alph1.4}
+\contentsline {subsection}{\numberline {A.5}CV: Alberto Berbel Aznar}{21}{subsection.Alph1.5}
+\contentsline {subsection}{\numberline {A.6}CV: H\IeC {\'e}ctor Francia Molinero}{22}{subsection.Alph1.6}
+\contentsline {section}{\numberline {B}Hojas de esfuerzos}{23}{appendix.Alph2}
+\contentsline {subsection}{\numberline {B.1}Hoja de esfuerzos: Daniel Garc\IeC {\'\i }a P\IeC {\'a}ez}{23}{subsection.Alph2.1}
+\contentsline {subsection}{\numberline {B.2}Hoja de esfuerzos: Javier Briz Alastru\IeC {\'e}}{23}{subsection.Alph2.2}
+\contentsline {subsection}{\numberline {B.3}Hoja de esfuerzos: Sim\IeC {\'o}n Ortego Parra}{23}{subsection.Alph2.3}
+\contentsline {subsection}{\numberline {B.4}Hoja de esfuerzos: Alejandro Gracia Mateo}{23}{subsection.Alph2.4}
+\contentsline {subsection}{\numberline {B.5}Hoja de esfuerzos: Alberto Berbel Aznar}{23}{subsection.Alph2.5}
+\contentsline {subsection}{\numberline {B.6}Hoja de esfuerzos: H\IeC {\'e}ctor Francia Molinero}{23}{subsection.Alph2.6}
+\contentsline {section}{\numberline {C}Cronogramas}{24}{appendix.Alph3}
+\contentsline {subsection}{\numberline {C.1}Cronograma inicial}{24}{subsection.Alph3.1}
+\contentsline {subsection}{\numberline {C.2}Cronograma final}{24}{subsection.Alph3.2}
+\contentsline {section}{\numberline {D}Actas de reuniones}{24}{appendix.Alph4}
+\contentsline {subsection}{\numberline {D.1}Reuni\IeC {\'o}n n\IeC {\'u}m.01}{24}{subsection.Alph4.1}
+\contentsline {subsection}{\numberline {D.2}Reuni\IeC {\'o}n n\IeC {\'u}m.02}{27}{subsection.Alph4.2}
+\contentsline {subsection}{\numberline {D.3}Reuni\IeC {\'o}n n\IeC {\'u}m.03}{29}{subsection.Alph4.3}
+\contentsline {subsection}{\numberline {D.4}Reuni\IeC {\'o}n n\IeC {\'u}m.04}{31}{subsection.Alph4.4}
+\contentsline {subsection}{\numberline {D.5}Reuni\IeC {\'o}n n\IeC {\'u}m.05}{33}{subsection.Alph4.5}
+\contentsline {subsection}{\numberline {D.6}Reuni\IeC {\'o}n n\IeC {\'u}m.07}{36}{subsection.Alph4.6}
+\contentsline {subsection}{\numberline {D.7}Reuni\IeC {\'o}n n\IeC {\'u}m.08}{38}{subsection.Alph4.7}
+\contentsline {subsection}{\numberline {D.8}Reuni\IeC {\'o}n n\IeC {\'u}m.09}{39}{subsection.Alph4.8}
+\contentsline {subsection}{\numberline {D.9}Reuni\IeC {\'o}n n\IeC {\'u}m.10}{41}{subsection.Alph4.9}
+\contentsline {subsection}{\numberline {D.10}Reuni\IeC {\'o}n n\IeC {\'u}m.11}{44}{subsection.Alph4.10}
+\contentsline {subsection}{\numberline {D.11}Reuni\IeC {\'o}n n\IeC {\'u}m.12}{45}{subsection.Alph4.11}
+\contentsline {section}{\numberline {E}Presupuesto}{45}{appendix.Alph5}
+\contentsline {section}{\numberline {F}Auditor\IeC {\'\i }as}{46}{appendix.Alph6}
+\contentsline {section}{\numberline {G}Manuales}{46}{appendix.Alph7}
+\contentsline {subsection}{\numberline {G.1}Manual de usuario}{46}{subsection.Alph7.1}
+\contentsline {subsection}{\numberline {G.2}Manual de instalaci\IeC {\'o}n}{46}{subsection.Alph7.2}
+\contentsline {section}{\numberline {H}Informes de pruebas}{47}{appendix.Alph8}
