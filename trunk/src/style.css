@@ -276,7 +276,7 @@ td {
 }
 
 #buscador_selector select {
-    color: white;
+    color: black;
     background: transparent;
     font-size: 0.6em;
     float: left;
