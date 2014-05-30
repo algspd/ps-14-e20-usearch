@@ -1,0 +1,1771 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.19)  30 MAY 2014 17:59
+entering extended mode
+**memoria_tecnica_final.tex
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@datefmt=\count88
+\es@quottoks=\toks16
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (597.50787pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (845.04684pt) is ignored.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen112
+\ttl@minus=\dimen113
+\ttl@toksa=\toks19
+\titlewidth=\dimen114
+\titlewidthlast=\dimen115
+\titlewidthfirst=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks20
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\everycr=\toks21
+\minrowclearance=\skip47
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\currvita\currvita.sty"
+Package: currvita 1999/09/13 v0.9i Typesetting a Curriculum Vitae
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@cvlistheading=\box27
+\cvlabelsep=\skip57
+\cvlabelskip=\skip58
+\cvlabelwidth=\skip59
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count94
+\LTcapwidth=\dimen121
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count95
+\LT@rows=\count96
+\c@LT@tables=\count97
+\c@LT@chunks=\count98
+\LT@p@ftn=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen122
+\enit@toks=\toks23
+\enit@inbox=\box32
+\enitdp@description=\count99
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrextend.sty"
+Package: scrextend 2012/07/29 v3.11b KOMA-Script KOMA-Script package (extend ot
+her classes with features of KOMA-Script classes)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))))
+\drop=\skip65
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count102
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count103
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count104
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip66
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperxmp\hyperxmp.sty"
+Package: hyperxmp 2013/04/16 v2.3a Store hyperref metadata in XMP format
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 196.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2163.
+LaTeX Info: Redefining \cref on input line 2163.
+LaTeX Info: Redefining \Cref on input line 2163.
+LaTeX Info: Redefining \crefrange on input line 2163.
+LaTeX Info: Redefining \Crefrange on input line 2163.
+LaTeX Info: Redefining \cpageref on input line 2163.
+LaTeX Info: Redefining \Cpageref on input line 2163.
+LaTeX Info: Redefining \cpagerefrange on input line 2163.
+LaTeX Info: Redefining \Cpagerefrange on input line 2163.
+LaTeX Info: Redefining \labelcref on input line 2163.
+LaTeX Info: Redefining \labelcpageref on input line 2163.
+Package cleveref Info: always capitalise cross-reference names on input line 73
+58.
+Package cleveref Info: always capitalise cross-reference names on input line 73
+86.
+)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-68.81723pt
+* \headheight=42.67912pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=0.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen127
+\scratchbox=\box33
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen128
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks25
+)
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 225.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count116
+)
+LaTeX Info: Redefining \ref on input line 225.
+LaTeX Info: Redefining \pageref on input line 225.
+LaTeX Info: Redefining \nameref on input line 225.
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.out)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.out)
+\@outlinefile=\write3
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-pdfdoc.def"
+File: se-pdfdoc.def 2011/12/02 v1.10 stringenc: PDFDocEncoding
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-utf8.def"
+File: se-utf8.def 2011/12/02 v1.10 stringenc: UTF-8
+)
+<img/bitparty_big.jpg, id=347, 632.3625pt x 363.3575pt>
+File: img/bitparty_big.jpg Graphic file (type jpg)
+
+<use img/bitparty_big.jpg>
+Package pdftex.def Info: img/bitparty_big.jpg used on input line 226.
+(pdftex.def)             Requested size: 158.09024pt x 90.83914pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 226.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 226.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 226.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 226.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 226.
+
+<img/diis_uz_big.png, id=348, 1560.83125pt x 513.92pt>
+File: img/diis_uz_big.png Graphic file (type png)
+
+<use img/diis_uz_big.png>
+Package pdftex.def Info: img/diis_uz_big.png used on input line 226.
+(pdftex.def)             Requested size: 140.46875pt x 46.2508pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/danigarcia254/Do
+wnloads/ps-14-e20-usearch/carpeta_proyecto/memoria_tecnica_final/documento/img/
+bitparty_big.jpg> <C:/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_p
+royecto/memoria_tecnica_final/documento/img/diis_uz_big.png>]pdfTeX warning (ex
+t4): destination with the same identifier (name{page.}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.227 \clearpage
+                 [2]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 233.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 233.
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.toc
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 ...auditor\IeC {\'\i }as}{22}{subsection.8.2}
+                                                   [3
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 ...n n\IeC {\'u}m.04}{40}{subsection.Alph4.4}
+                                                   [4]
+Overfull \hbox (0.19965pt too wide) detected at line 103
+\T1/phv/m/n/10 D.10. 
+ []
+
+
+Overfull \hbox (0.19965pt too wide) detected at line 104
+\T1/phv/m/n/10 D.11. 
+ []
+
+)
+\tf@toc=\write4
+ [5]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/01_0_introduccion.tex)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 251.
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/01_1_identificacion_del_proyecto.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 8.
+)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/01_2_objetivo_y_alcanze_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/01_3_identificacion_del_equipo.tex [6])
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/01_4_descripcion_del_contenido.tex) [7]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/02_0_requisitos_del_sistema.tex [8]) [9]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/03_0_descripcion_tecnica.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/03_1_aspectos_arquitecturales_y_tecnologicos.tex
+<img/diagrama_despliegue.png, id=499, 462.72874pt x 161.60374pt>
+File: img/diagrama_despliegue.png Graphic file (type png)
+
+<use img/diagrama_despliegue.png>
+Package pdftex.def Info: img/diagrama_despliegue.png used on input line 8.
+(pdftex.def)             Requested size: 277.63939pt x 96.96298pt.
+ [10 <C:/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memor
+ia_tecnica_final/documento/img/diagrama_despliegue.png (PNG copy)>])
+Underfull \hbox (badness 10000) in paragraph at lines 25--288
+
+ []
+
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/03_2_modelos_de_datos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<img/modelo_datos.png, id=507, 170.6375pt x 152.57pt>
+File: img/modelo_datos.png Graphic file (type png)
+
+<use img/modelo_datos.png>
+Package pdftex.def Info: img/modelo_datos.png used on input line 9.
+(pdftex.def)             Requested size: 170.71393pt x 152.64877pt.
+)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/03_3_diseno_de_componentes_del_sistema.tex) [11 <C:/U
+sers/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memoria_tecnica
+_final/documento/img/modelo_datos.png (PNG copy)>]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/04_0_verificacion_y_validacion.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/04_1_descripcion_de_metodologia_de_pruebas.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/04_2_pruebas_realizadas_cambios_correcciones.tex
+[12]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 21.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+ [13] [14])
+[15]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/05_0_manuales.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/05_1_manual_de_usuario.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/05_2_manual_de_instalacion.tex) [16]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_0_0_gestion_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_0_fases_y_actividades_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_1_riesgos.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_2_estimaciones_globales_de_tamanos_y_esfuerzos_i
+niciales.tex <img/6121.png, id=550, 549.55313pt x 280.79906pt>
+File: img/6121.png Graphic file (type png)
+
+<use img/6121.png>
+Package pdftex.def Info: img/6121.png used on input line 8.
+(pdftex.def)             Requested size: 405.45047pt x 207.17534pt.
+
+Overfull \hbox (5.64407pt too wide) in paragraph at lines 13--14
+\T1/phv/m/n/10 par-tes m·s cos-to-sas son so-bre to-do el lan-za-mien-to del pr
+o-yec-to,gestiÛn y prue-bas.ImplementaciÛn
+ []
+
+<img/6122.png, id=553, 636.87938pt x 228.10219pt>
+File: img/6122.png Graphic file (type png)
+ <use img/6122.png>
+Package pdftex.def Info: img/6122.png used on input line 17.
+(pdftex.def)             Requested size: 405.45047pt x 145.2122pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_3_cronogramas_global_inicial_y_final.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_4_tareas_y_estimaciones_de_esfuerzos_por_iteraci
+on.tex <img/6141.png, id=555, 541.27219pt x 219.82124pt>
+File: img/6141.png Graphic file (type png)
+ <use img/6141.png>
+Package pdftex.def Info: img/6141.png used on input line 9.
+(pdftex.def)             Requested size: 405.45047pt x 164.66762pt.
+
+[17 <C:/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memori
+a_tecnica_final/documento/img/6121.png>]
+<img/6142.png, id=566, 569.12625pt x 185.19188pt>
+File: img/6142.png Graphic file (type png)
+ <use img/6142.png>
+Package pdftex.def Info: img/6142.png used on input line 18.
+(pdftex.def)             Requested size: 405.45047pt x 131.93925pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/6143.png, id=569, 548.0475pt x 195.73125pt>
+File: img/6143.png Graphic file (type png)
+ <use img/6143.png>
+Package pdftex.def Info: img/6143.png used on input line 27.
+(pdftex.def)             Requested size: 405.45047pt x 144.80598pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/6144.png, id=570, 602.25pt x 173.14688pt>
+File: img/6144.png Graphic file (type png)
+ <use img/6144.png>
+Package pdftex.def Info: img/6144.png used on input line 34.
+(pdftex.def)             Requested size: 405.45047pt x 116.57054pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_5_ficheros_de_esfuerzos_individuales.tex)
+[18 <C:/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memori
+a_tecnica_final/documento/img/6122.png> <C:/Users/danigarcia254/Downloads/ps-14
+-e20-usearch/carpeta_proyecto/memoria_tecnica_final/documento/img/6141.png>]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_6_esfuerzos_reales_de_las_tareas_por_iteracion.t
+ex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_1_7_esfuerzos_reales_de_las_personas_y_roles.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_2_0_procesos_de_seguimiento_y_control.tex)
+[19 <C:/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memori
+a_tecnica_final/documento/img/6142.png> <C:/Users/danigarcia254/Downloads/ps-14
+-e20-usearch/carpeta_proyecto/memoria_tecnica_final/documento/img/6143.png> <C:
+/Users/danigarcia254/Downloads/ps-14-e20-usearch/carpeta_proyecto/memoria_tecni
+ca_final/documento/img/6144.png>]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_2_1_calendario_de_las_distintas_reuniones_celebrad
+as.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_2_3_actas_de_las_distintas_reuniones_celebradas.te
+x)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/06_3_0_coste_real_del_proyecto.tex) [20]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/07_0_gestion_de_configuraciones_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/07_1_politicas_de_nombrado.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/07_2_control_de_versiones.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/07_3_copias_de_seguridad.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/07_4_elementos_de_configuracion_y_linea_base.tex)
+[21]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_0_aseguramiento_de_la_calidad_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_1_estandares_utilizados.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_2_planificacion_de_las_auditorias.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_3_auditorias.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_4_auditoria_externa.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/08_5_no_conformidades.tex) [22]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_0_postmortem_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_1_lecciones_aprendidas.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_2_problemas_encontrados.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_3_catalogo_de_riesgos.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_4_analisis_esfuerzos_y_tamano_estimados_vs_reales.
+tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_5_plan_real_vs_planificacion_inicial.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/09_6_analisis_coste_real_vs_presupuesto.tex) [23]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/10_0_conclusiones.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/10_1_conclusiones_del_proyecto.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/10_2_ideas_de_mejora_de_proceso.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/10_3_ideas_de_mejora_del_desarrollo_del_proyecto_dent
+ro_de_asignatura.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/10_4_valoraciones_subjetivas_argumentadas.tex)
+[24]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_0_curriculums_vitae.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_1_cv_daniel.tex
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+) [25]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_2_cv_javier.tex) [26]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_3_cv_simon.tex
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+) [27]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_4_cv_alejandro.tex
+Overfull \hbox (4.6329pt too wide) in paragraph at lines 26--28
+[]\T1/phv/m/n/10 Estudiante de la EI-NA Gra-do en \T1/phv/b/n/10 In-ge-nie-rÌa 
+in-for-m·-ti-ca \T1/phv/m/n/10 en la ra-ma de \T1/phv/b/n/10 compu-
+ []
+
+) [28]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_5_cv_alberto.tex) [29]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/a_6_cv_hector.tex
+Overfull \hbox (4.6329pt too wide) in paragraph at lines 31--33
+[]\T1/phv/m/n/10 Estudiante de la EI-NA Gra-do en \T1/phv/b/n/10 In-ge-nie-rÌa 
+in-for-m·-ti-ca \T1/phv/m/n/10 en la ra-ma de \T1/phv/b/n/10 compu-
+ []
+
+) [30] [31]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/c_0_cronogramas.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/c_1_cronograma_inicial.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/c_2_cronograma_final.tex) [32]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_00_actas_reuniones.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_01_acta_reunion_01.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 38.
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--54
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 54
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 58--62
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 62--64
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 64--67
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 67--69
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 69--109
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 109--131
+[]
+ []
+
+[33] [34]) [35]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_02_acta_reunion_02.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 56--60
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 60--62
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 62--65
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 65--67
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 67--105
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 105--137
+[]
+ []
+
+[36]
+Overfull \hbox (0.79999pt too wide) in alignment at lines 137--137
+[]
+ []
+
+) [37]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_03_acta_reunion_03.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 56--66
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 66--68
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 68--71
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 71--73
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 73--111
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 111
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 111--114
+[]
+ []
+
+[38]) [39]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_04_acta_reunion_04.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--54
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 54
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 58--63
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 63--65
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 65--68
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 68--70
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 70--101
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 101--127
+[]
+ []
+
+[40] [41]) [42]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_05_acta_reunion_05.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 56--61
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 61--63
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 63--66
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 66--68
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 68--101
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 101--122
+[]
+ []
+
+[43]
+Overfull \hbox (0.79999pt too wide) in alignment at lines 122--148
+[]
+ []
+
+[44]
+Overfull \hbox (0.79999pt too wide) in alignment at lines 148--154
+[]
+ []
+
+) [45]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_06_acta_reunion_06.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--54
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 54
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 58--63
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 63--65
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 65--68
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 68--70
+[]
+ []
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.89 ...NvlTres{Requisitos + An√°lisis + Dise√±o.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.90         \itemNvlTres{Instalaci√≥n.}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.92 ...   plataforma), sin interfaz Web (Vista).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.94         \itemNvlTres{Marco com√∫n de la Web.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.96 ...+ Modificar + Eliminar (m√°x 2 personas).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.98 ...\itemNvlTres{Mostrar el listado completo.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 70--100
+[]
+ []
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.100         \itemNvlTres{Gesti√≥n de pedidos.}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.102         \itemNvlTres{Documentaci√≥n.}
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \blacktriangleright 
+                                    
+l.104         \itemNvlTres{Manuales.}
+                                     \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 100--110
+[]
+ []
+
+[46]) [47]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_07_acta_reunion_07.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--50
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 50
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 57--66
+[] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 66
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 71--76
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 76--78
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 78--81
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 81--83
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 83--112
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 112--126
+[]
+ []
+
+[48]) [49]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_08_acta_reunion_08.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 59--66
+[] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 66
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 71--76
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 76--78
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 78--81
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 81--83
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 83--127
+[]
+ []
+
+[50]) [51]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_09_acta_reunion_09.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 59--66
+[] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 66
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 71--75
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 75--77
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 77--80
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 80--82
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 82--109
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 109--126
+[]
+ []
+
+[52]) [53]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_10_acta_reunion_10.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 56--60
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 60--62
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 62--65
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 65--67
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 67--95
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 95--108
+[]
+ []
+
+[54] [55]) [56]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/d_11_acta_reunion_11.tex
+Overfull \hbox (0.79999pt too wide) in alignment at lines 10--25
+[] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 25
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 33--52
+[] [] [] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 56--60
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 60--62
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 62--65
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 65--67
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in alignment at lines 67--101
+[]
+ []
+
+[57]) [58] [59]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/g_0_manuales.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/g_1_manual_de_usuario.tex)
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/g_2_manual_de_instalacion.tex) [60]
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\tex/h_0_informes_pruebas.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 783.
+ [61]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 783.
+
+(C:\Users\danigarcia254\Downloads\ps-14-e20-usearch\carpeta_proyecto\memoria_te
+cnica_final\documento\memoria_tecnica_final.aux
+Package cleveref Info: loaded `spanish' language definitions on input line 23.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 783.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 783.
+Package rerunfilecheck Info: File `memoria_tecnica_final.out' has not changed.
+(rerunfilecheck)             Checksum: BC55A22DF9CD6D68C4203BDE8667049F;6661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 783.
+ ) 
+Here is how much of TeX's memory you used:
+ 11207 strings out of 493921
+ 200386 string characters out of 3147258
+ 337380 words of memory out of 3000000
+ 13883 multiletter control sequences out of 15000+200000
+ 41657 words of font info for 48 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,12n,43p,744b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helv
+etic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on memoria_tecnica_final.pdf (61 pages, 871397 bytes).
+PDF statistics:
+ 909 PDF objects out of 1000 (max. 8388607)
+ 233 named destinations out of 1000 (max. 500000)
+ 743 words of extra memory for PDF output out of 10000 (max. 10000000)
+

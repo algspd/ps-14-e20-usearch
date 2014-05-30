@@ -1,0 +1,86 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Identificaci\363n del proyecto}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Objetivo y alcanze}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Identificaci\363n del equipo}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Descripci\363n del contenido}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Requisitos del sistema}{}% 6
+\BOOKMARK [1][-]{section.3}{Descripci\363n t\351cnica}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Aspectos arquitecturales y tecnol\363gicos}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Modelos de datos}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Dise\361o de los componentes}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Verificaci\363n y validaci\363n}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Metodolog\355a de pruebas}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Pruebas. Defectos. Correcciones}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Manuales}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Manual de usuario}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Manual de instalaci\363n}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{Gesti\363n del proyecto}{}% 17
+\BOOKMARK [2][-]{subsection.6.1}{Fases y actividades}{section.6}% 18
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Riesgos}{subsection.6.1}% 19
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Estimaciones iniciales}{subsection.6.1}% 20
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Cronogramas}{subsection.6.1}% 21
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Tareas y estimaci\363n de esfuerzos}{subsection.6.1}% 22
+\BOOKMARK [3][-]{subsubsection.6.1.5}{Ficheros de esfuerzos individuales}{subsection.6.1}% 23
+\BOOKMARK [3][-]{subsubsection.6.1.6}{Esfuerzos reales de las tareas}{subsection.6.1}% 24
+\BOOKMARK [3][-]{subsubsection.6.1.7}{Esfuerzos reales de las personas}{subsection.6.1}% 25
+\BOOKMARK [2][-]{subsection.6.2}{Procesos de seguimiento y control}{section.6}% 26
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Calendario de reuniones}{subsection.6.2}% 27
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Actas de reuniones}{subsection.6.2}% 28
+\BOOKMARK [2][-]{subsection.6.3}{Coste}{section.6}% 29
+\BOOKMARK [1][-]{section.7}{Gesti\363n de configuraciones}{}% 30
+\BOOKMARK [2][-]{subsection.7.1}{Pol\355ticas de nombrado}{section.7}% 31
+\BOOKMARK [2][-]{subsection.7.2}{Control de versiones}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.3}{Copias de seguridad}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.4}{Elementos de configuraci\363n y l\355nea base}{section.7}% 34
+\BOOKMARK [1][-]{section.8}{Aseguramiento de la calidad}{}% 35
+\BOOKMARK [2][-]{subsection.8.1}{Est\341ndares utilizados}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.2}{Planificaci\363n de las auditor\355as}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.3}{Auditor\355as}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.4}{Auditor\355a externa}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.5}{No conformidades}{section.8}% 40
+\BOOKMARK [1][-]{section.9}{Postmortem}{}% 41
+\BOOKMARK [2][-]{subsection.9.1}{Lecciones aprendidas}{section.9}% 42
+\BOOKMARK [2][-]{subsection.9.2}{Problemas encontrados}{section.9}% 43
+\BOOKMARK [2][-]{subsection.9.3}{Cat\341logo de riesgos}{section.9}% 44
+\BOOKMARK [2][-]{subsection.9.4}{Diferencias entre los esfuerzos y tama\361os reales y los estimados}{section.9}% 45
+\BOOKMARK [2][-]{subsection.9.5}{Plan real vs planificaci\363n inicial}{section.9}% 46
+\BOOKMARK [2][-]{subsection.9.6}{Diferencias entre el coste real y el presupuesto}{section.9}% 47
+\BOOKMARK [1][-]{section.10}{Conclusiones}{}% 48
+\BOOKMARK [2][-]{subsection.10.1}{Conclusiones del proyecto}{section.10}% 49
+\BOOKMARK [2][-]{subsection.10.2}{Ideas de mejora del proceso}{section.10}% 50
+\BOOKMARK [2][-]{subsection.10.3}{Ideas de mejora del desarrollo del proyecto dentro de la asignatura}{section.10}% 51
+\BOOKMARK [2][-]{subsection.10.4}{Valoraciones subjetivas}{section.10}% 52
+\BOOKMARK [1][-]{appendix.Alph1}{Curr\355culums Vitae}{}% 53
+\BOOKMARK [2][-]{subsection.Alph1.1}{CV: Daniel Garc\355a P\341ez}{appendix.Alph1}% 54
+\BOOKMARK [2][-]{subsection.Alph1.2}{CV: Javier Briz Alastru\351}{appendix.Alph1}% 55
+\BOOKMARK [2][-]{subsection.Alph1.3}{CV: Sim\363n Ortego Parra}{appendix.Alph1}% 56
+\BOOKMARK [2][-]{subsection.Alph1.4}{CV: Alejandro Gracia Mateo}{appendix.Alph1}% 57
+\BOOKMARK [2][-]{subsection.Alph1.5}{CV: Alberto Berbel Aznar}{appendix.Alph1}% 58
+\BOOKMARK [2][-]{subsection.Alph1.6}{CV: H\351ctor Francia Molinero}{appendix.Alph1}% 59
+\BOOKMARK [1][-]{appendix.Alph2}{Hojas de esfuerzos}{}% 60
+\BOOKMARK [2][-]{subsection.Alph2.1}{Hoja de esfuerzos: Daniel Garc\355a P\341ez}{appendix.Alph2}% 61
+\BOOKMARK [2][-]{subsection.Alph2.2}{Hoja de esfuerzos: Javier Briz Alastru\351}{appendix.Alph2}% 62
+\BOOKMARK [2][-]{subsection.Alph2.3}{Hoja de esfuerzos: Sim\363n Ortego Parra}{appendix.Alph2}% 63
+\BOOKMARK [2][-]{subsection.Alph2.4}{Hoja de esfuerzos: Alejandro Gracia Mateo}{appendix.Alph2}% 64
+\BOOKMARK [2][-]{subsection.Alph2.5}{Hoja de esfuerzos: Alberto Berbel Aznar}{appendix.Alph2}% 65
+\BOOKMARK [2][-]{subsection.Alph2.6}{Hoja de esfuerzos: H\351ctor Francia Molinero}{appendix.Alph2}% 66
+\BOOKMARK [1][-]{appendix.Alph3}{Cronogramas}{}% 67
+\BOOKMARK [2][-]{subsection.Alph3.1}{Cronograma inicial}{appendix.Alph3}% 68
+\BOOKMARK [2][-]{subsection.Alph3.2}{Cronograma final}{appendix.Alph3}% 69
+\BOOKMARK [1][-]{appendix.Alph4}{Actas de reuniones}{}% 70
+\BOOKMARK [2][-]{subsection.Alph4.1}{Reuni\363n n\372m.01}{appendix.Alph4}% 71
+\BOOKMARK [2][-]{subsection.Alph4.2}{Reuni\363n n\372m.02}{appendix.Alph4}% 72
+\BOOKMARK [2][-]{subsection.Alph4.3}{Reuni\363n n\372m.03}{appendix.Alph4}% 73
+\BOOKMARK [2][-]{subsection.Alph4.4}{Reuni\363n n\372m.04}{appendix.Alph4}% 74
+\BOOKMARK [2][-]{subsection.Alph4.5}{Reuni\363n n\372m.05}{appendix.Alph4}% 75
+\BOOKMARK [2][-]{subsection.Alph4.6}{Reuni\363n n\372m.06}{appendix.Alph4}% 76
+\BOOKMARK [2][-]{subsection.Alph4.7}{Reuni\363n n\372m.07}{appendix.Alph4}% 77
+\BOOKMARK [2][-]{subsection.Alph4.8}{Reuni\363n n\372m.08}{appendix.Alph4}% 78
+\BOOKMARK [2][-]{subsection.Alph4.9}{Reuni\363n n\372m.09}{appendix.Alph4}% 79
+\BOOKMARK [2][-]{subsection.Alph4.10}{Reuni\363n n\372m.10}{appendix.Alph4}% 80
+\BOOKMARK [2][-]{subsection.Alph4.11}{Reuni\363n n\372m.11}{appendix.Alph4}% 81
+\BOOKMARK [1][-]{appendix.Alph5}{Presupuesto}{}% 82
+\BOOKMARK [1][-]{appendix.Alph6}{Manuales}{}% 83
+\BOOKMARK [2][-]{subsection.Alph6.1}{Manual de usuario}{appendix.Alph6}% 84
+\BOOKMARK [2][-]{subsection.Alph6.2}{Manual de instalaci\363n}{appendix.Alph6}% 85
+\BOOKMARK [1][-]{appendix.Alph7}{Informes de pruebas}{}% 86
