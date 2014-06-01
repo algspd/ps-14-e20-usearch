@@ -79,6 +79,7 @@
 
 %----------------------------------------------------------------------------------------
 % Curriculum Vitae
+\usepackage{pdfpages}
 \usepackage{currvita} 
 \setlength{\cvlabelwidth}{40mm}
 
@@ -99,6 +100,9 @@
 
 % Filas con columnas multiples
 \newcommand{\mc}[2]{\multicolumn{#1}{|C{\dimexpr 1\linewidth-2\tabcolsep}|}{#2}}
+
+% Símbolo del euro
+\usepackage{eurosym}
 
 % Colores de lineas de las tablas
 \arrayrulecolor{grisHeader}
@@ -207,7 +211,7 @@
 \Crefname{section}{Sección}{Secciones}
 
 % Varios comandos a links relativos a otros ficheros (xls, pdf's, etc.)
-\newcommand{\hojaesfuerzos}[2]{\href{run:/#1.xls}{#2}}
+\newcommand{\hojaesfuerzos}[2]{\href{run:recopilacion_esfuerzos/#1.xls}{#2}}
 \newcommand{\riesgos}[2]{\href{run:riesgos_y_lecciones/#1.xls}{#2}}
 \newcommand{\manualUsuario}[2]{\href{run:manual_usuario/documento/#1.pdf}{#2}}
 
@@ -594,38 +598,38 @@
 % B.1
 \subsection{Hoja de esfuerzos: Daniel García Páez}
 %\input{tex/b_1_hoja_de_esfuerzos_daniel.tex}
-En el \hojaesfuerzos{b_1_hoja_de_esfuerzos_daniel}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Daniel.
+En el \hojaesfuerzos{daniel_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Daniel García.
 
 % B.2
 \subsection{Hoja de esfuerzos: Javier Briz Alastrué}
 %\input{tex/b_2_hoja_de_esfuerzos_javier.tex}
-En el \hojaesfuerzos{b_2_hoja_de_esfuerzos_javier}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Javier.
+En el \hojaesfuerzos{javier_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Javier Briz.
 
 % B.3
 \subsection{Hoja de esfuerzos: Simón Ortego Parra}
 %\input{tex/b_3_hoja_de_esfuerzos_simon.tex}
-En el \hojaesfuerzos{b_3_hoja_de_esfuerzos_simon}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Simón.
+En el \hojaesfuerzos{simon_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Simón Ortego.
 
 % B.4
 \subsection{Hoja de esfuerzos: Alejandro Gracia Mateo}
 %\input{tex/b_4_hoja_de_esfuerzos_alejandro.tex}
-En el \hojaesfuerzos{b_4_hoja_de_esfuerzos_alejandro}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Alejandro.
+En el \hojaesfuerzos{alejandro_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Alejandro Gracia.
 
 % B.5
 \subsection{Hoja de esfuerzos: Alberto Berbel Aznar}
 %\input{tex/b_5_hoja_de_esfuerzos_alberto.tex}
-En el \hojaesfuerzos{b_5_hoja_de_esfuerzos_alberto}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Alberto.
+En el \hojaesfuerzos{alberto_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Alberto Berbel.
 
 % B.6
 \subsection{Hoja de esfuerzos: Héctor Francia Molinero}
 %\input{tex/b_6_hoja_de_esfuerzos_hector.tex}
-En el \hojaesfuerzos{b_6_hoja_de_esfuerzos_hector}{siguiente enlace} se puede acceder a la hoja de 
-esfuerzos de Daniel.
+En el \hojaesfuerzos{hector_recopilacion_esfuerzos}{siguiente enlace} se puede acceder a la hoja de 
+esfuerzos de Héctor Francia.
 
 %==============================================================================================
 % C. CRONOGRAMAS
@@ -634,16 +638,29 @@ esfuerzos de Daniel.
 %==============================================================================================
 
 % C
-\section{Cronogramas}
+\section{Cronogramas}\label{sec:cronogramas}
 \input{tex/c_0_cronogramas.tex}
 
 % C.1
 \subsection{Cronograma inicial}
-\input{tex/c_1_cronograma_inicial.tex}
+%\input{tex/c_1_cronograma_inicial.tex}
+\vspace{.2cm}
+\begin{figure}[ht]
+	\centerline{\includegraphics[scale=0.80]{img/cronograma_inicial}}\
+	\caption{Diagrama de despliegue del sistema}
+	\label{fig:cronogramaInicial}
+\end{figure}
+\newpage
 
 % C.2
 \subsection{Cronograma final}
-\input{tex/c_2_cronograma_final.tex}
+%\input{tex/c_2_cronograma_final.tex}
+\vspace{.2cm}
+\begin{figure}[ht]
+	\centerline{\includegraphics[scale=0.75]{img/cronograma_final}}\
+	\caption{Diagrama de despliegue del sistema}
+	\label{fig:cronogramaFinal}
+\end{figure}
 
 %==============================================================================================
 % D.    ACTAS DE REUNIONES
