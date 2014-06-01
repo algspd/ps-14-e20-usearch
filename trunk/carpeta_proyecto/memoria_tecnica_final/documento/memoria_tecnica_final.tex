@@ -212,6 +212,7 @@
 
 % Varios comandos a links relativos a otros ficheros (xls, pdf's, etc.)
 \newcommand{\hojaesfuerzos}[2]{\href{run:recopilacion_esfuerzos/#1.xls}{#2}}
+\newcommand{\informepruebas}[2]{\href{run:pruebas_de_sistema/#1.xls}{#2}}
 \newcommand{\riesgos}[2]{\href{run:riesgos_y_lecciones/#1.xls}{#2}}
 \newcommand{\manualUsuario}[2]{\href{run:manual_usuario/documento/#1.pdf}{#2}}
 
@@ -796,7 +797,11 @@ esfuerzos de Héctor Francia.
 
 % H
 \section{Informes de pruebas}\label{sec:informe_pruebas}
-\input{tex/h_0_informes_pruebas.tex}
+%\input{tex/h_0_informes_pruebas.tex}
+\paragraph{}En el \hojaesfuerzos{usearch_pruebas_sistema}{siguiente enlace} se puede acceder al informe completo de pruebas de sistema.
+
+\paragraph{}En el \hojaesfuerzos{resultados_w3c_validator}{siguiente enlace} se puede acceder al informe de las pruebas realizadas sobre la vista de la aplicación con el \textit{W3C Validator}.
+
 
 
 \end{document}
