@@ -22,17 +22,14 @@
 }
 %----------------------------------------------------------------------------------------
 % Modificar tanto el estilo de las secciones como del indice
-\usepackage{titlesec}
+\usepackage{titlesec,titletoc}
 \titleformat{\section}{\bfseries\Large\uppercase}{\thesection .}{0.8em}{}
 \titleformat{\subsection}{\bfseries\large}{\thesubsection .}{0.8em}{}
 \titleformat{\subsubsection}{\bfseries}{\thesubsubsection .}{0.8em}{}
 
+% Secciones en una nueva pag
 \let\stdsection\section
-\renewcommand\section{\newpage\stdsection}
-
-%----------------------------------------------------------------------------------------
-% Indentar primera línea párrafos
-\usepackage{indentfirst}
+\renewcommand\section{\newpage\stdsection} 
 
 %----------------------------------------------------------------------------------------
 % Colores
@@ -193,7 +190,11 @@
 				Simón Ortego Parra. All rights reserved.},
 	pdfproducer={PDFLatex},
 	pdfcreator={ps2pdf},
-	colorlinks=true
+	colorlinks=true,
+	linkcolor=black,        % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=cyan,         % color of file links
+    urlcolor=cyan           % color of external links
 }
 
 % Redefinir el nombre de referencias a lo largo del documento
@@ -208,13 +209,13 @@
 \Crefname{section}{Sección}{Secciones}
 
 % Varios comandos a links relativos a otros ficheros (xls, pdf's, etc.)
-\newcommand{\hojaesfuerzos}[2]{\href{run:recopilacion_esfuerzos/#1.xls}{#2}}
-\newcommand{\informepruebas}[2]{\href{run:pruebas_de_sistema/#1.xls}{#2}}
-\newcommand{\riesgos}[2]{\href{run:riesgos_y_lecciones/#1.xls}{#2}}
-\newcommand{\manualUsuario}[2]{\href{run:manual_usuario/documento/#1.pdf}{#2}}
-\newcommand{\reuniones}[2]{\href{run:reuniones/#1.pdf}{#2}}
-\newcommand{\presupuesto}[2]{\href{run:propuesta_de_proyecto/presupuesto/#1.pdf}{#2}}
-\newcommand{\presupuestos}[2]{\href{run:propuesta_de_proyecto/presupuesto/#1.xls}{#2}}
+\newcommand{\hojaesfuerzos}[2]{\href{run:../../recopilacion_esfuerzos/#1.xls}{#2}}
+\newcommand{\informepruebas}[2]{\href{run:../../pruebas_de_sistema/#1.xls}{#2}}
+\newcommand{\riesgos}[2]{\href{run:../../riesgos_y_lecciones/#1.xls}{#2}}
+\newcommand{\manualUsuario}[2]{\href{run:../../manual_usuario/documento/#1.pdf}{#2}}
+\newcommand{\reuniones}[2]{\href{run:../../reuniones/#1.pdf}{#2}}
+\newcommand{\presupuesto}[2]{\href{run:../../propuesta_de_proyecto/presupuesto/#1.pdf}{#2}}
+\newcommand{\presupuestos}[2]{\href{run:../../propuesta_de_proyecto/presupuesto/#1.xls}{#2}}
 
 
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=%
@@ -463,10 +464,6 @@
 \subsection{Auditoría externa}
 \input{tex/08_4_auditoria_externa.tex}
 
-% 08.5
-\subsection{No conformidades}
-\input{tex/08_5_no_conformidades.tex}
-
 %==============================================================================================
 % 09.   POSTMORTEM DEL PROYECTO
 % 09.1. LECCIONES APRENDIDAS
@@ -665,16 +662,12 @@ esfuerzos de Héctor Francia.
 \end{figure}
 
 %==============================================================================================
-% H. INFORMES DE PRUEBAS
+% D. INFORMES DE PRUEBAS
 %----------------------------------------------------------------------------------------------
 
-% H
+% D
 \section{Informes de pruebas}\label{sec:informe_pruebas}
-%\input{tex/h_0_informes_pruebas.tex}
-\paragraph{}En el \informepruebas{usearch_pruebas_sistema}{siguiente enlace} se puede acceder al informe completo de pruebas de sistema.
-
-\paragraph{}En el \informepruebas{resultados_w3c_validator}{siguiente enlace} se puede acceder al informe de las pruebas realizadas sobre la vista de la aplicación con el \textit{W3C Validator}.
-
+\input{tex/h_0_informes_pruebas.tex}
 
 
 \end{document}
