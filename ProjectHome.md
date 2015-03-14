@@ -1,0 +1,1 @@
+Proyecto de la asignatura proyecto software consistente en una pequeña tienda online con buscador orientada a microcontroladores.
